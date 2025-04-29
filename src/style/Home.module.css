@@ -1,0 +1,8 @@
+.watch{
+    height: 100%;
+    width: 100%;
+    background-image: url("/Images/Home-page-image/Watch.jpg");
+    background-position: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
+}

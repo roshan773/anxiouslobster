@@ -3,6 +3,10 @@ import "./globals.css";
 import { Navbar } from "@/Components/Navbar";
 import Footer from "@/Components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
