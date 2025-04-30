@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="navbar container-fluid px-0">
+      <div className="navbar container-fluid px-5">
         <nav className="navbar-expand-lg container px-3 px-md-4">
           {/* Logo */}
           <Link href="/" className="navbar-brand me-3">
@@ -47,34 +47,37 @@ export const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarlink">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link href="/Store" className="nav-link text-muted px-2 px-lg-3">Store</Link>
+                <Link href="/Store" className="nav-link text-muted px-5 px-lg-3">Store</Link>
               </li>
               <li className="nav-item">
-                <Link href="/Mac" className="nav-link text-muted px-2 px-lg-3">Mac</Link>
+                <Link href="/Mac" className="nav-link text-muted px-5 px-lg-3">Mac</Link>
               </li>
               <li className="nav-item">
-                <Link href="/Ipad" className="nav-link text-muted px-2 px-lg-3">iPad</Link>
+                <Link href="/Ipad" className="nav-link text-muted px-5 px-lg-3">iPad</Link>
               </li>
               <li className="nav-item">
-                <Link href="/Iphone" className="nav-link text-muted px-2 px-lg-3">iPhone</Link>
+                <Link href="/Iphone" className="nav-link text-muted px-5 px-lg-3">iPhone</Link>
               </li>
               <li className="nav-item">
-                <Link href="/Watch" className="nav-link text-muted px-2 px-lg-3">Watch</Link>
+                <Link href="/Watch" className="nav-link text-muted px-5 px-lg-3">Watch</Link>
               </li>
               <li className="nav-item">
-                <Link href="/vision" className="nav-link text-muted px-2 px-lg-3">Vision</Link>
+                <Link href="/vision" className="nav-link text-muted px-5 px-lg-3">Vision</Link>
               </li>
               <li className="nav-item">
-                <Link href="/AirPods" className="nav-link text-muted px-2 px-lg-3">AirPods</Link>
+                <Link href="/AirPods" className="nav-link text-muted px-5 px-lg-3">AirPods</Link>
               </li>
               <li className="nav-item">
-                <Link href="/Tv_Home" className="nav-link text-muted px-2 px-lg-3">TV & Home</Link>
+                <Link href="/Tv_Home" className="nav-link text-muted px-5 px-lg-3">TV & Home</Link>
               </li>
               <li className="nav-item">
-                <Link href="/Entertainment" className="nav-link text-muted px-2 px-lg-3">Entertainment</Link>
+                <Link href="/Entertainment" className="nav-link text-muted px-5 px-lg-3">Entertainment</Link>
               </li>
               <li className="nav-item">
-                <Link href="/Accessories" className="nav-link text-muted px-2 px-lg-3">Accessories</Link>
+                <Link href="/Accessories" className="nav-link text-muted px-5 px-lg-3">Accessories</Link>
+              </li>
+              <li className="nav-item">
+                <Link href="/Support" className="nav-link text-muted px-5 px-lg-3">Support</Link>
               </li>
             </ul>
 
@@ -87,31 +90,6 @@ export const Navbar = () => {
             </div>
           </div>
         </nav>
-      </div>
-
-      {/* Search Modal */}
-      <div className="modal fade" id="searchModal" tabIndex={-1} aria-labelledby="searchModalLabel" aria-hidden="true">
-        <div className="modal-dialog modal-dialog-centered">
-          <div className="modal-content">
-            <div className="modal-header border-0">
-              <h5 className="modal-title w-100 text-center" id="searchModalLabel">Search</h5>
-              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div className="modal-body">
-              <div className="input-group">
-                <span className="input-group-text bg-white border-0">
-                  <IoIosSearch size={20} />
-                </span>
-                <input type="text" className="form-control border-0" placeholder="Search Apple.com" aria-label="Search" />
-              </div>
-              <ul className="list-unstyled mt-3">
-                <li><Link href="/search/mac" className="text-muted text-decoration-none d-block py-1">Mac</Link></li>
-                <li><Link href="/search/iphone" className="text-muted text-decoration-none d-block py-1">iPhone</Link></li>
-                <li><Link href="/search/watch" className="text-muted text-decoration-none d-block py-1">Watch</Link></li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* Simple Styling */}
@@ -137,13 +115,9 @@ export const Navbar = () => {
           color: #333333 !important;
         }
 
-        .navbar-nav .nav-link:hover {
-          color: #007bff !important;
-        }
-
         @media (max-width: 991px) {
           .navbar-collapse {
-            background-color: #ffffff;
+            background-color:rgba(255, 255, 255, 0);
             padding: 1rem;
             border-radius: 0.5rem;
           }
