@@ -3,219 +3,238 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
 
   return (
     <div className="container-fluid px-0">
       {/* Watch */}
-      <div
-        className="d-flex w-100 justify-content-center mb-3"
-        style={{
-          backgroundImage: "url('/Images/Home-page-image/Watch.jpg')",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          minHeight: "400px",
-          maxHeight: "800px",
-          height: "80vh",
-        }}
-      >
-        <div className="text-center" style={{ width: "100%", height: "100px" }}>
-          <img
-            src="/Images/Home-page-image/hero watch header.png"
-            alt="Watch Header"
-            className="img-fluid mb-3"
-            style={{ width: "500px", height: "80px", objectFit: "contain" }}
-          />
-          <p className="text-dark display-1">Thinstant classic</p>
-          <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
-          <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Buy</button>
+      <Link href="/Watch" className='text-decoration-none'>
+        <div
+          className="d-flex w-100 justify-content-center mb-3"
+          style={{
+            backgroundImage: "url('https://www.apple.com/v/home/cd/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_largetall_2x.jpg')",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            minHeight: "400px",
+            maxHeight: "800px",
+            height: "80vh",
+          }}
+        >
+          <div className="text-center" style={{ width: "100%", height: "100px" }}>
+            <img
+              src="/Images/Home-page-image/hero watch header.png"
+              alt="Watch Header"
+              className="img-fluid mb-3"
+              style={{ width: "500px", height: "80px", objectFit: "contain" }}
+            />
+            <p className="text-dark display-6">Thinstant classic</p>
+            <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
+            <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Buy</button>
+          </div>
         </div>
-      </div>
+      </Link>
 
       {/* Ipad */}
-      <div className="d-flex w-100 justify-content-center mb-3"
-        style={{
-          backgroundImage: "url('/Images/Home-page-image/hero ipad pro.jpg')",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          minHeight: "400px",
-          maxHeight: "800px",
-          height: "80vh",
-        }}
-      >
-        <div className="text-center pt-4">
-          <p className="text-light fw-bold display-1">iPad Pro</p>
-          <p className="text-light display-5">Unbelievely thin. Incredibly Powerful</p>
-          <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
-          <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Buy</button>
+      <Link href="/Ipad" className='text-decoration-none'>
+        <div className="d-flex w-100 justify-content-center mb-3"
+          style={{
+            backgroundImage: "url('/Images/Home-page-image/hero ipad pro.jpg')",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            minHeight: "400px",
+            maxHeight: "800px",
+            height: "80vh",
+          }}
+        >
+          <div className="text-center pt-4">
+            <p className="text-light fw-bold display-1">iPad Pro</p>
+            <p className="text-light display-5">Unbelievely thin. Incredibly Powerful</p>
+            <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
+            <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Buy</button>
+          </div>
         </div>
-      </div>
+      </Link>
 
       {/* Iphone */}
-      <div className="d-flex w-100 justify-content-center mb-3"
-        style={{
-          backgroundImage: "url('https://www.apple.com/v/home/cd/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg')",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          minHeight: "400px",
-          maxHeight: "800px",
-          height: "80vh",
-        }}
-      >
-        <div className="text-center pt-4">
-          <p className="text-dark fw-bold display-2">iPad Pro</p>
-          <p className="text-dark display-5">Meet the iPhone 16 family</p>
-          <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
-          <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
+      <Link href="/Iphone" className='text-decoration-none'>
+        <div className="d-flex w-100 justify-content-center mb-3"
+          style={{
+            backgroundImage: "url('https://www.apple.com/v/home/cd/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg')",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            minHeight: "400px",
+            maxHeight: "800px",
+            height: "80vh",
+          }}
+        >
+          <div className="text-center pt-4">
+            <p className="text-dark fw-bold display-2">iPad Pro</p>
+            <p className="text-dark display-5">Meet the iPhone 16 family</p>
+            <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
+            <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
+          </div>
         </div>
-      </div>
+      </Link>
 
       {/* Mothers day and macbook */}
       <div className="container-fluid row align-items-center px-0 mb-2">
-        <div className="col-6 col-sm-12 col-md-6 col-lg-6 px-1">
-          <div className="d-flex w-100 justify-content-center mb-2"
-            style={{
-              backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/mothers-day-2025/promo_md25__ctgnskbynamq_large_2x.png')",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              minHeight: "400px",
-              maxHeight: "800px",
-              height: "80vh",
-              width: "100%"
-            }}
-          >
-            <div className="d-flex justify-content-center align-items-end h-100 pb-5">
+        <Link href="/Store" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+          <div>
+            <div className="d-flex w-100 justify-content-center mb-2"
+              style={{
+                backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/mothers-day-2025/promo_md25__ctgnskbynamq_large_2x.png')",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                minHeight: "400px",
+                maxHeight: "800px",
+                height: "80vh",
+                width: "100%"
+              }}
+            >
+              <div className="d-flex justify-content-center align-items-end h-100 pb-5">
+                <div className="text-center pt-4">
+                  <p className="text-dark display-5">Mothers Day</p>
+                  <p className="text-dark display-6">Find the perfect gift for mom</p>
+                  <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
+                  <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Link>
+        <Link href="/Mac" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+          <div>
+            <div className="d-flex w-100 justify-content-center mb-2"
+              style={{
+                backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/macbook-air/promo_macbook_air_avail__e8ksaudoisey_large_2x.jpg')",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                minHeight: "400px",
+                maxHeight: "800px",
+                height: "80vh",
+              }}
+            >
               <div className="text-center pt-4">
-                <p className="text-dark display-5">Mothers Day</p>
-                <p className="text-dark display-6">Find the perfect gift for mom</p>
+                <p className="text-dark fw-bold display-5">MacBook</p>
+                <p className="text-dark fs-4 text-center">Sky blue colour <br /> Sky high performance with M4</p>
                 <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
                 <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
               </div>
             </div>
           </div>
-        </div>
-        <div className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0">
-          <div className="d-flex w-100 justify-content-center mb-2"
-            style={{
-              backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/macbook-air/promo_macbook_air_avail__e8ksaudoisey_large_2x.jpg')",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              minHeight: "400px",
-              maxHeight: "800px",
-              height: "80vh",
-            }}
-          >
-            <div className="text-center pt-4">
-              <p className="text-dark fw-bold display-5">MacBook</p>
-              <p className="text-dark fs-4 text-center">Sky blue colour <br /> Sky high performance with M4</p>
-              <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
-              <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
-            </div>
-          </div>
-        </div>
+        </Link>
       </div>
 
       {/* mac does that  &  Trade in*/}
       <div className="container-fluid row align-items-center px-0 mb-2">
-        <div className="col-6 col-sm-12 col-md-6 col-lg-6 px-1">
-          <div className="d-flex w-100 justify-content-center mb-2"
-            style={{
-              backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/mac-does-that/promo_mac_does_that__ckozfqcs65w2_small_2x.jpg')",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              minHeight: "400px",
-              maxHeight: "800px",
-              height: "80vh",
-              width: "100%"
-            }}
-          >
-            <div className="d-flex justify-content-center h-100 pb-5">
-              <div className="text-center pt-4">
-                <img
-                  src="https://www.apple.com/v/home/cd/images/logos/mac-does-that/promo_logo_mac_does_that__clw0vbszi002_small_2x.png"
-                  alt="Watch Header"
-                  className="img-fluid mb-3"
-                  style={{ width: "250px", height: "80px", objectFit: "contain" }}
-                />
-                <p className="text-dark fs-4 text-center fw-bold">See how easy it is to switch mac</p>
-                <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
+        <Link href="/Mac/Mac-does-that" className="col-6 col-sm-12 col-md-6 col-lg-6 px-1 text-decoration-none">
+          <div>
+            <div className="d-flex w-100 justify-content-center mb-2"
+              style={{
+                backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/mac-does-that/promo_mac_does_that__ckozfqcs65w2_small_2x.jpg')",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                minHeight: "400px",
+                maxHeight: "800px",
+                height: "80vh",
+                width: "100%"
+              }}
+            >
+              <div className="d-flex justify-content-center h-100 pb-5">
+                <div className="text-center pt-4">
+                  <img
+                    src="https://www.apple.com/v/home/cd/images/logos/mac-does-that/promo_logo_mac_does_that__clw0vbszi002_small_2x.png"
+                    alt="Watch Header"
+                    className="img-fluid mb-3"
+                    style={{ width: "250px", height: "80px", objectFit: "contain" }}
+                  />
+                  <p className="text-dark fs-4 text-center fw-bold">See how easy it is to switch mac</p>
+                  <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0">
-          <div className="d-flex w-100 justify-content-center mb-2"
-            style={{
-              backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small_2x.jpg')",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              minHeight: "400px",
-              maxHeight: "800px",
-              height: "80vh",
-            }}
-          >
-            <div className="text-center pt-4">
-              <img src="https://www.apple.com/v/home/cd/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_small_2x.png" alt="chnage header" className="img-fluid mb-3" style={{ width: "250px", height: "80px", objectFit: "contain" }}></img>
-              <p className="text-dark fs-4 text-center fw-semibold">get $170-$630 in credit when you <br />trade in iPhone 12 or higher <sup>1</sup></p>
-              <button className="btn btn-primary rounded-pill me-3" style={{ padding: "10px 20px" }}>Get Your estimate</button>
+        </Link>
+        <Link href="/Trade-in" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+          <div>
+            <div className="d-flex w-100 justify-content-center mb-2"
+              style={{
+                backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small_2x.jpg')",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                minHeight: "400px",
+                maxHeight: "800px",
+                height: "80vh",
+              }}
+            >
+              <div className="text-center pt-4">
+                <img src="https://www.apple.com/v/home/cd/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_small_2x.png" alt="chnage header" className="img-fluid mb-3" style={{ width: "250px", height: "80px", objectFit: "contain" }}></img>
+                <p className="text-dark fs-4 text-center fw-semibold">get $170-$630 in credit when you <br />trade in iPhone 12 or higher <sup>1</sup></p>
+                <button className="btn btn-primary rounded-pill me-3" style={{ padding: "10px 20px" }}>Get Your estimate</button>
+              </div>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
 
       {/* deals and cards */}
       <div className="container-fluid row align-items-center px-0 mb-2">
-        <div className="col-6 col-sm-12 col-md-6 col-lg-6 px-1">
-          <div className="d-flex w-100 justify-content-center mb-2"
-            style={{
-              backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/carriers/promo_carrier__e0izvxwqosgi_small_2x.jpg')",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              minHeight: "400px",
-              maxHeight: "800px",
-              height: "80vh",
-              width: "100%"
-            }}
-          >
-            <div className="d-flex justify-content-center align-items-end h-100 pb-5">
+        <Link href="/Iphone/Carrier-offer" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+          <div>
+            <div className="d-flex w-100 justify-content-center mb-2"
+              style={{
+                backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/carriers/promo_carrier__e0izvxwqosgi_small_2x.jpg')",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                minHeight: "400px",
+                maxHeight: "800px",
+                height: "80vh",
+                width: "100%"
+              }}
+            >
+              <div className="d-flex justify-content-center align-items-end h-100 pb-5">
+                <div className="text-center pt-4">
+                  <p className="text-dark display-5 fw-bold">Carrier deals at Apple</p>
+                  <p className="text-dark fw-semibold fs-4">Get Upto $1000 in credit on <br /> A new iPhone Trade-in may <br /> be required <sup>2</sup></p>
+                  <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
+                  <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Link>
+        <Link href="/Apple-card" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+          <div>
+            <div className="d-flex w-100 justify-content-center mb-2"
+              style={{
+                backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/apple-card-gradient/promo_apple_card__5cm7draujpey_small_2x.jpg')",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                minHeight: "400px",
+                maxHeight: "800px",
+                height: "80vh",
+              }}
+            >
               <div className="text-center pt-4">
-                <p className="text-dark display-5 fw-bold">Carrier deals at Apple</p>
-                <p className="text-dark fw-semibold fs-4">Get Upto $1000 in credit on <br /> A new iPhone Trade-in may <br /> be required <sup>2</sup></p>
+                <img src="https://www.apple.com/v/home/cd/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_small_2x.png" alt="chnage header" className="img-fluid mb-3" style={{ width: "250px", height: "80px", objectFit: "contain" }}></img>
+                <p className="text-dark fs-4 text-center">Get Upto 3% Daily cash back <br /> with every purchase</p>
                 <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
                 <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
               </div>
             </div>
           </div>
-        </div>
-        <div className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0">
-          <div className="d-flex w-100 justify-content-center mb-2"
-            style={{
-              backgroundImage: "url('https://www.apple.com/v/home/cd/images/promos/apple-card-gradient/promo_apple_card__5cm7draujpey_small_2x.jpg')",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-              backgroundSize: "cover",
-              minHeight: "400px",
-              maxHeight: "800px",
-              height: "80vh",
-            }}
-          >
-            <div className="text-center pt-4">
-              <img src="https://www.apple.com/v/home/cd/images/logos/iphone-tradein/promo_logo_iphone_tradein__7y3gtai5az66_small_2x.png" alt="chnage header" className="img-fluid mb-3" style={{ width: "250px", height: "80px", objectFit: "contain" }}></img>
-              <p className="text-dark fs-4 text-center">Get Upto 3% Daily cash back <br /> with every purchase</p>
-              <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
-              <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
-            </div>
-          </div>
-        </div>
+        </Link>
       </div>
 
       {/* Slider */}
