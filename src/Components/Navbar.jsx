@@ -1,11 +1,12 @@
 'use client';
 
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 import { TbMenu } from 'react-icons/tb';
 import { IoBagOutline } from 'react-icons/io5';
 import { IoIosSearch } from 'react-icons/io';
+import { BsApple } from "react-icons/bs";
 
 export const Navbar = () => {
   useEffect(() => {
@@ -18,7 +19,7 @@ export const Navbar = () => {
         <nav className="navbar-expand-lg container px-3 px-md-4">
           {/* Logo */}
           <Link href="/" className="navbar-brand me-3">
-            <Image src="/Images/logo.png" alt="Apple Logo" width={17} height={17} priority />
+            <BsApple width={17} height={17}/>
           </Link>
 
           {/* Icons for small screens */}
