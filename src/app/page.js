@@ -258,13 +258,13 @@ export default function Home() {
       </div>
 
       {/* Shows Slider */}
-      <div
+      {/* <div
         className="container-fluid"
         style={{ width: '100%', paddingBottom: '20px' }}
       >
         <Swiper
           modules={[Autoplay]}
-          slidesPerView={'auto'}
+          slidesPerView="auto"
           spaceBetween={0}
           loop={true}
           autoplay={{
@@ -272,7 +272,7 @@ export default function Home() {
             disableOnInteraction: false,
             pauseOnMouseEnter: false,
           }}
-          speed={3000} // Adjust this to make it slower/smoother
+          speed={3000}
           freeMode={{
             enabled: false,
             momentum: false,
@@ -292,12 +292,12 @@ export default function Home() {
                 src={src}
                 alt={`Slide ${index + 1}`}
                 className="img-fluid"
-                style={{ width: '100%' }}
+                style={{ width: '100%' , hight: "200px"}}
               />
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </div> */}
 
       {/* footer upper part */}
       <div className="container-fluid" style={{ backgroundColor: "#f5f5f7" }}>
