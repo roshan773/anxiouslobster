@@ -265,7 +265,9 @@ const Iphone = () => {
         </Swiper>
       </div>
 
-      <div className='container-fluid px-5 py-5'></div>
+      <div className='container-fluid px-5 py-5'>
+        
+      </div>
 
       <div className='container-fluid px-5 py-5' style={{ backgroundColor: "#f5f5f7" }}>
 
