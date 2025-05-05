@@ -1,19 +1,1857 @@
 {
-  "posts": [
+  "Product": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "Apple M4 chip with 10-core CPU and 10-core GPU Processor 512GB Storage",
+      "finish": "Select a finish",
+      "specs": "10-Core CPU\n10-Core GPU\n16GB Unified Memory\n512GB SSD Storage¹",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=UGhGV2V3SjNQb2Y0ekhXdW9ZOTZKVWNHU3dTWTNSMWRkQzZWaWhFVC9pL1RmMUFhaXkzWVI4b3hpbGUzQlh3YTJQNzFKaURON0I0cmR1S0VldldDalE",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "ports": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+      "adapter": "70W USB-C Power Adapter",
+      "price": "$1,599.00",
+      "monthly": "$133.25",
+      "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "Apple M4 chip with 10-core CPU and 10-core GPU Processor 1TB Storage",
+      "finish": "Select a finish",
+      "specs": "10-Core CPU\n10-Core GPU\n16GB Unified Memory\n1TB SSD Storage¹",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=UGhGV2V3SjNQb2Y0ekhXdW9ZOTZKVWNHU3dTWTNSMWRkQzZWaWhFVC9pL1RmMUFhaXkzWVI4b3hpbGUzQlh3YTJQNzFKaURON0I0cmR1S0VldldDalE",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "ports": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+      "adapter": "70W USB-C Power Adapter",
+      "price": "$1,799.00",
+      "monthly": "$149.91",
+      "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
+    },
+    {
+      "id": 3,
+      "title": "Apple M4 chip with 10-core CPU and 10-core GPU Processor 1TB Storage",
+      "finish": "Select a finish",
+      "specs": "10-Core CPU\n10-Core GPU\n24GB Unified Memory\n1TB SSD Storage¹",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=UGhGV2V3SjNQb2Y0ekhXdW9ZOTZKVWNHU3dTWTNSMWRkQzZWaWhFVC9pL1RmMUFhaXkzWVI4b3hpbGUzQlh3YTJQNzFKaURON0I0cmR1S0VldldDalE",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "ports": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+      "adapter": "70W USB-C Power Adapter",
+      "price": "$1,999.00",
+      "monthly": "$166.58",
+      "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
+    },
+    {
+      "id": 4,
+      "title": "Apple M4 Pro chip with 12-core CPU 16-core GPU Processor 512GB Storage",
+      "finish": "Select a finish",
+      "specs": "12-Core CPU\n16-Core GPU\n24GB Unified Memory\n512GB SSD Storage¹",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-pro-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=bVRMV25FL051RmxLTFQ2Rm14WkxqRU1UYVpLZHRIc2JldmRzTDMveHM3bkVxN0pzeW13QkRucy9tc3lENmlQZ0hoWEJZR2dXOTZCN3M1VE9oMER1ZUh2TkdjRkkyaGNCSjhXd3lmNGJKcms",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "ports": "Three Thunderbolt 5 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+      "adapter": "70W USB-C Power Adapter",
+      "price": "$1,999.00",
+      "monthly": "$166.58",
+      "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
+    },
+    {
+      "id": 5,
+      "title": "Apple M4 Pro with 14-core CPU and 20-core GPU Processor 1TB Storage",
+      "finish": "Select a finish",
+      "specs": "14-Core CPU\n20-Core GPU\n24GB Unified Memory\n1TB SSD Storage¹",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-pro-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=bVRMV25FL051RmxLTFQ2Rm14WkxqRU1UYVpLZHRIc2JldmRzTDMveHM3bkVxN0pzeW13QkRucy9tc3lENmlQZ0hoWEJZR2dXOTZCN3M1VE9oMER1ZUh2TkdjRkkyaGNCSjhXd3lmNGJKcms",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "ports": "Three Thunderbolt 5 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+      "adapter": "96W USB-C Power Adapter",
+      "price": "$2,399.00",
+      "monthly": "$199.91",
+      "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
+    },
+    {
+      "id": 6,
+      "title": "Apple M4 Max with 14-core CPU 32-core GPU 16-Core Neural Engine Processor 1TB Storage",
+      "finish": "Select a finish",
+      "specs": "14-Core CPU\n32-Core GPU\n36GB Unified Memory\n1TB SSD Storage¹",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-max-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=TTdSNlFaTEU3MEJwNFZ3ZTBRMnNQME1UYVpLZHRIc2JldmRzTDMveHM3bkVxN0pzeW13QkRucy9tc3lENmlQZ0luNXBOVkJyR01NckxPalVrLzBCVkxtM3o5YWxwSmVFclU0OFZ5T2NZS0U",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "ports": "Three Thunderbolt 5 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
+      "adapter": "96W USB-C Power Adapter",
+      "price": "$3,199.00",
+      "monthly": "$266.58",
+      "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
+    },
+    {
+      "id": 7,
+      "title": "iPad Pro",
+      "description": "The ultimate iPad experience with the most advanced technology.",
+      "colors": [
+        "space black",
+        "silver"
+      ],
+      "price": "$999.00",
+      "monthly": "$83.25",
+      "display": "13” or 11” Ultra Retina XDR display",
+      "displayFeatures": [
+        "ProMotion technology",
+        "P3 wide color",
+        "Nano-texture display glass option on 1TB and 2TB models"
+      ],
+      "chip": "M4 chip",
+      "image": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/chip.m4_elevated_3dd9db733.svg",
+      "appleIntelligence": true,
+      "appleIntelligenceImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/apple.intelligence_elevated_f063342ae.svg",
+      "camera": "12MP Wide camera, 4K video, ProRes",
+      "cameraImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/ipadpro13.gen7.camera_elevated_8b1ecd6e5.svg",
+      "frontCamera": "Landscape 12MP Center Stage camera, TrueDepth camera system",
+      "frontCameraImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/ipad.front.camera.landscape_elevated_3a58a988e.svg",
+      "pencilSupport": [
+        "Apple Pencil Pro",
+        "Apple Pencil (USB-C)"
+      ],
+      "pencilImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/applepencil.vertical.gen2.gen3_elevated_cf05e9268.svg",
+      "keyboardSupport": "Magic Keyboard for iPad Pro",
+      "keyboardImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/magickeyboard.m4.ipad_elevated_c74c0cc60.svg",
+      "shopLink": "https://www.apple.com/us/shop/goto/ipad_pro/select",
+      "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_pro_f1345e8ae.png"
+    },
+    {
+      "id": 8,
+      "title": "iPad Air",
+      "description": "Serious performance in a thin and light design.",
+      "colors": [
+        "space gray",
+        "blue",
+        "purple",
+        "starlight"
+      ],
+      "price": "$599.00",
+      "monthly": "$49.91",
+      "display": "13” or 11” Liquid Retina display",
+      "displayFeatures": [
+        "P3 wide color"
+      ],
+      "chip": "M3 chip",
+      "image": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/chip.m3_elevated_8df677ac2.svg",
+      "appleIntelligence": true,
+      "appleIntelligenceImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/apple.intelligence_elevated_f063342ae.svg",
+      "camera": "12MP Wide camera, 4K video",
+      "cameraImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/ipadair13.gen6.camera_elevated_a660a9722.svg",
+      "frontCamera": "Landscape 12MP Center Stage camera",
+      "frontCameraImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/ipad.front.camera.landscape_elevated_3a58a988e.svg",
+      "pencilSupport": [
+        "Apple Pencil Pro",
+        "Apple Pencil (USB-C)"
+      ],
+      "pencilImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/applepencil.vertical.gen2.gen3_elevated_cf05e9268.svg",
+      "keyboardSupport": "Magic Keyboard for iPad Air",
+      "keyboardImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/magickeyboard.m4.ipad_elevated_c74c0cc60.svg",
+      "shopLink": "https://www.apple.com/us/shop/goto/buy_ipad/ipad_air",
+      "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_air_103528cc7.png",
+      "badge": "New"
+    },
+    {
+      "id": 9,
+      "title": "iPad",
+      "description": "The colorful, all-screen iPad for the things you do every day.",
+      "colors": [
+        "blue",
+        "pink",
+        "yellow",
+        "silver"
+      ],
+      "price": "$349.00",
+      "monthly": "$29.08",
+      "display": "11” Liquid Retina display",
+      "displayFeatures": [
+        "sRGB color"
+      ],
+      "chip": "A16 chip",
+      "image": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/chip.a16_elevated_028264261.svg",
+      "appleIntelligence": false,
+      "camera": "12MP Wide camera, 4K video",
+      "cameraImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/ipadair13.gen6.camera_elevated_a660a9722.svg",
+      "frontCamera": "Landscape 12MP Center Stage camera",
+      "frontCameraImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/ipad.front.camera.landscape_elevated_3a58a988e.svg",
+      "pencilSupport": [
+        "Apple Pencil (USB-C)",
+        "Apple Pencil (1st generation)"
+      ],
+      "pencilImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/applepencil.vertical.gen3.gen1_elevated_9df8c8c36.svg",
+      "keyboardSupport": "Magic Keyboard Folio",
+      "keyboardImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/magickeyboardfolio.ipad_elevated_e5d869bc1.svg",
+      "shopLink": "https://www.apple.com/us/shop/goto/buy_ipad/ipad",
+      "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_11th_gen_3e2bffc1d.png",
+      "badge": "New"
+    },
+    {
+      "id": 10,
+      "title": "iPad mini",
+      "description": "The full iPad experience in an ultraportable design.",
+      "colors": [
+        "space gray",
+        "blue",
+        "purple",
+        "starlight"
+      ],
+      "price": "$499.00",
+      "monthly": "$41.58",
+      "display": "8.3” Liquid Retina display",
+      "displayFeatures": [
+        "P3 wide color"
+      ],
+      "chip": "A17 Pro chip",
+      "image": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/chip.a17pro_elevated_e2e306da4.svg",
+      "appleIntelligence": true,
+      "appleIntelligenceImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/apple.intelligence_elevated_f063342ae.svg",
+      "camera": "12MP Wide camera, 4K video",
+      "cameraImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/ipadmini.gen6.camera_elevated_522bb60a3.svg",
+      "frontCamera": "12MP Center Stage camera",
+      "frontCameraImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/ipad.front.camera_elevated_5c7b9b569.svg",
+      "pencilSupport": [
+        "Apple Pencil Pro",
+        "Apple Pencil (USB-C)"
+      ],
+      "pencilImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/applepencil.vertical.gen2.gen3_elevated_cf05e9268.svg",
+      "keyboardSupport": "Bluetooth keyboards",
+      "keyboardImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/magickeyboard_elevated_01bd52b5c.svg",
+      "shopLink": "https://www.apple.com/us/shop/goto/buy_ipad/ipad_mini",
+      "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_mini_f19d08515.png"
+    },
+    {
+      "id": 11,
+      "title": "iPhone 16 Pro Max",
+      "description": "The ultimate iPhone experience with advanced technology and pro-level features.",
+      "colors": [
+        "Black Titanium",
+        "White Titanium",
+        "Natural Titanium",
+        "Desert Titanium"
+      ],
+      "price": "From $1199.00",
+      "monthly": "Contact retailer for financing options",
+      "display": "6.9-inch Super Retina XDR OLED display",
+      "displayFeatures": [
+        "ProMotion technology with adaptive refresh rates up to 120Hz",
+        "Always-On display",
+        "Dynamic Island",
+        "HDR display",
+        "2868-by-1320-pixel resolution at 460 ppi",
+        "2,000,000:1 contrast ratio",
+        "True Tone display",
+        "Wide color display (P3)",
+        "Haptic Touch",
+        "1000 nits max brightness (typical)",
+        "1600 nits peak brightness (HDR)",
+        "2000 nits peak brightness (outdoor)",
+        "1 nit minimum brightness"
+      ],
+      "chip": "A18 Pro chip",
+      "chipFeatures": [
+        "6-core CPU with 2 performance and 4 efficiency cores",
+        "6-core GPU",
+        "16-core Neural Engine"
+      ],
+      "appleIntelligence": true,
+      "appleIntelligenceLink": "https://www.apple.com/apple-intelligence/",
+      "camera": "Pro camera system (48MP Fusion, 48MP Ultra Wide, and 12MP Telephoto)",
+      "cameraFeatures": [
+        "0.5x, 1x, 2x, 5x optical zoom options",
+        "Second-generation sensor-shift optical image stabilization",
+        "Adaptive True Tone flash",
+        "Photonic Engine",
+        "Deep Fusion",
+        "Smart HDR 5 for photos",
+        "Next-generation portraits with Focus and Depth Control",
+        "Night mode",
+        "Night mode portraits",
+        "Portrait Lighting with six effects",
+        "Latest-generation Photographic Styles",
+        "Apple ProRAW",
+        "48MP macro photography",
+        "Spatial photos"
+      ],
+      "videoRecording": [
+        "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, 60 fps, 100 fps (Fusion), or 120 fps (Fusion)",
+        "1080p Dolby Vision video recording at 25 fps, 30 fps, 60 fps, or 120 fps (Fusion)",
+        "Cinematic mode for recording videos with shallow depth of field (up to 4K Dolby Vision at 30 fps)",
+        "Action mode",
+        "Spatial video recording at 1080p at 30 fps",
+        "ProRes video recording up to 4K at 120 fps with external recording",
+        "Log video recording",
+        "Macro video recording, including slo-mo and time-lapse",
+        "Slo-mo video support for 1080p at 120 fps or 240 fps",
+        "Academy Color Encoding System",
+        "Time-lapse video with stabilization",
+        "Night mode Time-lapse",
+        "Slo-mo video support for 1080p up to 240 fps and 4K Dolby Vision up to 120 fps (Fusion)",
+        "QuickTake video (up to 4K at 60 fps in Dolby Vision HDR)",
+        "Audio zoom",
+        "Second-generation sensor-shift optical image stabilization for video",
+        "Spatial Audio and stereo recording",
+        "Wind noise reduction"
+      ],
+      "frontCamera": "TrueDepth front camera",
+      "frontCameraFeatures": [
+        "12MP photos",
+        "ƒ/1.9 aperture",
+        "Retina Flash",
+        "Photonic Engine",
+        "Deep Fusion",
+        "Smart HDR 5 for photos",
+        "Next-generation portraits with Focus and Depth Control",
+        "Portrait Lighting with six effects",
+        "Animoji and Memoji",
+        "Night mode",
+        "Latest-generation Photographic Styles",
+        "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps",
+        "1080p Dolby Vision video recording at 25 fps, 30 fps, or 60 fps"
+      ],
+      "peaceOfMind": [
+        "Emergency SOS via satellite",
+        "Crash Detection",
+        "Roadside Assistance via satellite",
+        "Messages via satellite"
+      ],
+      "cellularAndWireless": [
+        "GSM/EDGE",
+        "UMTS/HSPA+",
+        "DC-HSDPA",
+        "5G (sub-6 GHz and mmWave) with 4x4 MIMO",
+        "Wi-Fi 7",
+        "Bluetooth 5.3",
+        "Second-generation Ultra Wideband chip",
+        "Thread networking technology",
+        "Precision dual-frequency GPS (GPS, GLONASS, Galileo, QZSS, BeiDou, and NavIC)",
+        "VoLTE",
+        "NFC with reader mode",
+        "Express Cards with power reserve",
+        "Wi-Fi calling"
+      ],
+      "secureAuthentication": "Face ID enabled by TrueDepth front camera for facial recognition",
+      "applePay": [
+        "Pay with your iPhone using Face ID in stores, within apps, and on the web",
+        "Send and receive money in Messages with Apple Cash",
+        "Pay for your ride using Express Transit"
+      ],
+      "applePayLink": "https://www.apple.com/apple-cash/",
+      "appleCardLink": "https://www.apple.com/apple-card/",
+      "videoCalling": [
+        "FaceTime video",
+        "Initiate video calls over cellular or Wi-Fi to any FaceTime-enabled device",
+        "FaceTime HD (1080p) over 5G or Wi-Fi",
+        "Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay"
+      ],
+      "audioCalling": [
+        "FaceTime audio",
+        "Initiate audio calls over cellular or Wi-Fi to any FaceTime audio-enabled device",
+        "Voice over LTE (VoLTE)",
+        "Wi-Fi calling",
+        "Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay"
+      ],
+      "audioPlayback": [
+        "Spatial Audio playback",
+        "Supports Dolby Atmos"
+      ],
+      "videoPlayback": [
+        "HDR with Dolby Vision, HDR10+/HDR10, and HLG"
+      ],
+      "siri": [
+        "Get help with everyday tasks like sending messages, setting reminders, and more",
+        "Activate hands-free with only your voice using “Siri” or “Hey Siri,” or use Type to Siri",
+        "Protected by the strongest privacy of any intelligent assistant",
+        "Powered by Apple Intelligence, Siri is more natural and helpful"
+      ],
+      "powerAndBattery": [
+        "Built-in rechargeable lithium-ion battery",
+        "MagSafe, Qi2, and Qi wireless charging",
+        "Video playback up to 33 hours",
+        "Video playback (streamed) up to 21 hours",
+        "Audio playback up to 105 hours",
+        "Fast-charge capable: Up to 50% charge in 35 minutes with 30W adapter or higher (available separately) paired with USB-C charging cable, or 30W adapter or higher paired with MagSafe Charger (both available separately)"
+      ],
+      "sensors": [
+        "LiDAR Scanner",
+        "High dynamic range gyro",
+        "High-g accelerometer",
+        "Proximity sensor",
+        "Dual ambient light sensors",
+        "Barometer"
+      ],
+      "simCard": "Dual eSIM Two active eSIMs; stores eight or more eSIMs. Supports advanced eSIM technology for more convenience and security (not compatible with physical SIM cards)",
+      "simCardLink": "https://support.apple.com/en-us/HT212780",
+      "connector": "USB-C Supports USB 3 (up to 10Gb/s)",
+      "sizeAndWeight": {
+        "height": "6.42 inches (163 mm)",
+        "width": "3.06 inches (77.6 mm)",
+        "depth": "0.32 inch (8.25 mm)",
+        "weight": "7.99 ounces (227 grams)"
+      },
+      "splashWaterDustResistant": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+      "techSpecsLink": "https://www.apple.com/iphone-16-pro/specs/",
+      "learnMoreLink": "https://www.apple.com/iphone-16-pro/",
+      "productImage": "https://www.designinfo.in/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-128GB-Natural-Titanium-6-485x485-optimized.webp"
+    },
+    {
+      "id": 12,
+      "title": "iPhone 16",
+      "description": "Advanced iPhone with powerful performance and sleek design.",
+      "colors": [
+        "Ultramarine",
+        "Teal",
+        "Pink",
+        "Black"
+      ],
+      "price": "From $799.00",
+      "monthly": "Contact retailer for financing options",
+      "display": "6.1-inch Super Retina XDR OLED display",
+      "displayFeatures": [
+        "Dynamic Island",
+        "HDR display",
+        "2556-by-1179-pixel resolution at 460 ppi",
+        "2,000,000:1 contrast ratio",
+        "True Tone display",
+        "Wide color display (P3)",
+        "Haptic Touch",
+        "1000 nits max brightness (typical)",
+        "1600 nits peak brightness (HDR)",
+        "2000 nits peak brightness (outdoor)"
+      ],
+      "chip": "A18 chip",
+      "chipFeatures": [
+        "6-core CPU with 2 performance and 4 efficiency cores",
+        "5-core GPU",
+        "16-core Neural Engine"
+      ],
+      "appleIntelligence": true,
+      "appleIntelligenceLink": "https://www.apple.com/apple-intelligence/",
+      "camera": "Advanced dual-camera system (48MP Fusion and 12MP Ultra Wide)",
+      "cameraFeatures": [
+        "0.5x, 1x, 2x optical zoom options",
+        "Sensor-shift optical image stabilization",
+        "True Tone flash",
+        "Photonic Engine",
+        "Deep Fusion",
+        "Smart HDR 5 for photos",
+        "Next-generation portraits with Focus and Depth Control",
+        "Night mode",
+        "Portrait Lighting with six effects",
+        "Latest-generation Photographic Styles",
+        "Macro photography",
+        "Spatial photos"
+      ],
+      "videoRecording": [
+        "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps",
+        "1080p Dolby Vision video recording at 25 fps, 30 fps, or 60 fps",
+        "Cinematic mode for recording videos with shallow depth of field (up to 4K Dolby Vision at 30 fps)",
+        "Action mode",
+        "Spatial video recording at 1080p at 30 fps",
+        "Slo-mo video support for 1080p at 120 fps or 240 fps",
+        "Time-lapse video with stabilization",
+        "Night mode Time-lapse",
+        "QuickTake video (up to 4K at 60 fps in Dolby Vision HDR)",
+        "Audio zoom",
+        "Spatial Audio and stereo recording"
+      ],
+      "frontCamera": "TrueDepth front camera",
+      "frontCameraFeatures": [
+        "12MP photos",
+        "ƒ/1.9 aperture",
+        "Retina Flash",
+        "Photonic Engine",
+        "Deep Fusion",
+        "Smart HDR 5 for photos",
+        "Next-generation portraits with Focus and Depth Control",
+        "Portrait Lighting with six effects",
+        "Animoji and Memoji",
+        "Night mode",
+        "Latest-generation Photographic Styles",
+        "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps",
+        "1080p Dolby Vision video recording at 25 fps, 30 fps, or 60 fps"
+      ],
+      "peaceOfMind": [
+        "Emergency SOS via satellite",
+        "Crash Detection",
+        "Roadside Assistance via satellite",
+        "Messages via satellite"
+      ],
+      "cellularAndWireless": [
+        "GSM/EDGE",
+        "UMTS/HSPA+",
+        "DC-HSDPA",
+        "5G (sub-6 GHz and mmWave) with 4x4 MIMO",
+        "Wi-Fi 7",
+        "Bluetooth 5.3",
+        "Second-generation Ultra Wideband chip",
+        "Thread networking technology",
+        "GPS, GLONASS, Galileo, QZSS, and BeiDou",
+        "VoLTE",
+        "NFC with reader mode",
+        "Express Cards with power reserve",
+        "Wi-Fi calling"
+      ],
+      "secureAuthentication": "Face ID enabled by TrueDepth front camera for facial recognition",
+      "applePay": [
+        "Pay with your iPhone using Face ID in stores, within apps, and on the web",
+        "Send and receive money in Messages with Apple Cash",
+        "Pay for your ride using Express Transit"
+      ],
+      "applePayLink": "https://www.apple.com/apple-cash/",
+      "appleCardLink": "https://www.apple.com/apple-card/",
+      "videoCalling": [
+        "FaceTime video",
+        "Initiate video calls over cellular or Wi-Fi to any FaceTime-enabled device",
+        "FaceTime HD (1080p) over 5G or Wi-Fi",
+        "Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay"
+      ],
+      "audioCalling": [
+        "FaceTime audio",
+        "Initiate audio calls over cellular or Wi-Fi to any FaceTime audio-enabled device",
+        "Voice over LTE (VoLTE)",
+        "Wi-Fi calling",
+        "Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay"
+      ],
+      "audioPlayback": [
+        "Spatial Audio playback",
+        "Supports Dolby Atmos"
+      ],
+      "videoPlayback": [
+        "HDR with Dolby Vision, HDR10+/HDR10, and HLG"
+      ],
+      "siri": [
+        "Get help with everyday tasks like sending messages, setting reminders, and more",
+        "Activate hands-free with only your voice using “Siri” or “Hey Siri,” or use Type to Siri",
+        "Protected by the strongest privacy of any intelligent assistant",
+        "Powered by Apple Intelligence, Siri is more natural and helpful"
+      ],
+      "powerAndBattery": [
+        "Built-in rechargeable lithium-ion battery",
+        "MagSafe, Qi2, and Qi wireless charging",
+        "Video playback up to 29 hours",
+        "Video playback (streamed) up to 18 hours",
+        "Audio playback up to 90 hours",
+        "Fast-charge capable: Up to 50% charge in 30 minutes with 20W adapter or higher (available separately) paired with USB-C charging cable, or 20W adapter or higher paired with MagSafe Charger (both available separately)"
+      ],
+      "sensors": [
+        "High dynamic range gyro",
+        "High-g accelerometer",
+        "Proximity sensor",
+        "Dual ambient light sensors",
+        "Barometer"
+      ],
+      "simCard": "Dual eSIM Two active eSIMs; stores eight or more eSIMs. Supports advanced eSIM technology for more convenience and security (not compatible with physical SIM cards)",
+      "simCardLink": "https://support.apple.com/en-us/HT212780",
+      "connector": "USB-C Supports USB 2",
+      "sizeAndWeight": {
+        "height": "5.81 inches (147.6 mm)",
+        "width": "2.82 inches (71.6 mm)",
+        "depth": "0.31 inch (7.80 mm)",
+        "weight": "6.00 ounces (170 grams)"
+      },
+      "splashWaterDustResistant": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+      "techSpecsLink": "https://www.apple.com/iphone-16-pro/specs/",
+      "learnMoreLink": "https://www.apple.com/iphone-16-pro/",
+      "productImage": "https://inspireonline.in/cdn/shop/files/iPhone_16_Teal_PDP_Image_Position_1__en-IN_6aed3712-113a-4579-8a71-41c02aa0003c.jpg?v=1727247732"
+    },
+    {
+      "id": 13,
+      "title": "iPhone 16",
+      "description": "Powerful iPhone with a vibrant design and essential features.",
+      "colors": [
+        "Ultramarine",
+        "Teal",
+        "Pink",
+        "Black"
+      ],
+      "price": "From $699.00",
+      "monthly": "Contact retailer for financing options",
+      "display": "6.1-inch Super Retina XDR OLED display",
+      "displayFeatures": [
+        "Dynamic Island",
+        "HDR display",
+        "2532-by-1170-pixel resolution at 460 ppi",
+        "2,000,000:1 contrast ratio",
+        "True Tone display",
+        "Wide color display (P3)",
+        "Haptic Touch",
+        "800 nits max brightness (typical)",
+        "1200 nits peak brightness (HDR)",
+        "2000 nits peak brightness (outdoor)"
+      ],
+      "chip": "A18 chip",
+      "chipFeatures": [
+        "6-core CPU with 2 performance and 4 efficiency cores",
+        "4-core GPU",
+        "16-core Neural Engine"
+      ],
+      "appleIntelligence": true,
+      "appleIntelligenceLink": "https://www.apple.com/apple-intelligence/",
+      "camera": "2-in-1 camera system (48MP Fusion)",
+      "cameraFeatures": [
+        "Optical image stabilization",
+        "True Tone flash",
+        "Photonic Engine",
+        "Deep Fusion",
+        "Smart HDR 5 for photos",
+        "Portrait mode with Depth Control",
+        "Night mode",
+        "Portrait Lighting with six effects",
+        "Photographic Styles",
+        "Spatial photos"
+      ],
+      "videoRecording": [
+        "4K Dolby Vision video recording at 24 fps, 25 fps, 30 fps, or 60 fps",
+        "1080p Dolby Vision video recording at 25 fps, 30 fps, or 60 fps",
+        "Cinematic mode for recording videos with shallow depth of field (up to 4K Dolby Vision at 30 fps)",
+        "Action mode",
+        "Slo-mo video support for 1080p at 120 fps or 240 fps",
+        "Time-lapse video with stabilization",
+        "Night mode Time-lapse",
+        "QuickTake video",
+        "Optical image stabilization for video",
+        "Spatial Audio and stereo recording"
+      ],
+      "frontCamera": "TrueDepth front camera",
+      "frontCameraFeatures": [
+        "12MP photos",
+        "ƒ/1.9 aperture",
+        "Retina Flash",
+        "Photonic Engine",
+        "Deep Fusion",
+        "Smart HDR 5 for photos",
+        "Portrait mode with Depth Control",
+        "Night mode",
+        "Portrait Lighting with six effects",
+        "Animoji and Memoji",
+        "Latest-generation Photographic Styles",
+        "1080p Dolby Vision video recording at 25 fps, 30 fps, or 60 fps"
+      ],
+      "peaceOfMind": [
+        "Emergency SOS via satellite",
+        "Crash Detection",
+        "Roadside Assistance via satellite",
+        "Messages via satellite"
+      ],
+      "cellularAndWireless": [
+        "GSM/EDGE",
+        "UMTS/HSPA+",
+        "DC-HSDPA",
+        "5G (sub-6 GHz) with 4x4 MIMO",
+        "Wi-Fi 6",
+        "Bluetooth 5.3",
+        "GPS, GLONASS, Galileo, QZSS, and BeiDou",
+        "VoLTE",
+        "NFC with reader mode",
+        "Express Cards with power reserve",
+        "Wi-Fi calling"
+      ],
+      "secureAuthentication": "Face ID enabled by TrueDepth front camera for facial recognition",
+      "applePay": [
+        "Pay with your iPhone using Face ID in stores, within apps, and on the web",
+        "Send and receive money in Messages with Apple Cash",
+        "Pay for your ride using Express Transit"
+      ],
+      "applePayLink": "https://www.apple.com/apple-cash/",
+      "appleCardLink": "https://www.apple.com/apple-card/",
+      "videoCalling": [
+        "FaceTime video",
+        "Initiate video calls over cellular or Wi-Fi to any FaceTime-enabled device",
+        "FaceTime HD (1080p) over 5G or Wi-Fi",
+        "Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay"
+      ],
+      "audioCalling": [
+        "FaceTime audio",
+        "Initiate audio calls over cellular or Wi-Fi to any FaceTime audio-enabled device",
+        "Voice over LTE (VoLTE)",
+        "Wi-Fi calling",
+        "Share experiences like movies, TV, music, and other apps in a FaceTime call with SharePlay"
+      ],
+      "audioPlayback": [
+        "Spatial Audio playback",
+        "Supports Dolby Atmos"
+      ],
+      "videoPlayback": [
+        "HDR with Dolby Vision, HDR10+/HDR10, and HLG"
+      ],
+      "siri": [
+        "Get help with everyday tasks like sending messages, setting reminders, and more",
+        "Activate hands-free with only your voice using “Siri” or “Hey Siri,” or use Type to Siri",
+        "Protected by the strongest privacy of any intelligent assistant",
+        "Powered by Apple Intelligence, Siri is more natural and helpful"
+      ],
+      "powerAndBattery": [
+        "Built-in rechargeable lithium-ion battery",
+        "Qi wireless charging",
+        "Video playback up to 26 hours",
+        "Video playback (streamed) up to 21 hours",
+        "Audio playback up to 80 hours",
+        "Fast-charge capable: Up to 50% charge in 30 minutes with 20W adapter or higher (available separately) paired with USB-C charging cable"
+      ],
+      "sensors": [
+        "High dynamic range gyro",
+        "High-g accelerometer",
+        "Proximity sensor",
+        "Dual ambient light sensors",
+        "Barometer"
+      ],
+      "simCard": "Dual eSIM Two active eSIMs; stores eight or more eSIMs. Supports advanced eSIM technology for more convenience and security (not compatible with physical SIM cards)",
+      "simCardLink": "https://support.apple.com/en-us/HT212780",
+      "connector": "USB-C Supports USB 2",
+      "sizeAndWeight": {
+        "height": "5.78 inches (146.7 mm)",
+        "width": "2.82 inches (71.5 mm)",
+        "depth": "0.31 inch (7.80 mm)",
+        "weight": "5.88 ounces (167 grams)"
+      },
+      "splashWaterDustResistant": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
+      "techSpecsLink": "https://www.apple.com/iphone-16-pro/specs/",
+      "learnMoreLink": "https://www.apple.com/iphone-16-pro/",
+      "productImage": "https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/u/r/r/-original-imah9khh8wgzdafb.jpeg?q=20&crop=false"
+    },
+    {
+      "id": 14,
+      "title": "Apple Watch SE (2nd generation)",
+      "description": "The most affordable Apple Watch, offering essential features for fitness, safety, and connectivity.",
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "Silver"
+      ],
+      "price": "From $249.00",
+      "monthly": "Contact retailer for financing options",
+      "releaseDate": "September 2022",
+      "case": [
+        "44mm aluminum case",
+        "40mm aluminum case"
+      ],
+      "caseWeight": {
+        "44mm": {
+          "GPS": "32.9 grams",
+          "GPS + Cellular": "33.0 grams"
+        },
+        "40mm": {
+          "GPS": "26.4 grams",
+          "GPS + Cellular": "27.8 grams"
+        }
+      },
+      "caseDimensions": {
+        "44mm": "44mm x 38mm x 10.7mm",
+        "40mm": "40mm x 34mm x 10.7mm"
+      },
+      "display": "LTPO OLED Retina display",
+      "displayFeatures": [
+        "Up to 1000 nits brightness",
+        "368 x 448 pixels (44mm, 977 sq mm display area)",
+        "324 x 394 pixels (40mm, 759 sq mm display area)"
+      ],
+      "chip": "S8 SiP with 64-bit dual-core processor",
+      "chipFeatures": [
+        "W3 Apple wireless chip",
+        "32GB capacity"
+      ],
+      "sensors": [
+        "Second-generation optical heart sensor",
+        "Ambient light sensor",
+        "High-g accelerometer (up to 256 g-forces with Fall Detection and Crash Detection)",
+        "Compass"
+      ],
+      "healthAndWellness": [
+        "Cycle Tracking",
+        "Sleep tracking",
+        "Vitals app featuring heart rate, respiratory rate, and sleep duration",
+        "Mindfulness app with state of mind tracking",
+        "Noise monitoring",
+        "High and low heart rate notifications",
+        "Irregular rhythm notifications",
+        "Low cardio fitness notifications"
+      ],
+      "connectivity": [
+        "LTE and UMTS (GPS + Cellular models)",
+        "Wi-Fi 4 802.11n",
+        "Bluetooth 5.3",
+        "L1 GPS, GLONASS, Galileo, QZSS, and BeiDou",
+        "Apple Pay",
+        "Support for Apple Watch For Your Kids (GPS + Cellular models)"
+      ],
+      "safety": [
+        "International emergency calling",
+        "Emergency SOS",
+        "High-g accelerometer with Fall Detection and Crash Detection"
+      ],
+      "powerAndBattery": [
+        "Built-in rechargeable lithium-ion battery",
+        "Up to 18 hours",
+        "Up to 36 hours in Low Power Mode"
+      ],
+      "durability": [
+        "Water resistant up to 50 meters",
+        "Nylon composite and sapphire crystal back"
+      ],
+      "environmentalFeatures": [
+        "Carbon neutral combinations available",
+        "100% recycled aluminum in the case",
+        "100% recycled tungsten in the Taptic Engine",
+        "100% recycled rare earth elements in all magnets",
+        "100% recycled tin in the solder of all Apple-designed printed circuit boards",
+        "100% recycled copper in multiple printed circuit boards",
+        "Energy efficient"
+      ],
+      "learnMoreLink": "https://www.apple.com/apple-watch-se/",
+      "techSpecsLink": "https://www.apple.com/apple-watch-se/specs/",
+      "productImage": "https://m.media-amazon.com/images/I/71lG7br7k1L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Apple Watch Series 10",
+      "description": "The latest flagship Apple Watch with a larger display, thinner design, and advanced health features.",
+      "colors": [
+        "Jet Black",
+        "Rose Gold",
+        "Silver",
+        "Slate",
+        "Gold",
+        "Natural"
+      ],
+      "price": "From $399.00",
+      "monthly": "Contact retailer for financing options",
+      "releaseDate": "September 2024",
+      "case": [
+        "46mm aluminum or titanium case",
+        "42mm aluminum or titanium case"
+      ],
+      "caseWeight": {
+        "46mm": {
+          "GPS": "36.4 grams (aluminum)",
+          "GPS + Cellular": "35.3 grams (aluminum), 41.7 grams (titanium)"
+        },
+        "42mm": {
+          "GPS": "30.0 grams (aluminum)",
+          "GPS + Cellular": "29.3 grams (aluminum), 34.4 grams (titanium)"
+        }
+      },
+      "caseDimensions": {
+        "46mm": "46mm x 39mm x 9.7mm",
+        "42mm": "42mm x 36mm x 9.7mm"
+      },
+      "display": "LTPO3 OLED Always-on Retina display",
+      "displayFeatures": [
+        "Wide-angle OLED",
+        "Up to 2000 nits brightness",
+        "1 nit minimum brightness",
+        "Up to 40% brighter when viewed at an angle",
+        "416 x 496 pixels (46mm, 1220 sq mm display area)",
+        "374 x 446 pixels (42mm, 989 sq mm display area)"
+      ],
+      "chip": "S10 SiP with 64-bit dual-core processor",
+      "chipFeatures": [
+        "W3 Apple wireless chip",
+        "Second-generation Ultra Wideband chip",
+        "4-core Neural Engine",
+        "64GB capacity"
+      ],
+      "sensors": [
+        "Electrical heart sensor",
+        "Third-generation optical heart sensor",
+        "Ambient light sensor",
+        "Water temperature sensor",
+        "Depth gauge and Depth app",
+        "Speaker with media playback",
+        "Microphone with voice isolation",
+        "Always-on altimeter",
+        "Compass",
+        "Waypoints, Backtrack, and Elevation view"
+      ],
+      "healthAndWellness": [
+        "ECG app",
+        "Cycle Tracking with retrospective ovulation estimates",
+        "Sleep tracking",
+        "Sleep apnea notifications",
+        "Vitals app featuring heart rate, respiratory rate, wrist temperature, and sleep duration",
+        "Mindfulness app with state of mind tracking",
+        "Training load",
+        "Noise monitoring",
+        "GymKit",
+        "High and low heart rate notifications",
+        "Irregular rhythm notifications",
+        "Low cardio fitness notifications"
+      ],
+      "connectivity": [
+        "LTE and UMTS (GPS + Cellular models)",
+        "Wi-Fi 4 802.11n",
+        "Bluetooth 5.3",
+        "L1 and L5 GPS, GLONASS, Galileo, QZSS, and BeiDou",
+        "Offline maps",
+        "Apple Pay",
+        "Support for Apple Watch For Your Kids (GPS + Cellular models)"
+      ],
+      "safety": [
+        "International emergency calling",
+        "Emergency SOS",
+        "International roaming",
+        "High-g accelerometer with Fall Detection and Crash Detection"
+      ],
+      "powerAndBattery": [
+        "Built-in rechargeable lithium-ion battery",
+        "Up to 18 hours",
+        "Up to 36 hours in Low Power Mode",
+        "Fast charge capable"
+      ],
+      "durability": [
+        "Water resistant up to 50 meters",
+        "Depth to 6m / 20 ft.",
+        "Certified IP6X dust resistant",
+        "Ceramic and sapphire crystal back"
+      ],
+      "environmentalFeatures": [
+        "Carbon neutral combinations available",
+        "100% recycled aluminum in the case",
+        "95% recycled titanium in the case",
+        "100% recycled tungsten in the Taptic Engine",
+        "100% recycled rare earth elements in all magnets",
+        "100% recycled tin in the solder of multiple printed circuit boards",
+        "100% recycled gold in plating of multiple printed circuit boards",
+        "100% recycled copper foil in the main logic board",
+        "100% recycled copper wire in the Taptic Engine",
+        "100% recycled cobalt in the battery",
+        "Energy efficient"
+      ],
+      "learnMoreLink": "https://www.apple.com/apple-watch-series-10/",
+      "techSpecsLink": "https://www.apple.com/apple-watch-series-10/specs734/",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXMN3_VW_34FR+watch-case-42-titanium-gold-cell-s10_VW_34FR+watch-face-42-titanium-gold-s10_VW_34FR?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=eTJINXdmS1dsNFJzUUMzK2Q0LzUxRkxhUDRYNzNWdjhRQnRqUXg3SUorWHpPUXBXenBpQlJtWTk2UDd2RUxvdTk2dVpqb1NYUlI2c2xkRFVxMlVQc1hSVEtNcVBDWElWeDY5d0dxbVBKWmQ0OXlrbVVxTkhpTDliM0tPY3ArN2tVUmtYY1JKc0FOcUw1UWwrK2NiUXIrRHRmOVorV3Ztc3o4b1lKOXQwd0thckpmNWN0WVRsNmlxbjU0T3JCYkhaMkJ4eG5yNWNEQXhoeGlLSUdrUkNsa2xRa2xUUkhCemxBRTBOaWoyaU9xYw"
+    },
+    {
+      "id": 16,
+      "title": "Apple Watch Ultra 2",
+      "description": "The most rugged and capable Apple Watch, designed for endurance, exploration, and adventure.",
+      "colors": [
+        "Black",
+        "Natural"
+      ],
+      "price": "From $799.00",
+      "monthly": "Contact retailer for financing options",
+      "releaseDate": "September 2023 (updated color September 2024)",
+      "case": [
+        "49mm titanium case"
+      ],
+      "caseWeight": {
+        "49mm": "61.4 grams (natural), 61.8 grams (black)"
+      },
+      "caseDimensions": {
+        "49mm": "49mm x 44mm x 14.4mm"
+      },
+      "display": "LTPO2 OLED Always-on Retina display",
+      "displayFeatures": [
+        "Up to 3000 nits brightness",
+        "1 nit minimum brightness",
+        "410 x 502 pixels (49mm, 1185 sq mm display area)"
+      ],
+      "chip": "S9 SiP with 64-bit dual-core processor",
+      "chipFeatures": [
+        "W3 Apple wireless chip",
+        "Second-generation Ultra Wideband chip",
+        "4-core Neural Engine",
+        "64GB capacity"
+      ],
+      "sensors": [
+        "Electrical heart sensor",
+        "Third-generation optical heart sensor",
+        "Ambient light sensor",
+        "Water temperature sensor",
+        "Depth gauge and Depth app",
+        "Dual speakers with media playback",
+        "Three-microphone array with beamforming and wind noise mitigation",
+        "Always-on altimeter with expanded operating range from –500m to 9000m",
+        "Compass",
+        "Waypoints, Backtrack, and Elevation view"
+      ],
+      "healthAndWellness": [
+        "ECG app",
+        "Cycle Tracking with retrospective ovulation estimates",
+        "Sleep tracking",
+        "Sleep apnea notifications",
+        "Vitals app featuring heart rate, respiratory rate, wrist temperature, and sleep duration",
+        "Mindfulness app with state of mind tracking",
+        "Training load",
+        "Noise monitoring",
+        "GymKit",
+        "High and low heart rate notifications",
+        "Irregular rhythm notifications",
+        "Low cardio fitness notifications"
+      ],
+      "connectivity": [
+        "LTE and UMTS (GPS + Cellular models)",
+        "Wi-Fi 4 802.11n",
+        "Bluetooth 5.3",
+        "L1 and L5 GPS, GLONASS, Galileo, QZSS, and BeiDou",
+        "Offline maps",
+        "Apple Pay",
+        "Support for Apple Watch For Your Kids (GPS + Cellular models)"
+      ],
+      "safety": [
+        "International emergency calling",
+        "Emergency SOS",
+        "International roaming",
+        "Siren",
+        "High-g accelerometer with Fall Detection and Crash Detection"
+      ],
+      "powerAndBattery": [
+        "Built-in rechargeable lithium-ion battery",
+        "Up to 36 hours",
+        "Up to 72 hours in Low Power Mode",
+        "Fast charge capable"
+      ],
+      "durability": [
+        "Water resistant up to 100 meters",
+        "Dive to 40m / 130 ft.",
+        "EN13319 certification",
+        "Certified IP6X dust resistant",
+        "Tested to MIL-STD 810H",
+        "Ceramic and sapphire crystal back"
+      ],
+      "environmentalFeatures": [
+        "Carbon neutral combinations available",
+        "95% recycled titanium in the case",
+        "100% recycled tungsten in the Taptic Engine",
+        "100% recycled rare earth elements in all magnets",
+        "100% recycled tin in the solder of multiple printed circuit boards",
+        "100% recycled gold in plating of multiple printed circuit boards",
+        "100% recycled copper wire in the Taptic Engine",
+        "100% recycled cobalt in the battery",
+        "Energy efficient"
+      ],
+      "learnMoreLink": "https://www.apple.com/apple-watch-ultra-2/",
+      "techSpecsLink": "https://www.apple.com/apple-watch-ultra-2/specs/",
+      "productImage": "https://m.media-amazon.com/images/I/81CUXO9xeHL.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Apple Vision Pro",
+      "description": "Apple’s first spatial computer, seamlessly blending digital content with your physical space for immersive experiences in work, entertainment, and collaboration.",
+      "colors": ["Silver"],
+      "price": "From $3499.00",
+      "monthly": "Contact retailer for financing options",
+      "releaseDate": "February 2024",
+      "storageOptions": ["256GB", "512GB", "1TB"],
+      "display": "Dual micro-OLED displays",
+      "displayFeatures": [
+        "23 million pixels total",
+        "3660 x 3200 pixels per eye",
+        "90Hz, 96Hz, and 100Hz refresh rates",
+        "92% DCI-P3 color gamut",
+        "HDR support",
+        "EyeSight external display for showing user’s eyes"
+      ],
+      "chip": "Dual-chip design with M2 and R1",
+      "chipFeatures": [
+        "M2: 8-core CPU, 10-core GPU, 16-core Neural Engine, 16GB unified memory",
+        "R1: Processes input from cameras, sensors, and microphones with 12ms latency",
+        "256GB/s memory bandwidth"
+      ],
+      "sensors": [
+        "12 cameras (including high-resolution color passthrough cameras)",
+        "LiDAR Scanner",
+        "TrueDepth camera",
+        "6 microphones",
+        "4 eye-tracking cameras with LED illuminators",
+        "2 ambient light sensors",
+        "Flicker sensors",
+        "Infrared flood illuminators"
+      ],
+      "audio": [
+        "Spatial Audio with dynamic head tracking",
+        "Supports AAC, MP3, Apple Lossless, FLAC, Dolby Digital, Dolby Digital Plus, Dolby Atmos",
+        "H2-to-H2 ultra-low-latency connection to AirPods Pro (2nd generation) with MagSafe Charging Case (USB-C)"
+      ],
+      "video": [
+        "Supports HEVC, MV-HEVC, H.264, HDR with Dolby Vision, HDR10, HLG",
+        "Apple Immersive Video (180-degree 3D 8K with Spatial Audio)",
+        "Up to 720p AirPlay mirroring to AirPlay-enabled devices"
+      ],
+      "input": [
+        "Optical hand tracking",
+        "Eye tracking",
+        "Speech recognition",
+        "Supports virtual keyboard, Siri, Bluetooth accessories (Magic Keyboard, Magic Trackpad, gamepads)"
+      ],
+      "connectivity": [
+        "Wi-Fi 6 (2.4GHz and 5GHz)",
+        "Bluetooth 5.3"
+      ],
+      "operatingSystem": "visionOS",
+      "operatingSystemFeatures": [
+        "3D user interface with floating windows",
+        "Multitasking via spatial app arrangement",
+        "Supports iPhone and iPad apps",
+        "Dedicated App Store",
+        "FaceTime with Persona (3D digital avatar)",
+        "Spatial photos and videos"
+      ],
+      "powerAndBattery": [
+        "External battery (353 grams)",
+        "Up to 2 hours of general use",
+        "Up to 2.5 hours of video playback",
+        "Can be used while charging",
+        "Exceeds U.S. Department of Energy requirements for battery charger systems"
+      ],
+      "design": [
+        "Three-dimensionally formed laminated glass with aluminum alloy frame",
+        "Solo Knit Band and Dual Loop Band included",
+        "Light Seal for precise fit",
+        "Weight: 600–650 grams (varies by Light Seal and head band configuration)"
+      ],
+      "durability": [
+        "Materials: Aluminum, glass, polyester, nylon, polycarbonate",
+        "No specific water or dust resistance rating"
+      ],
+      "accessibility": [
+        "Built-in support for vision, hearing, mobility, and learning",
+        "Features for people with disabilities to create and interact"
+      ],
+      "environmentalFeatures": [
+        "No established final assembly sites generate waste sent to landfill (Apple’s Zero Waste Program)",
+        "All final assembly supplier sites transitioning to 100% renewable energy",
+        "Free of PVC and phthalates (except AC power cords in India, Thailand, South Korea pending approval)",
+        "Complies with EU Directive 2011/65/EU for restricted substances"
+      ],
+      "learnMoreLink": "https://www.apple.com/apple-vision-pro/",
+      "techSpecsLink": "https://www.apple.com/apple-vision-pro/specs/",
+      "productImage": "https://www.apple.com/newsroom/images/2024/06/apple-vision-pro-arrives-in-new-countries-and-regions-beginning-june-28/article/Apple-WWDC24-Vision-Pro-global-availability-Audio-Straps-240610_big.jpg.large.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Apple TV 4K",
+      "description": "The ultimate way to watch TV, with 4K HDR, Dolby Atmos sound, and the best of Apple TV app and Apple TV+.",
+      "colors": ["Black Multi-Touch", "Silver Multi-Touch"],
+      "price": "From $129.00",
+      "monthly": "Contact retailer for financing options",
+      "releaseDate": "November 2022 (3rd generation)",
+      "storageOptions": ["64GB", "128GB"],
+      "displaySupport": [
+        "4K resolution (3840 x 2160)",
+        "HDR10, Dolby Vision, HLG",
+        "Up to 60 fps"
+      ],
+      "chip": "A15 Bionic chip",
+      "chipFeatures": [
+        "5-core CPU",
+        "5-core GPU",
+        "16-core Neural Engine"
+      ],
+      "audioSupport": [
+        "Dolby Atmos",
+        "Dolby Digital 5.1",
+        "Dolby Digital Plus 7.1",
+        "Spatial Audio with AirPods"
+      ],
+      "connectivity": [
+        "Wi-Fi 6 (802.11ax) with 2x2 MIMO",
+        "Bluetooth 5.0",
+        "Thread networking support (128GB model)",
+        "Gigabit Ethernet (128GB model)",
+        "HDMI 2.1",
+        "IR receiver"
+      ],
+      "remote": "Siri Remote (3rd generation)",
+      "remoteFeatures": [
+        "USB-C connector for charging",
+        "Siri voice control",
+        "Touch-enabled clickpad",
+        "Bluetooth 5.0 and IR transmitter"
+      ],
+      "operatingSystem": "tvOS",
+      "operatingSystemFeatures": [
+        "App Store access",
+        "Siri integration",
+        "AirPlay 2",
+        "HomeKit hub (128GB model)",
+        "Matter support (128GB model)"
+      ],
+      "sizeAndWeight": {
+        "height": "1.2 inches (31 mm)",
+        "width": "3.66 inches (93 mm)",
+        "depth": "3.66 inches (93 mm)",
+        "weight": "7.3 ounces (208 grams)"
+      },
+      "power": [
+        "Built-in power supply",
+        "Power consumption: 0.5W in standby"
+      ],
+      "environmentalFeatures": [
+        "BFR-free",
+        "PVC-free",
+        "100% recycled aluminum in the Siri Remote enclosure",
+        "Meets ENERGY STAR requirements"
+      ],
+      "learnMoreLink": "https://www.apple.com/apple-tv-4k/",
+      "techSpecsLink": "https://www.apple.com/apple-tv-4k/specs/",
+      "productImage": "https://cdsassets.apple.com/live/SZLF0YNV/images/sp/111922_sp845-apple-tv-4k-2gen.png"
+    },
+    {
+      "id": 19,
+      "title": "Apple TV app",
+      "description": "The Apple TV app brings together your favorite shows, movies, and sports in one place, with personalized recommendations.",
+      "price": "Free to download",
+      "releaseDate": "November 2016 (initial release)",
+      "availability": [
+        "Available on Apple devices (iPhone, iPad, Apple TV, Mac)",
+        "Smart TVs (Samsung, LG, Sony, VIZIO, TCL, Roku)",
+        "Streaming devices (Roku, Amazon Fire TV, Google TV)",
+        "Gaming consoles (PlayStation, Xbox)",
+        "Web at tv.apple.com"
+      ],
+      "features": [
+        "Access to Apple TV+ content",
+        "Integration with other streaming services (subscriptions required)",
+        "MLS Season Pass for live soccer",
+        "Personalized recommendations",
+        "Up Next queue",
+        "Siri voice search",
+        "AirPlay support for sharing to Apple TV or AirPlay-enabled devices",
+        "Shared viewing with SharePlay via FaceTime"
+      ],
+      "contentSupport": [
+        "4K HDR with Dolby Vision and Dolby Atmos",
+        "Live sports",
+        "Friday Night Baseball (select regions)"
+      ],
+      "operatingSystem": "Available on iOS, iPadOS, tvOS, macOS, and select third-party platforms",
+      "learnMoreLink": "https://www.apple.com/apple-tv-app/",
+      "productImage": "https://play-lh.googleusercontent.com/1XBAZjSOWaVM7UDFKvzuMR-WRoR5gCnsYrw17_ihHLcJKT9Qc7hXptHwWQ3Bf83mry4"
+    },
+    {
+      "id": 20,
+      "title": "Apple TV+",
+      "description": "A premium streaming service featuring award-winning Apple Originals, movies, and documentaries, ad-free and on demand.",
+      "price": "$9.99 per month",
+      "releaseDate": "November 2019",
+      "subscriptionDetails": [
+        "Free trial available (duration varies by region)",
+        "Included with Apple One bundle",
+        "Family Sharing for up to 6 family members",
+        "Available in over 100 countries"
+      ],
+      "content": [
+        "Apple Original series and films",
+        "Exclusive movies and documentaries",
+        "Kids and family programming",
+        "Live sports including MLS Season Pass and Friday Night Baseball (select regions)"
+      ],
+      "features": [
+        "Ad-free streaming",
+        "4K HDR with Dolby Vision and Dolby Atmos",
+        "Download for offline viewing",
+        "SharePlay for watching together via FaceTime",
+        "Available on Apple TV app across devices"
+      ],
+      "availability": [
+        "Apple devices (iPhone, iPad, Apple TV, Mac)",
+        "Smart TVs (Samsung, LG, Sony, VIZIO, TCL, Roku)",
+        "Streaming devices (Roku, Amazon Fire TV, Google TV)",
+        "Gaming consoles (PlayStation, Xbox)",
+        "Web at tv.apple.com"
+      ],
+      "learnMoreLink": "https://www.apple.com/apple-tv-plus/",
+      "productImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1qIXicp5Kbc1jiXzHyCoJScpfLxETD1X9lg&s"
+    },
+    {
+      "id": 21,
+      "title": "HomePod",
+      "description": "A powerful smart speaker delivering room-filling sound with Spatial Audio, Siri, and smart home control.",
+      "colors": ["White", "Midnight"],
+      "price": "$299.00",
+      "monthly": "Contact retailer for financing options",
+      "releaseDate": "February 2023 (2nd generation)",
+      "audioTechnology": [
+        "High-excursion woofer with custom amplifier",
+        "Five horn-loaded tweeters with beamforming",
+        "Spatial Audio with Dolby Atmos",
+        "Room-sensing technology",
+        "Computational audio"
+      ],
+      "chip": "S7 chip",
+      "chipFeatures": [
+        "Real-time audio tuning",
+        "Bass-EQ mic for automatic bass correction"
+      ],
+      "sensors": [
+        "Temperature and humidity sensor",
+        "Accelerometer for fall detection (for emergency alerts)",
+        "Four-microphone array for far-field Siri"
+      ],
+      "connectivity": [
+        "Wi-Fi 4 (802.11n)",
+        "Bluetooth 5.0",
+        "Thread networking support",
+        "Matter support",
+        "Ultra Wideband chip for device proximity"
+      ],
+      "smartHomeFeatures": [
+        "HomeKit hub",
+        "Siri voice control",
+        "Intercom for messaging between HomePods",
+        "Sound Recognition for smoke and carbon monoxide alarms",
+        "Multiroom audio with AirPlay"
+      ],
+      "sizeAndWeight": {
+        "height": "6.6 inches (168 mm)",
+        "width": "5.6 inches (142 mm)",
+        "weight": "5.16 pounds (2.3 kg)"
+      },
+      "power": [
+        "Built-in power supply",
+        "20W power adapter included"
+      ],
+      "environmentalFeatures": [
+        "Mercury-free",
+        "BFR-free",
+        "PVC-free",
+        "100% recycled rare earth elements in the speaker magnets",
+        "Energy-efficient design"
+      ],
+      "learnMoreLink": "https://www.apple.com/homepod/",
+      "techSpecsLink": "https://www.apple.com/homepod/specs/",
+      "productImage": "https://rukminim2.flixcart.com/image/850/1000/xif0q/speaker/a/n/z/-original-imagm87dh2yhk585.jpeg?q=90&crop=false"
+    },
+    {
+      "id": 22,
+      "title": "HomePod mini",
+      "description": "A compact smart speaker with surprising sound, Siri, and smart home capabilities.",
+      "colors": ["White", "Space Gray", "Yellow", "Orange", "Blue"],
+      "price": "$99.00",
+      "monthly": "Contact retailer for financing options",
+      "releaseDate": "November 2020",
+      "audioTechnology": [
+        "Full-range driver and dual passive radiators",
+        "Spatial Audio with Dolby Atmos",
+        "Computational audio",
+        "360-degree sound"
+      ],
+      "chip": "S5 chip",
+      "chipFeatures": [
+        "Real-time audio tuning"
+      ],
+      "sensors": [
+        "Temperature and humidity sensor",
+        "Four-microphone array for far-field Siri"
+      ],
+      "connectivity": [
+        "Wi-Fi 4 (802.11n)",
+        "Bluetooth 5.0",
+        "Thread networking support",
+        "Matter support",
+        "Ultra Wideband chip for device proximity"
+      ],
+      "smartHomeFeatures": [
+        "HomeKit hub",
+        "Siri voice control",
+        "Intercom for messaging between HomePods",
+        "Multiroom audio with AirPlay"
+      ],
+      "sizeAndWeight": {
+        "height": "3.3 inches (84.3 mm)",
+        "width": "3.9 inches (97.9 mm)",
+        "weight": "0.76 pounds (345 grams)"
+      },
+      "power": [
+        "20W power adapter included",
+        "Power consumption: Low-power mode available"
+      ],
+      "environmentalFeatures": [
+        "Mercury-free",
+        "BFR-free",
+        "PVC-free",
+        "100% recycled rare earth elements in the speaker magnets",
+        "Energy-efficient design"
+      ],
+      "learnMoreLink": "https://www.apple.com/homepod-mini/",
+      "techSpecsLink": "https://www.apple.com/homepod-mini/specs/",
+      "productImage": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1733733723/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/308669_ybvdob.png"
+    },
+    {
+      "id": 23,
+      "title": "iPhone 16e Silicone Case – Fuchsia",
+      "description": "A sleek silicone case designed for iPhone 16e, offering protection with a soft-touch finish.",
+      "colors": ["Fuchsia", "Ultramarine", "Teal", "Pink", "Black"],
+      "price": "$39.00",
+      "status": "New",
+      "features": [
+        "Soft microfiber lining",
+        "Precise cutouts for buttons and ports",
+        "Protects against drops and scratches"
+      ],
+      "compatibility": "iPhone 16e",
+      "learnMoreLink": "https://www.apple.com/shop/product/MD3W4ZM/A/iphone-16e-silicone-case-fuchsia",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3W4?wid=532&hei=582&fmt=png-alpha&.v=RTFWTkh5c2tPUEMwMU5GcTZLRzBvZ0hqc0NvK2RZTVd5TWVhUDFuQlo0MUpGT0J3WDRydHdiVWx6eGtJQmdHUFZCeEJOYVFGSkRDYzUrK0ViV1hEWUE"
+    },
+    {
+      "id": 24,
+      "title": "AirPods 4 with Active Noise Cancellation",
+      "description": "The latest AirPods with Active Noise Cancellation, delivering immersive sound and personalized Spatial Audio.",
+      "price": "$179.00",
+      "status": "Free Engraving",
+      "features": [
+        "Active Noise Cancellation",
+        "Personalized Spatial Audio with dynamic head tracking",
+        "Adaptive Audio",
+        "Transparency mode",
+        "H2 chip",
+        "Up to 5 hours of listening time with ANC on",
+        "Wireless charging case"
+      ],
+      "connectivity": [
+        "Bluetooth 5.3",
+        "Lightning connector or wireless charging"
+      ],
+      "learnMoreLink": "https://www.apple.com/shop/buy-airpods/airpods-4/with-active-noise-cancellation",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-4-anc-select-202409?wid=532&hei=582&fmt=png-alpha&.v=Qklmb1JJend3cVIxSUxIeFBIRk96bThJMURFZUhTTm9tejgvK2t1SGM0Z2o5Z1E1ellDTTZFb0JncEN1V1JWSkoyZWdNMk9CcVkreUdEWkc5LzhTdmhnYWU4aDlESWZ0ano5VnZaZFRrblU"
+    },
+    {
+      "id": 25,
+      "title": "46mm Tangerine Braided Solo Loop - Size 4",
+      "description": "A stretchable, comfortable watch band for Apple Watch, made from recycled materials.",
+      "colors": ["Tangerine", "Berry", "Canary Yellow", "Starlight", "Midnight"],
+      "price": "$99.00",
+      "status": "New",
+      "features": [
+        "Made from recycled polyester yarn",
+        "Stretchable design with no clasps or buckles",
+        "Breathable and lightweight"
+      ],
+      "compatibility": "Apple Watch (46mm case)",
+      "size": "Size 4",
+      "learnMoreLink": "https://www.apple.com/shop/product/MDLJ4AM/A/46mm-tangerine-braided-solo-loop-size-4",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDLE4ref?wid=532&hei=582&fmt=png-alpha&.v=VFU3NDB5ckZnNmJTbkNFelNnSWZaRkxrd3NRTzUwSGh2QVAzV3JWV0JLZmh6QUZBNlVUR2RYcjYyR2hPZE5xc2FXbGQ4Nlo0K0ZacUZSZk0zNGtRcXc"
+    },
+    {
+      "id": 26,
+      "title": "iPhone 16 Pro Max Silicone Case with MagSafe – Peony",
+      "description": "A protective silicone case with MagSafe compatibility, designed for iPhone 16 Pro Max.",
+      "colors": ["Peony", "Ultramarine", "Pink", "Black", "Starlight"],
+      "price": "$49.00",
+      "status": "New",
+      "features": [
+        "MagSafe compatible for easy accessory attachment",
+        "Soft microfiber lining",
+        "Protects against drops and scratches",
+        "Precise cutouts for buttons and ports"
+      ],
+      "compatibility": "iPhone 16 Pro Max",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDGW4?wid=532&hei=582&fmt=png-alpha&.v=dUxSSUhScXo5YlZoMk5rY1JKMmZFQUhqc0NvK2RZTVd5TWVhUDFuQlo0M0tQL093NHRGbHQwdTEwNGNqRldHSEJSc1NMVE9JVVFaR3h1NU84d3lseXc"
+    },
+    {
+      "id": 27,
+      "title": "Apple Pencil (USB-C)",
+      "description": "A precise and versatile tool for drawing, note-taking, and annotating on iPad.",
+      "price": "$79.00",
+      "features": [
+        "Pixel-perfect precision",
+        "Low latency",
+        "Tilt sensitivity",
+        "USB-C charging",
+        "Magnetically attaches to iPad for storage"
+      ],
+      "compatibility": "iPad models with USB-C connector",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MUWA3?wid=532&hei=582&fmt=png-alpha&.v=MWxxejZka05YVWIrWnl0NXZuUklYQUhqc0NvK2RZTVd5TWVhUDFuQlo0MGorUDVBOUI1cTBZQVBWUytzNUoxSEdTU21VeUx6cEpCL0VEQm9uN1FQSlE"
+    },
+    {
+      "id": 28,
+      "title": "Smart Folio for iPad (A16) - Lemonade",
+      "description": "A slim, protective cover for iPad with auto wake/sleep functionality.",
+      "colors": ["Lemonade", "Berry", "Black", "White", "Marine Blue", "Lavender"],
+      "price": "$79.00",
+      "status": "New",
+      "features": [
+        "Auto wake/sleep",
+        "Adjustable stand for viewing and typing",
+        "Protects front and back",
+        "Soft microfiber lining"
+      ],
+      "compatibility": "iPad (A16 models)",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDEN4?wid=532&hei=582&fmt=png-alpha&.v=WnlzL2dxaEVraHJvam5PNVl1ODVQUUhqc0NvK2RZTVd5TWVhUDFuQlo0M2xaSUF5TlhjbHFERCtLWTV0WkE5MzhSQkxPK2tTTGZITCtPNTNaWHhMcmc"
+    },
+    {
+      "id": 29,
+      "title": "Powerbeats Pro 2 – High-Performance Earbuds – Electric Orange",
+      "description": "High-performance earbuds designed for workouts, with secure fit and powerful sound.",
+      "colors": ["Electric Orange", "Black", "Ivory", "Navy", "Lava Red"],
+      "price": "$249.99",
+      "status": "New",
+      "features": [
+        "Adjustable, secure-fit ear hooks",
+        "Powerful bass-driven sound",
+        "Up to 9 hours of listening time",
+        "Sweat and water resistant",
+        "H1 chip for fast connectivity",
+        "Charging case provides up to 24 hours total battery"
+      ],
+      "connectivity": "Bluetooth 5.0",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX743?wid=532&hei=582&fmt=png-alpha&.v=bmNEdEd3NThUUHNaL1dOYW1OTldrZ0hqc0NvK2RZTVd5TWVhUDFuQlo0MkZWY0ZuZmVwS2NiOEIxS3A3OXE1T1QyellUSVo1T0Z6TlZPYlpiNkdPeFE"
+    },
+    {
+      "id": 30,
+      "title": "Satechi Magnetic Wallet Stand (MagSafe compatible)",
+      "description": "A sleek wallet and stand for iPhone, with MagSafe compatibility for secure attachment.",
+      "price": "$39.95",
+      "status": "Only at Apple",
+      "features": [
+        "MagSafe compatible",
+        "Holds up to 4 cards",
+        "Adjustable stand for hands-free viewing",
+        "Made from vegan leather"
+      ],
+      "compatibility": "iPhone models with MagSafe",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/HRE42?wid=532&hei=582&fmt=png-alpha&.v=VWoycTBhL2RHK1VoSkJaMDFOMHphUUhqc0NvK2RZTVd5TWVhUDFuQlo0MElVblNFQWl6b2FNSWNLWmJ1RlNuKzkzV2ZPelF6T2JuUUxXUlpaUitUaFE"
+    },
+    {
+      "id": 31,
+      "title": "Tech21 FlexPro Case for iPhone 16 (MagSafe Compatible)",
+      "description": "A durable case for iPhone 16 with MagSafe, offering enhanced drop protection.",
+      "colors": ["Smoke Black", "Blue", "Purple", "Pink"],
+      "price": "$54.95",
+      "features": [
+        "MagSafe compatible",
+        "Up to 16ft drop protection",
+        "Antimicrobial protection",
+        "Shock-absorbing materials"
+      ],
+      "compatibility": "iPhone 16",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/HRYD2?wid=532&hei=582&fmt=png-alpha&.v=d2J2K3RvN3lMWlFqYkxGTmhZemcrQUhqc0NvK2RZTVd5TWVhUDFuQlo0M3pzMVJvVml5M2V3bk55VzloR2lzVlBHOERzR25tYWJ6eWx4MUZLZjJsYkE"
+    },
+    {
+      "id": 32,
+      "title": "HidrateSpark PRO STEEL - 32 oz. Smart Water Bottle + Bonus Straw Lid",
+      "description": "A smart water bottle that tracks hydration and syncs with Apple Health.",
+      "colors": ["Brushed Steel", "Black"],
+      "price": "$79.95",
+      "status": "Only at Apple",
+      "features": [
+        "32 oz capacity",
+        "Tracks water intake via HidrateSpark app",
+        "Glows to remind you to drink",
+        "Syncs with Apple Health",
+        "Stainless steel, vacuum-insulated",
+        "Bonus straw lid included"
+      ],
+      "connectivity": "Bluetooth for app integration",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/HQ212?wid=532&hei=582&fmt=png-alpha&.v=akxRSlJ3VzhhNWpFTktod1Z6SWhmQUhqc0NvK2RZTVd5TWVhUDFuQlo0MjFySURGdlBnTHVCMk5vLzRGM0Q1cmJIczNDTG5CMm9GMEdmVGkrdm9mUkE"
+    },
+    {
+      "id": 33,
+      "title": "iPhone 16 Plus Silicone Case with MagSafe – Peony",
+      "description": "A protective silicone case with MagSafe compatibility, designed for iPhone 16 Plus.",
+      "colors": ["Peony", "Ultramarine", "Pink", "Black", "Starlight", "Berry", "Lemonade", "Deep Blue"],
+      "price": "$49.00",
+      "status": "New",
+      "features": [
+        "MagSafe compatible for easy accessory attachment",
+        "Soft microfiber lining",
+        "Protects against drops and scratches",
+        "Precise cutouts for buttons and ports"
+      ],
+      "compatibility": "iPhone 16 Plus",
+      "learnMoreLink": "https://www.apple.com/shop/product/MDGR4ZM/A/iphone-16-plus-silicone-case-with-magsafe-peony",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDGR4?wid=532&hei=582&fmt=png-alpha&.v=bXQvcU1lQTg0UStaSzdHb1dtZWoxQUhqc0NvK2RZTVd5TWVhUDFuQlo0MVptZG9ZaDhLMkJpN2ZaUituUFVMNHI0azhUYWliOU1iV0NuNnloZndPQlE"
+    },
+    {
+      "id": 34,
+      "title": "iPhone 16 Pro Clear Case with MagSafe",
+      "description": "A transparent case with MagSafe compatibility, designed to show off your iPhone 16 Pro.",
+      "price": "$49.00",
+      "features": [
+        "MagSafe compatible for easy accessory attachment",
+        "Scratch-resistant coating",
+        "Protects against drops and scratches",
+        "Precise cutouts for buttons and ports"
+      ],
+      "compatibility": "iPhone 16 Pro",
+      "learnMoreLink": "https://www.apple.com/shop/product/MA7E4ZM/A/iphone-16-pro-clear-case-with-magsafe",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MA7E4?wid=532&hei=582&fmt=png-alpha&.v=YUh1WmZPWkw0dEhkbkZIdTkvaEJEQUhqc0NvK2RZTVd5TWVhUDFuQlo0MkhoU3N5YWlZTnh5R3ZKWVM3RHkybU9wbjdVczVOaXdLa0tZc2FheFJSTHc"
+    },
+    {
+      "id": 35,
+      "title": "iPhone 16e Silicone Case – Winter Blue",
+      "description": "A sleek silicone case designed for iPhone 16e, offering protection with a soft-touch finish.",
+      "colors": ["Winter Blue", "Fuchsia", "Ultramarine", "Teal", "Pink", "Black"],
+      "price": "$39.00",
+      "status": "New",
+      "features": [
+        "Soft microfiber lining",
+        "Protects against drops and scratches",
+        "Precise cutouts for buttons and ports"
+      ],
+      "compatibility": "iPhone 16e",
+      "learnMoreLink": "https://www.apple.com/shop/product/MD3Q4ZM/A/iphone-16e-silicone-case-winter-blue",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3Q4?wid=532&hei=582&fmt=png-alpha&.v=anNmdTZ3NkgzbktVV0JyamhOd3J2QUhqc0NvK2RZTVd5TWVhUDFuQlo0MUpGT0J3WDRydHdiVWx6eGtJQmdHUGhpdm9UcXU4MWdiN05PY0xuS0dldlE"
+    },
+    {
+      "id": 36,
+      "title": "20W USB-C Power Adapter",
+      "description": "A compact charger for fast and efficient charging of Apple devices.",
+      "price": "$19.00",
+      "features": [
+        "20W USB-C power delivery",
+        "Fast charging for iPhone, iPad, and other USB-C devices",
+        "Compact design"
+      ],
+      "compatibility": "USB-C devices (iPhone, iPad, AirPods, etc.)",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MU7T2_GEO_US?wid=532&hei=582&fmt=png-alpha&.v=cklyYTlVbFU4YUxJOStkL3d4VC81Y25GeFlBNUZ4MVNzNjJzZFhYMTFSaTZCQ3ZaNVpXeUZlM1BTdlNzLzg3cnRDMW1IMkhCTFhlSitobVpJUit4UkE"
+    },
+    {
+      "id": 37,
+      "title": "MagSafe Charger (1 m)",
+      "description": "A wireless charger with MagSafe technology for perfect alignment and fast charging.",
+      "price": "$39.00",
+      "features": [
+        "MagSafe compatible for iPhone and AirPods",
+        "Up to 15W wireless charging",
+        "1-meter cable",
+        "Magnetic alignment for secure connection"
+      ],
+      "compatibility": "MagSafe-compatible iPhones and AirPods",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MX6X3?wid=532&hei=582&fmt=png-alpha&.v=cEREQmI5d0ZkMjBTemRHeUtYbzkwd0hqc0NvK2RZTVd5TWVhUDFuQlo0Mk9QbGR0ZS90T1VwbHFFY2prVTdaRGJYem5mRDNKN2VNT1ZsTnJnbGZCdXc"
+    },
+    {
+      "id": 38,
+      "title": "30W USB-C Power Adapter",
+      "description": "A powerful charger for fast charging of iPhone, iPad, MacBook Air, and other USB-C devices.",
+      "price": "$39.00",
+      "features": [
+        "30W USB-C power delivery",
+        "Fast charging for iPhone, iPad, and MacBook Air",
+        "Compact and portable design"
+      ],
+      "compatibility": "USB-C devices (iPhone, iPad, MacBook Air, etc.)",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MY1W2?wid=532&hei=582&fmt=png-alpha&.v=WmtPT0tNc1BWSWFEUHAyZDVEYlhjUUhqc0NvK2RZTVd5TWVhUDFuQlo0MC9odkFsWjJmY0NFd0dqSGJjRHVxN05tZi9mSlVFMVVVUDVTTFRWQk5SbGc"
+    },
+    {
+      "id": 39,
+      "title": "240W USB-C Charge Cable (2 m)",
+      "description": "A high-power USB-C cable for charging MacBook, iPad, and other USB-C devices.",
+      "colors": ["White", "Black Multi-Touch", "Ultramarine", "Pink", "Peony", "Berry", "Lemonade", "Deep Blue"],
+      "price": "$29.00",
+      "status": "New",
+      "features": [
+        "Supports up to 240W power delivery",
+        "2-meter length for flexibility",
+        "Durable woven design",
+        "USB-C to USB-C connectivity"
+      ],
+      "compatibility": "USB-C devices (MacBook, iPad, iPhone, etc.)",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MU2G3?wid=532&hei=582&fmt=png-alpha&.v=VDR6aHRWaDFmcExoSmNtMlQ5c0hoUUhqc0NvK2RZTVd5TWVhUDFuQlo0MTY0cUsvMVFmWHN5aHY2R05FejlZNWpLVGNQM2N0MHVnejA3TnZTdk9XMlE"
+    },
+    {
+      "id": 40,
+      "title": "iPhone FineWoven Wallet with MagSafe – Deep Blue",
+      "description": "A stylish wallet with MagSafe compatibility, designed to hold cards and attach to your iPhone.",
+      "price": "$59.00",
+      "features": [
+        "MagSafe compatible for secure attachment",
+        "Holds up to 3 cards",
+        "Made from sustainable FineWoven material",
+        "Supports Find My for locating the wallet"
+      ],
+      "compatibility": "MagSafe-compatible iPhones",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MA6X4?wid=532&hei=582&fmt=png-alpha&.v=dENrOElPODdPYVh2cE1KUXpuTXlMQUhqc0NvK2RZTVd5TWVhUDFuQlo0MElxMmF5V3ZMQ2hwYXNvMEM1N3F0K21jMmpSMDE2RHdHQ1ovUm1OaGFJZ0E"
+    },
+    {
+      "id": 41,
+      "title": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) – Rapid Red",
+      "description": "A durable USB-C cable for charging and syncing Beats devices and other USB-C products.",
+      "colors": ["Rapid Red", "Berry", "Lemonade", "Deep Blue"],
+      "price": "$18.99",
+      "features": [
+        "1.5-meter (5 ft) length",
+        "Durable woven design",
+        "Supports charging and data transfer",
+        "USB-C to USB-C connectivity"
+      ],
+      "compatibility": "USB-C devices (Beats, iPhone, iPad, etc.)",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDGF4?wid=532&hei=582&fmt=png-alpha&.v=eWVERlJSM0R0QkQ4RHNncmZKUG9zZ0hqc0NvK2RZTVd5TWVhUDFuQlo0M0VrNXNqTlNQNUdtb2t2b2tiZnR1eWQ3dmJ3eUJRTEtaWk1ON0ZoYUk4YXc"
+    },
+    {
+      "id": 42,
+      "title": "OtterBox Lumen Series Case with MagSafe for iPhone 16 Pro – Blue",
+      "description": "A protective case with MagSafe compatibility, designed for iPhone 16 Pro with a stylish design.",
+      "colors": ["Blue", "Pink", "Black", "Clear"],
+      "price": "$49.95",
+      "features": [
+        "MagSafe compatible for easy accessory attachment",
+        "Drop protection up to 10ft",
+        "Slim design with textured grip",
+        "Raised edges for screen and camera protection"
+      ],
+      "compatibility": "iPhone 16 Pro",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/HRTP2?wid=532&hei=582&fmt=png-alpha&.v=TjFmZU1sdDRsdWZiek5VTWxpblk0QUhqc0NvK2RZTVd5TWVhUDFuQlo0MTRuSDNQMExVelJMUEc5WVhjWmtkYmlnZUcyRkxKbVZTdjczcGlsaXRzSVE"
+    },
+    {
+      "id": 43,
+      "title": "46mm Periwinkle Sport Loop",
+      "description": "A lightweight, breathable sport loop for Apple Watch, made from a soft nylon weave.",
+      "colors": ["Periwinkle", "Pink", "Teal", "Black", "Starlight"],
+      "price": "$49.00",
+      "features": [
+        "Soft, breathable nylon weave",
+        "Hook-and-loop fastener for quick adjustment",
+        "Durable and sweat-resistant"
+      ],
+      "compatibility": "Apple Watch (46mm case)",
+      "learnMoreLink": "https://www.apple.com/shop/product/MDV54AM/A/46mm-periwinkle-sport-loop",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDV54?wid=532&hei=582&fmt=png-alpha&.v=WEFsc0twRGdlZk8rRDdNQUNPTTJLQUhqc0NvK2RZTVd5TWVhUDFuQlo0M1V0OFRXMXBKeWJVdGh0b28vdkJvVm1mMG52WEZxZ3VRV1dLL1pja1dtTUE"
+    },
+    {
+      "id": 44,
+      "title": "46mm Tangerine Sport Band - M/L",
+      "description": "A durable fluoroelastomer sport band for Apple Watch, offering comfort and style.",
+      "colors": ["Tangerine", "Berry", "Lemonade", "Deep Blue", "Black", "Starlight", "Pink"],
+      "price": "$49.00",
+      "status": "New",
+      "features": [
+        "Made from high-performance fluoroelastomer",
+        "Pin-and-tuck closure",
+        "Smooth, dense material",
+        "Sweat and water resistant"
+      ],
+      "compatibility": "Apple Watch (46mm case)",
+      "size": "Medium/Large",
+      "learnMoreLink": "https://www.apple.com/shop/product/MDT64AM/A/46mm-tangerine-sport-band-m-l",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDT54ref?wid=532&hei=582&fmt=png-alpha&.v=b3M5R09kYnh0WTExY0pHUFdsdVB6Vkxrd3NRTzUwSGh2QVAzV3JWV0JLZmh6QUZBNlVUR2RYcjYyR2hPZE5xc3FZQlh5Q2tFR2UyL3pvZEQyUGo1b0E"
+    },
+    {
+      "id": 45,
+      "title": "46mm Gold Link Bracelet",
+      "description": "A premium stainless steel link bracelet for Apple Watch, offering a sophisticated look.",
+      "colors": ["Gold", "Silver", "Black"],
+      "price": "$349.00",
+      "features": [
+        "Crafted from 316L stainless steel alloy",
+        "Custom butterfly closure",
+        "Adjustable links for a perfect fit",
+        "Polished finish"
+      ],
+      "compatibility": "Apple Watch (46mm case)",
+      "learnMoreLink": "https://www.apple.com/shop/product/MXMH3AM/A/46mm-gold-link-bracelet",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXMH3?wid=532&hei=582&fmt=png-alpha&.v=VnV6dmp1aEs0aWlFNG5wNldrRStEQUhqc0NvK2RZTVd5TWVhUDFuQlo0MzQ3RjF5QkFGbTlwZVExQU9xNlhrYjRNYzRQKzNFNmRnM2d0ekFYZ0tFV2c"
+    },
+    {
+      "id": 46,
+      "title": "49mm Black Titanium Milanese Loop - Medium",
+      "description": "A sleek titanium Milanese loop for Apple Watch, offering a modern, adjustable fit.",
+      "colors": ["Black Titanium", "Silver Titanium", "Natural Titanium", "Gold", "Black"],
+      "price": "$199.00",
+      "features": [
+        "Made from lightweight titanium",
+        "Magnetic closure for infinite adjustability",
+        "Breathable mesh design",
+        "Durable and corrosion-resistant"
+      ],
+      "compatibility": "Apple Watch (49mm case)",
+      "size": "Medium",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXKF3ref?wid=532&hei=582&fmt=png-alpha&.v=QnVJL1dxRnlQb1didk5Da01Rc24vbExrd3NRTzUwSGh2QVAzV3JWV0JLZXhNM2ptYzhXYXBPZTRtcUROcFZjcXlSY2tZL1g5YUVocHJETmVEakNEM0E"
+    },
+    {
+      "id": 47,
+      "title": "46mm Green/Grey Nike Sport Loop",
+      "description": "A breathable Nike sport loop for Apple Watch, designed for active lifestyles.",
+      "colors": ["Green/Grey", "Pink", "Black", "Starlight", "Midnight", "Berry", "Canary Yellow"],
+      "price": "$49.00",
+      "features": [
+        "Soft, breathable nylon weave",
+        "Hook-and-loop fastener for quick adjustment",
+        "Reflective thread for visibility",
+        "Sweat-resistant"
+      ],
+      "compatibility": "Apple Watch (46mm case)",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXU33?wid=532&hei=582&fmt=png-alpha&.v=WnVPRUx5UFJnRnhNSURad3dzdFMzd0hqc0NvK2RZTVd5TWVhUDFuQlo0MmkyWHAwZTYyQTdPcFlCVm1MQzg5dHN2T2JIZmJTMHJMYWE4UEVOeFdMSUE"
+    },
+    {
+      "id": 48,
+      "title": "46mm Peony Braided Solo Loop - Size 6",
+      "description": "A stretchable, comfortable braided solo loop for Apple Watch, made from recycled materials.",
+      "price": "$99.00",
+      "features": [
+        "Made from recycled polyester yarn",
+        "Stretchable design with no clasps or buckles",
+        "Breathable and lightweight"
+      ],
+      "compatibility": "Apple Watch (46mm case)",
+      "size": "Size 6",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDL04ref?wid=532&hei=582&fmt=png-alpha&.v=akxWbU5jTWwyL1ZXTUZqd1lLSGdVRkxrd3NRTzUwSGh2QVAzV3JWV0JLZmh6QUZBNlVUR2RYcjYyR2hPZE5xc2VXYXBSOTUrNzF3bTdHaWFwcks3Z3c"
+    },
+    {
+      "id": 49,
+      "title": "46mm Blackberry Magnetic Link - M/L",
+      "description": "A modern magnetic link band for Apple Watch, offering a secure and adjustable fit.",
+      "colors": ["Blackberry", "Silver", "Gold", "Natural Titanium", "Black Titanium"],
+      "price": "$99.00",
+      "features": [
+        "Magnetic closure for easy adjustment",
+        "Made from durable materials",
+        "Sleek, minimalist design"
+      ],
+      "compatibility": "Apple Watch (46mm case)",
+      "size": "Medium/Large",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXWT3ref?wid=532&hei=582&fmt=png-alpha&.v=UzMwL2l5bWUwamQ3M0dCK21uRjZMbExrd3NRTzUwSGh2QVAzV3JWV0JLZnZ6WnhlWSttQUJYcXFydm5JUndKcFhqMGVYOVhjVVZoU200M1NpaFp4cXc"
+    },
+    {
+      "id": 50,
+      "title": "46mm Natural Milanese Loop - M/L",
+      "description": "A classic Milanese loop for Apple Watch, offering a timeless look with an adjustable fit.",
+      "colors": ["Natural", "Black"],
+      "price": "$99.00",
+      "features": [
+        "Made from stainless steel mesh",
+        "Magnetic closure for infinite adjustability",
+        "Breathable and lightweight",
+        "Corrosion-resistant"
+      ],
+      "compatibility": "Apple Watch (46mm case)",
+      "size": "Medium/Large",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MC7J4ref?wid=532&hei=582&fmt=png-alpha&.v=REY1RzFvNnlWNC8raU1GTlJ3eTZlRkxrd3NRTzUwSGh2QVAzV3JWV0JLZnZ6WnhlWSttQUJYcXFydm5JUndKcDc2NTJlVWFrMWRYTFFDbzBOcWxzc3c"
+    },
+    {
+      "id": 51,
+      "title": "Apple Watch Hermès - 42mm Beige de Weimar/Blanc Bridon Attelage Double Tour",
+      "description": "A luxurious Hermès leather band for Apple Watch, featuring a double-tour design.",
+      "price": "$449.00",
+      "features": [
+        "Handcrafted Hermès leather",
+        "Double-tour design wraps twice around the wrist",
+        "Elegant and timeless style"
+      ],
+      "compatibility": "Apple Watch (42mm case)",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDFQ4?wid=532&hei=582&fmt=png-alpha&.v=TFcrMWFTMnZnb1lTb0FkTCtYMlArUUhqc0NvK2RZTVd5TWVhUDFuQlo0MC9kWnQ1cXYxMHQrYUw0U1FWZ1RzdzFFUStDSnBoUVFSQzlRV2tueVh0WkE"
+    },
+    {
+      "id": 52,
+      "title": "Apple Watch Hermès - 49mm Bleu Hydra En Mer",
+      "description": "A premium Hermès leather band for Apple Watch, featuring a nautical-inspired design.",
+      "colors": ["Bleu Hydra", "Natural"],
+      "price": "$449.00",
+      "features": [
+        "Handcrafted Hermès leather",
+        "Nautical-inspired design",
+        "Luxurious and durable"
+      ],
+      "compatibility": "Apple Watch (49mm case)",
+      "learnMoreLink": "",
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDFU4?wid=532&hei=582&fmt=png-alpha&.v=UWdmV3pLdGtRZDFWMnJtZlRyT054d0hqc0NvK2RZTVd5TWVhUDFuQlo0M3VUbVNjaUludWZpTTVhbFZNNW5ITEdjdlVsOGoxTTl4NVE5U0MycWI2clE"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

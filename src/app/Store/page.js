@@ -296,37 +296,37 @@ const Store = () => {
           >
             <SwiperSlide style={{ width: "100%", height: "auto" }}>
               <Link href="/Product">
-                <img src="/Images/Store-page-image/ss1.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "cover" }}></img>
+                <img src="/Images/Store-page-image/ss1.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "c" }}></img>
               </Link>
             </SwiperSlide>
             <SwiperSlide style={{ width: "100%", height: "auto" }}>
               <Link href="/Product">
-                <img src="/Images/Store-page-image/ss2.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "cover" }}></img>
+                <img src="/Images/Store-page-image/ss2.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "c" }}></img>
               </Link>
             </SwiperSlide>
             <SwiperSlide style={{ width: "100%", height: "auto" }}>
               <Link href="/Product">
-                <img src="/Images/Store-page-image/ss3.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "cover" }}></img>
+                <img src="/Images/Store-page-image/ss3.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "c" }}></img>
               </Link>
             </SwiperSlide>
             <SwiperSlide style={{ width: "100%", height: "auto" }}>
               <Link href="/Product">
-                <img src="/Images/Store-page-image/ss4.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "cover" }}></img>
+                <img src="/Images/Store-page-image/ss4.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "c" }}></img>
               </Link>
             </SwiperSlide>
             <SwiperSlide style={{ width: "100%", height: "auto" }}>
               <Link href="/Product">
-                <img src="/Images/Store-page-image/ss5.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "cover" }}></img>
+                <img src="/Images/Store-page-image/ss5.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "c" }}></img>
               </Link>
             </SwiperSlide>
             <SwiperSlide style={{ width: "100%", height: "auto" }}>
               <Link href="/Product">
-                <img src="/Images/Store-page-image/ss6.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "cover" }}></img>
+                <img src="/Images/Store-page-image/ss6.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "c" }}></img>
               </Link>
             </SwiperSlide>
             <SwiperSlide style={{ width: "100%", height: "auto" }}>
               <Link href="/Product">
-                <img src="/Images/Store-page-image/ss7.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "cover" }}></img>
+                <img src="/Images/Store-page-image/ss7.png" className='img-fluid' style={{ borderRadius: "20px", width: "100%", height: "600px", objectFit: "c" }}></img>
               </Link>
             </SwiperSlide>
           </Swiper>
