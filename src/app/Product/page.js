@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const ProductPage = () => {
   const [products, setProducts] = useState([]);
@@ -91,22 +92,24 @@ const ProductPage = () => {
 
   return (
     <div className="container py-5">
-      <h1 className="mb-4 text-center">Our Products</h1>
+      <h1 className="mb-5 text-center fw-semibold" style={{ fontSize: '2.5rem' }}>
+        Our Products
+      </h1>
 
-      {/* Search and Sort Controls */}
-      <div className="row mb-4">
-        <div className="col-md-6 mb-2">
+      {/* Search & Sort */}
+      <div className="row justify-content-center mb-5">
+        <div className="col-md-4 mb-2">
           <input
             type="text"
-            className="form-control"
-            placeholder="Search by product title..."
+            className="form-control rounded-pill px-4"
+            placeholder="Search products..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </div>
-        <div className="col-md-6 mb-2">
+        <div className="col-md-4 mb-2">
           <select
-            className="form-select"
+            className="form-select rounded-pill px-4"
             value={sortOption}
             onChange={(e) => setSortOption(e.target.value)}
           >
@@ -119,7 +122,8 @@ const ProductPage = () => {
         </div>
       </div>
 
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+      {/* Product Cards */}
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
         {filteredProducts.length === 0 ? (
           <div className="col text-center">
             <p className="text-muted">No products found.</p>
@@ -127,35 +131,34 @@ const ProductPage = () => {
         ) : (
           filteredProducts.map((product) => (
             <div key={product.id} className="col">
-              <div className="card h-100 shadow-sm">
+              <div className="card border-0 shadow-sm rounded-4 bg-white h-100 text-center p-4">
+
+                {/* Product Image */}
                 <img
                   src={product.productImage}
-                  className="card-img-top"
                   alt={product.title}
+                  className="mx-auto mb-3 img-fluid"
                   style={{ height: '200px', objectFit: 'contain' }}
                 />
-                <div className="card-body d-flex flex-column text-center">
-                  <h5 className="card-title">{product.title}</h5>
-                  <p className="card-text text-muted flex-grow-1">
-                    {product.description || 'No description available.'}
-                  </p>
-                  <p className="card-text fw-bold mb-3">{product.price}</p>
-                  <div className="d-grid gap-2 mt-auto">
-                    <button className="btn btn-primary">
-                      Add to Cart
-                    </button>
-                    <button className="btn btn-dark text-white">
-                      Buy Now
-                    </button>
-                  </div>
+
+                {/* Product Title */}
+                <h6 className="text-start
+                 fw-semibold mb-2">{product.title}</h6>
+
+                {/* Price & Button */}
+                <div className="d-flex justify-content-between align-items-center px-2 mt-auto">
+                  <h5 className="fw-bold text-dark mb-0">$ {product.price}</h5>
+                  <button className="btn btn-outline-dark btn-sm">
+                    <AiOutlineShoppingCart size={20}/>
+                  </button>
                 </div>
               </div>
             </div>
           ))
         )}
       </div>
-
     </div>
+
   );
 };
 

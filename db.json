@@ -92,7 +92,8 @@
         "space black",
         "silver"
       ],
-      "price": "999.00","      "monthly": "$83.25",
+      "price": "999.00",
+      "monthly": "$83.25",
       "display": "13” or 11” Ultra Retina XDR display",
       "displayFeatures": [
         "ProMotion technology",
@@ -127,7 +128,8 @@
         "purple",
         "starlight"
       ],
-      "price": "599.00","      "monthly": "$49.91",
+      "price": "599.00",
+      "monthly": "$49.91",
       "display": "13” or 11” Liquid Retina display",
       "displayFeatures": [
         "P3 wide color"
@@ -161,7 +163,8 @@
         "yellow",
         "silver"
       ],
-      "price": "349.00","      "monthly": "$29.08",
+      "price": "349.00",
+      "monthly": "$29.08",
       "display": "11” Liquid Retina display",
       "displayFeatures": [
         "sRGB color"
@@ -194,7 +197,8 @@
         "purple",
         "starlight"
       ],
-      "price": "499.00","      "monthly": "$41.58",
+      "price": "499.00",
+      "monthly": "$41.58",
       "display": "8.3” Liquid Retina display",
       "displayFeatures": [
         "P3 wide color"
@@ -227,7 +231,7 @@
         "Natural Titanium",
         "Desert Titanium"
       ],
-      "price": "rom $119".00",
+      "price": "119.00",
       "monthly": "Contact retailer for financing options",
       "display": "6.9-inch Super Retina XDR OLED display",
       "displayFeatures": [
@@ -401,7 +405,7 @@
         "Pink",
         "Black"
       ],
-      "price": "rom $799"00",
+      "price": "rom $799.00",
       "monthly": "Contact retailer for financing options",
       "display": "6.1-inch Super Retina XDR OLED display",
       "displayFeatures": [
@@ -562,7 +566,7 @@
         "Pink",
         "Black"
       ],
-      "price": "rom $699"00",
+      "price": "rom $699.00",
       "monthly": "Contact retailer for financing options",
       "display": "6.1-inch Super Retina XDR OLED display",
       "displayFeatures": [
@@ -716,7 +720,7 @@
         "Starlight",
         "Silver"
       ],
-      "price": "rom $249"00",
+      "price": "$249.00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "September 2022",
       "case": [
@@ -811,7 +815,7 @@
         "Gold",
         "Natural"
       ],
-      "price": "rom $399"00",
+      "price": "$399.00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "September 2024",
       "case": [
@@ -926,7 +930,7 @@
         "Black",
         "Natural"
       ],
-      "price": "rom $799"00",
+      "price": "$799.00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "September 2023 (updated color September 2024)",
       "case": [
@@ -1029,7 +1033,7 @@
       "colors": [
         "Silver"
       ],
-      "price": "rom $349".00",
+      "price": "$349.00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "February 2024",
       "storageOptions": [
@@ -1130,7 +1134,7 @@
         "Black Multi-Touch",
         "Silver Multi-Touch"
       ],
-      "price": "rom $129"00",
+      "price": "$129.00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "November 2022 (3rd generation)",
       "storageOptions": [
@@ -1201,7 +1205,7 @@
       "id": 19,
       "title": "Apple TV app",
       "description": "The Apple TV app brings together your favorite shows, movies, and sports in one place, with personalized recommendations.",
-      "price": "ree to d"wnload",
+      "price": "Free to Download",
       "releaseDate": "November 2016 (initial release)",
       "availability": [
         "Available on Apple devices (iPhone, iPad, Apple TV, Mac)",
@@ -1233,7 +1237,7 @@
       "id": 20,
       "title": "Apple TV+",
       "description": "A premium streaming service featuring award-winning Apple Originals, movies, and documentaries, ad-free and on demand.",
-      "price": "9.99 per"month",
+      "price": "9.99 per month",
       "releaseDate": "November 2019",
       "subscriptionDetails": [
         "Free trial available (duration varies by region)",
@@ -1272,7 +1276,8 @@
         "White",
         "Midnight"
       ],
-      "price": "299.00","      "monthly": "Contact retailer for financing options",
+      "price": "299.00",
+      "monthly": "Contact retailer for financing options",
       "releaseDate": "February 2023 (2nd generation)",
       "audioTechnology": [
         "High-excursion woofer with custom amplifier",
@@ -1337,7 +1342,7 @@
         "Blue"
       ],
       "price": "99.00",
-"     "monthly": "Contact retailer for financing options",
+      "monthly": "Contact retailer for financing options",
       "releaseDate": "November 2020",
       "audioTechnology": [
         "Full-range driver and dual passive radiators",
@@ -1398,7 +1403,7 @@
         "Black"
       ],
       "price": "39.00",
-"     "status": "New",
+      "status": "New",
       "features": [
         "Soft microfiber lining",
         "Precise cutouts for buttons and ports",
@@ -1412,7 +1417,8 @@
       "id": 24,
       "title": "AirPods 4 with Active Noise Cancellation",
       "description": "The latest AirPods with Active Noise Cancellation, delivering immersive sound and personalized Spatial Audio.",
-      "price": "179.00","      "status": "Free Engraving",
+      "price": "179.00",
+      "status": "Free Engraving",
       "features": [
         "Active Noise Cancellation",
         "Personalized Spatial Audio with dynamic head tracking",
@@ -1441,7 +1447,7 @@
         "Midnight"
       ],
       "price": "99.00",
-"     "status": "New",
+      "status": "New",
       "features": [
         "Made from recycled polyester yarn",
         "Stretchable design with no clasps or buckles",
@@ -1464,7 +1470,7 @@
         "Starlight"
       ],
       "price": "49.00",
-"     "status": "New",
+      "status": "New",
       "features": [
         "MagSafe compatible for easy accessory attachment",
         "Soft microfiber lining",
@@ -1480,7 +1486,7 @@
       "title": "Apple Pencil (USB-C)",
       "description": "A precise and versatile tool for drawing, note-taking, and annotating on iPad.",
       "price": "79.00",
-"     "features": [
+      "features": [
         "Pixel-perfect precision",
         "Low latency",
         "Tilt sensitivity",
@@ -1504,7 +1510,7 @@
         "Lavender"
       ],
       "price": "79.00",
-"     "status": "New",
+      "status": "New",
       "features": [
         "Auto wake/sleep",
         "Adjustable stand for viewing and typing",
@@ -1526,7 +1532,8 @@
         "Navy",
         "Lava Red"
       ],
-      "price": "249.99","      "status": "New",
+      "price": "249.99",
+      "status": "New",
       "features": [
         "Adjustable, secure-fit ear hooks",
         "Powerful bass-driven sound",
@@ -1544,7 +1551,7 @@
       "title": "Satechi Magnetic Wallet Stand (MagSafe compatible)",
       "description": "A sleek wallet and stand for iPhone, with MagSafe compatibility for secure attachment.",
       "price": "39.95",
-"     "status": "Only at Apple",
+      "status": "Only at Apple",
       "features": [
         "MagSafe compatible",
         "Holds up to 4 cards",
@@ -1566,7 +1573,7 @@
         "Pink"
       ],
       "price": "54.95",
-"     "features": [
+      "features": [
         "MagSafe compatible",
         "Up to 16ft drop protection",
         "Antimicrobial protection",
@@ -1585,7 +1592,7 @@
         "Black"
       ],
       "price": "79.95",
-"     "status": "Only at Apple",
+      "status": "Only at Apple",
       "features": [
         "32 oz capacity",
         "Tracks water intake via HidrateSpark app",
@@ -1613,7 +1620,7 @@
         "Deep Blue"
       ],
       "price": "49.00",
-"     "status": "New",
+      "status": "New",
       "features": [
         "MagSafe compatible for easy accessory attachment",
         "Soft microfiber lining",
@@ -1629,7 +1636,7 @@
       "title": "iPhone 16 Pro Clear Case with MagSafe",
       "description": "A transparent case with MagSafe compatibility, designed to show off your iPhone 16 Pro.",
       "price": "49.00",
-"     "features": [
+      "features": [
         "MagSafe compatible for easy accessory attachment",
         "Scratch-resistant coating",
         "Protects against drops and scratches",
@@ -1652,7 +1659,7 @@
         "Black"
       ],
       "price": "39.00",
-"     "status": "New",
+      "status": "New",
       "features": [
         "Soft microfiber lining",
         "Protects against drops and scratches",
@@ -1667,7 +1674,7 @@
       "title": "20W USB-C Power Adapter",
       "description": "A compact charger for fast and efficient charging of Apple devices.",
       "price": "19.00",
-"     "features": [
+      "features": [
         "20W USB-C power delivery",
         "Fast charging for iPhone, iPad, and other USB-C devices",
         "Compact design"
@@ -1681,7 +1688,7 @@
       "title": "MagSafe Charger (1 m)",
       "description": "A wireless charger with MagSafe technology for perfect alignment and fast charging.",
       "price": "39.00",
-"     "features": [
+      "features": [
         "MagSafe compatible for iPhone and AirPods",
         "Up to 15W wireless charging",
         "1-meter cable",
@@ -1696,7 +1703,7 @@
       "title": "30W USB-C Power Adapter",
       "description": "A powerful charger for fast charging of iPhone, iPad, MacBook Air, and other USB-C devices.",
       "price": "39.00",
-"     "features": [
+      "features": [
         "30W USB-C power delivery",
         "Fast charging for iPhone, iPad, and MacBook Air",
         "Compact and portable design"
@@ -1720,7 +1727,7 @@
         "Deep Blue"
       ],
       "price": "29.00",
-"     "status": "New",
+      "status": "New",
       "features": [
         "Supports up to 240W power delivery",
         "2-meter length for flexibility",
@@ -1736,7 +1743,7 @@
       "title": "iPhone FineWoven Wallet with MagSafe – Deep Blue",
       "description": "A stylish wallet with MagSafe compatibility, designed to hold cards and attach to your iPhone.",
       "price": "59.00",
-"     "features": [
+      "features": [
         "MagSafe compatible for secure attachment",
         "Holds up to 3 cards",
         "Made from sustainable FineWoven material",
@@ -1757,7 +1764,7 @@
         "Deep Blue"
       ],
       "price": "18.99",
-"     "features": [
+      "features": [
         "1.5-meter (5 ft) length",
         "Durable woven design",
         "Supports charging and data transfer",
@@ -1778,7 +1785,7 @@
         "Clear"
       ],
       "price": "49.95",
-"     "features": [
+      "features": [
         "MagSafe compatible for easy accessory attachment",
         "Drop protection up to 10ft",
         "Slim design with textured grip",
@@ -1800,7 +1807,7 @@
         "Starlight"
       ],
       "price": "49.00",
-"     "features": [
+      "features": [
         "Soft, breathable nylon weave",
         "Hook-and-loop fastener for quick adjustment",
         "Durable and sweat-resistant"
@@ -1823,7 +1830,7 @@
         "Pink"
       ],
       "price": "49.00",
-"     "status": "New",
+      "status": "New",
       "features": [
         "Made from high-performance fluoroelastomer",
         "Pin-and-tuck closure",
@@ -1844,7 +1851,8 @@
         "Silver",
         "Black"
       ],
-      "price": "349.00","      "features": [
+      "price": "349.00",
+      "features": [
         "Crafted from 316L stainless steel alloy",
         "Custom butterfly closure",
         "Adjustable links for a perfect fit",
@@ -1865,7 +1873,8 @@
         "Gold",
         "Black"
       ],
-      "price": "199.00","      "features": [
+      "price": "199.00",
+      "features": [
         "Made from lightweight titanium",
         "Magnetic closure for infinite adjustability",
         "Breathable mesh design",
@@ -1890,7 +1899,7 @@
         "Canary Yellow"
       ],
       "price": "49.00",
-"     "features": [
+      "features": [
         "Soft, breathable nylon weave",
         "Hook-and-loop fastener for quick adjustment",
         "Reflective thread for visibility",
@@ -1905,7 +1914,7 @@
       "title": "46mm Peony Braided Solo Loop - Size 6",
       "description": "A stretchable, comfortable braided solo loop for Apple Watch, made from recycled materials.",
       "price": "99.00",
-"     "features": [
+      "features": [
         "Made from recycled polyester yarn",
         "Stretchable design with no clasps or buckles",
         "Breathable and lightweight"
@@ -1927,7 +1936,7 @@
         "Black Titanium"
       ],
       "price": "99.00",
-"     "features": [
+      "features": [
         "Magnetic closure for easy adjustment",
         "Made from durable materials",
         "Sleek, minimalist design"
@@ -1946,7 +1955,7 @@
         "Black"
       ],
       "price": "99.00",
-"     "features": [
+      "features": [
         "Made from stainless steel mesh",
         "Magnetic closure for infinite adjustability",
         "Breathable and lightweight",
@@ -1961,7 +1970,8 @@
       "id": 51,
       "title": "Apple Watch Hermès - 42mm Beige de Weimar/Blanc Bridon Attelage Double Tour",
       "description": "A luxurious Hermès leather band for Apple Watch, featuring a double-tour design.",
-      "price": "449.00","      "features": [
+      "price": "449.00",
+      "features": [
         "Handcrafted Hermès leather",
         "Double-tour design wraps twice around the wrist",
         "Elegant and timeless style"
@@ -1978,7 +1988,8 @@
         "Bleu Hydra",
         "Natural"
       ],
-      "price": "449.00","      "features": [
+      "price": "449.00",
+      "features": [
         "Handcrafted Hermès leather",
         "Nautical-inspired design",
         "Luxurious and durable"
