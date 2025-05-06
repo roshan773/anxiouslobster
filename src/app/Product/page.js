@@ -148,7 +148,7 @@ const ProductPage = () => {
                 {/* Price & Button */}
                 <div className="d-flex justify-content-between align-items-center px-2 mt-auto">
                   <h5 className="fw-bold text-dark mb-0">$ {product.price}</h5>
-                  <button className="btn btn-outline-dark btn-sm">
+                  <button className="btn btn-primary btn-sm">
                     <AiOutlineShoppingCart size={20}/>
                   </button>
                 </div>
