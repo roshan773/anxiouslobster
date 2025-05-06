@@ -7,8 +7,12 @@ import { TbMenu } from 'react-icons/tb';
 import { IoBagOutline } from 'react-icons/io5';
 import { IoIosSearch } from 'react-icons/io';
 import { BsApple } from "react-icons/bs";
+import { useCart } from '@/context/CartContext';
 
 export const Navbar = () => {
+
+  const { cartCount } = useCart();
+
   useEffect(() => {
     import('bootstrap/dist/js/bootstrap.bundle.min.js');
   }, []);
@@ -19,7 +23,7 @@ export const Navbar = () => {
         <nav className="navbar-expand-lg container px-3 px-md-4">
           {/* Logo */}
           <Link href="/" className="navbar-brand me-3">
-            <BsApple width={17} height={17}/>
+            <BsApple width={17} height={17} />
           </Link>
 
           {/* Icons for small screens */}
@@ -27,7 +31,14 @@ export const Navbar = () => {
             <button className="btn p-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Open search">
               <IoIosSearch size={20} />
             </button>
-            <IoBagOutline size={20} className="me-3" />
+            <Link href="/cart" className="btn btn-outline-light position-relative">
+              <IoBagOutline size={20} className="me-3" />
+              {cartCount > 0 && (
+                <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  {cartCount}
+                </span>
+              )}
+            </Link>
           </div>
 
           {/* Toggler */}
@@ -86,7 +97,14 @@ export const Navbar = () => {
               <button className="btn p-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Open search">
                 <IoIosSearch size={20} />
               </button>
-              <IoBagOutline size={20} className="me-3" />
+              <Link href="/cart" className="btn btn-outline-light position-relative">
+                <IoBagOutline size={20} className="me-3" />
+                {cartCount > 0 && (
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    {cartCount}
+                  </span>
+                )}
+              </Link>
             </div>
           </div>
         </nav>

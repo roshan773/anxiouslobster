@@ -6,10 +6,11 @@
       "finish": "Select a finish",
       "specs": "10-Core CPU\n10-Core GPU\n16GB Unified Memory\n512GB SSD Storage¹",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=UGhGV2V3SjNQb2Y0ekhXdW9ZOTZKVWNHU3dTWTNSMWRkQzZWaWhFVC9pL1RmMUFhaXkzWVI4b3hpbGUzQlh3YTJQNzFKaURON0I0cmR1S0VldldDalE",
+      "description": "16-core Neural Engine14-inch Liquid Retina XDR display² Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port Magic Keyboard with Touch ID Force Touch trackpad70W USB-C Power Adapter",
       "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
       "ports": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
       "adapter": "70W USB-C Power Adapter",
-      "price": "$1,599.00",
+      "price": "1,599.00",
       "monthly": "$133.25",
       "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
     },
@@ -19,10 +20,11 @@
       "finish": "Select a finish",
       "specs": "10-Core CPU\n10-Core GPU\n16GB Unified Memory\n1TB SSD Storage¹",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=UGhGV2V3SjNQb2Y0ekhXdW9ZOTZKVWNHU3dTWTNSMWRkQzZWaWhFVC9pL1RmMUFhaXkzWVI4b3hpbGUzQlh3YTJQNzFKaURON0I0cmR1S0VldldDalE",
+      "description": "16-core Neural Engine14-inch Liquid Retina XDR display² Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port Magic Keyboard with Touch ID Force Touch trackpad70W USB-C Power Adapter",
       "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
       "ports": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
       "adapter": "70W USB-C Power Adapter",
-      "price": "$1,799.00",
+      "price": "1,799.00",
       "monthly": "$149.91",
       "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
     },
@@ -32,10 +34,11 @@
       "finish": "Select a finish",
       "specs": "10-Core CPU\n10-Core GPU\n24GB Unified Memory\n1TB SSD Storage¹",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=UGhGV2V3SjNQb2Y0ekhXdW9ZOTZKVWNHU3dTWTNSMWRkQzZWaWhFVC9pL1RmMUFhaXkzWVI4b3hpbGUzQlh3YTJQNzFKaURON0I0cmR1S0VldldDalE",
+      "description": "16-core Neural Engine14-inch Liquid Retina XDR display² Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port Magic Keyboard with Touch ID Force Touch trackpad70W USB-C Power Adapter",
       "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
       "ports": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
       "adapter": "70W USB-C Power Adapter",
-      "price": "$1,999.00",
+      "price": "1,999.00",
       "monthly": "$166.58",
       "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
     },
@@ -46,9 +49,10 @@
       "specs": "12-Core CPU\n16-Core GPU\n24GB Unified Memory\n512GB SSD Storage¹",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-pro-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=bVRMV25FL051RmxLTFQ2Rm14WkxqRU1UYVpLZHRIc2JldmRzTDMveHM3bkVxN0pzeW13QkRucy9tc3lENmlQZ0hoWEJZR2dXOTZCN3M1VE9oMER1ZUh2TkdjRkkyaGNCSjhXd3lmNGJKcms",
       "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "description": "16-core Neural Engine14-inch Liquid Retina XDR display² Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port Magic Keyboard with Touch ID Force Touch trackpad70W USB-C Power Adapter",
       "ports": "Three Thunderbolt 5 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
       "adapter": "70W USB-C Power Adapter",
-      "price": "$1,999.00",
+      "price": "1,999.00",
       "monthly": "$166.58",
       "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
     },
@@ -59,9 +63,10 @@
       "specs": "14-Core CPU\n20-Core GPU\n24GB Unified Memory\n1TB SSD Storage¹",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-pro-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=bVRMV25FL051RmxLTFQ2Rm14WkxqRU1UYVpLZHRIc2JldmRzTDMveHM3bkVxN0pzeW13QkRucy9tc3lENmlQZ0hoWEJZR2dXOTZCN3M1VE9oMER1ZUh2TkdjRkkyaGNCSjhXd3lmNGJKcms",
       "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "description": "16-core Neural Engine14-inch Liquid Retina XDR display² Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port Magic Keyboard with Touch ID Force Touch trackpad70W USB-C Power Adapter",
       "ports": "Three Thunderbolt 5 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
       "adapter": "96W USB-C Power Adapter",
-      "price": "$2,399.00",
+      "price": "2,399.00",
       "monthly": "$199.91",
       "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
     },
@@ -72,9 +77,10 @@
       "specs": "14-Core CPU\n32-Core GPU\n36GB Unified Memory\n1TB SSD Storage¹",
       "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/m4-max-icon-202410?wid=102&hei=102&fmt=png-alpha&.v=TTdSNlFaTEU3MEJwNFZ3ZTBRMnNQME1UYVpLZHRIc2JldmRzTDMveHM3bkVxN0pzeW13QkRucy9tc3lENmlQZ0luNXBOVkJyR01NckxPalVrLzBCVkxtM3o5YWxwSmVFclU0OFZ5T2NZS0U",
       "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/mbp14-spaceblack-select-202410?wid=904&hei=840&fmt=jpeg&qlt=90&.v=YnlWZDdpMFo0bUpJZnBpZjhKM2M3VGhTSEZFNjlmT2xUUDNBTjljV1BxWVk4UDMvOWNCVUEyZk1VN2FtQlpZWXZvdUZlR0V0VUdJSjBWaDVNVG95Yk15Y0c3T3Y4UWZwZExHUFdTUC9lN28",
+      "description": "16-core Neural Engine14-inch Liquid Retina XDR display² Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port Magic Keyboard with Touch ID Force Touch trackpad70W USB-C Power Adapter",
       "ports": "Three Thunderbolt 5 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port",
       "adapter": "96W USB-C Power Adapter",
-      "price": "$3,199.00",
+      "price": "3,199.00",
       "monthly": "$266.58",
       "class": "colornav list-title dd-invert-classic rc-productbundle-specs-list 3 rc-productbundle-specs-list 6 rc-prices-fullprice rc-prices-currentprice a11y"
     },
@@ -86,8 +92,7 @@
         "space black",
         "silver"
       ],
-      "price": "$999.00",
-      "monthly": "$83.25",
+      "price": "999.00","      "monthly": "$83.25",
       "display": "13” or 11” Ultra Retina XDR display",
       "displayFeatures": [
         "ProMotion technology",
@@ -122,8 +127,7 @@
         "purple",
         "starlight"
       ],
-      "price": "$599.00",
-      "monthly": "$49.91",
+      "price": "599.00","      "monthly": "$49.91",
       "display": "13” or 11” Liquid Retina display",
       "displayFeatures": [
         "P3 wide color"
@@ -157,8 +161,7 @@
         "yellow",
         "silver"
       ],
-      "price": "$349.00",
-      "monthly": "$29.08",
+      "price": "349.00","      "monthly": "$29.08",
       "display": "11” Liquid Retina display",
       "displayFeatures": [
         "sRGB color"
@@ -191,8 +194,7 @@
         "purple",
         "starlight"
       ],
-      "price": "$499.00",
-      "monthly": "$41.58",
+      "price": "499.00","      "monthly": "$41.58",
       "display": "8.3” Liquid Retina display",
       "displayFeatures": [
         "P3 wide color"
@@ -225,7 +227,7 @@
         "Natural Titanium",
         "Desert Titanium"
       ],
-      "price": "From $1199.00",
+      "price": "rom $119".00",
       "monthly": "Contact retailer for financing options",
       "display": "6.9-inch Super Retina XDR OLED display",
       "displayFeatures": [
@@ -399,7 +401,7 @@
         "Pink",
         "Black"
       ],
-      "price": "From $799.00",
+      "price": "rom $799"00",
       "monthly": "Contact retailer for financing options",
       "display": "6.1-inch Super Retina XDR OLED display",
       "displayFeatures": [
@@ -560,7 +562,7 @@
         "Pink",
         "Black"
       ],
-      "price": "From $699.00",
+      "price": "rom $699"00",
       "monthly": "Contact retailer for financing options",
       "display": "6.1-inch Super Retina XDR OLED display",
       "displayFeatures": [
@@ -714,7 +716,7 @@
         "Starlight",
         "Silver"
       ],
-      "price": "From $249.00",
+      "price": "rom $249"00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "September 2022",
       "case": [
@@ -809,7 +811,7 @@
         "Gold",
         "Natural"
       ],
-      "price": "From $399.00",
+      "price": "rom $399"00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "September 2024",
       "case": [
@@ -924,7 +926,7 @@
         "Black",
         "Natural"
       ],
-      "price": "From $799.00",
+      "price": "rom $799"00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "September 2023 (updated color September 2024)",
       "case": [
@@ -1024,11 +1026,17 @@
       "id": 17,
       "title": "Apple Vision Pro",
       "description": "Apple’s first spatial computer, seamlessly blending digital content with your physical space for immersive experiences in work, entertainment, and collaboration.",
-      "colors": ["Silver"],
-      "price": "From $3499.00",
+      "colors": [
+        "Silver"
+      ],
+      "price": "rom $349".00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "February 2024",
-      "storageOptions": ["256GB", "512GB", "1TB"],
+      "storageOptions": [
+        "256GB",
+        "512GB",
+        "1TB"
+      ],
       "display": "Dual micro-OLED displays",
       "displayFeatures": [
         "23 million pixels total",
@@ -1118,11 +1126,17 @@
       "id": 18,
       "title": "Apple TV 4K",
       "description": "The ultimate way to watch TV, with 4K HDR, Dolby Atmos sound, and the best of Apple TV app and Apple TV+.",
-      "colors": ["Black Multi-Touch", "Silver Multi-Touch"],
-      "price": "From $129.00",
+      "colors": [
+        "Black Multi-Touch",
+        "Silver Multi-Touch"
+      ],
+      "price": "rom $129"00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "November 2022 (3rd generation)",
-      "storageOptions": ["64GB", "128GB"],
+      "storageOptions": [
+        "64GB",
+        "128GB"
+      ],
       "displaySupport": [
         "4K resolution (3840 x 2160)",
         "HDR10, Dolby Vision, HLG",
@@ -1187,7 +1201,7 @@
       "id": 19,
       "title": "Apple TV app",
       "description": "The Apple TV app brings together your favorite shows, movies, and sports in one place, with personalized recommendations.",
-      "price": "Free to download",
+      "price": "ree to d"wnload",
       "releaseDate": "November 2016 (initial release)",
       "availability": [
         "Available on Apple devices (iPhone, iPad, Apple TV, Mac)",
@@ -1219,7 +1233,7 @@
       "id": 20,
       "title": "Apple TV+",
       "description": "A premium streaming service featuring award-winning Apple Originals, movies, and documentaries, ad-free and on demand.",
-      "price": "$9.99 per month",
+      "price": "9.99 per"month",
       "releaseDate": "November 2019",
       "subscriptionDetails": [
         "Free trial available (duration varies by region)",
@@ -1254,9 +1268,11 @@
       "id": 21,
       "title": "HomePod",
       "description": "A powerful smart speaker delivering room-filling sound with Spatial Audio, Siri, and smart home control.",
-      "colors": ["White", "Midnight"],
-      "price": "$299.00",
-      "monthly": "Contact retailer for financing options",
+      "colors": [
+        "White",
+        "Midnight"
+      ],
+      "price": "299.00","      "monthly": "Contact retailer for financing options",
       "releaseDate": "February 2023 (2nd generation)",
       "audioTechnology": [
         "High-excursion woofer with custom amplifier",
@@ -1313,9 +1329,15 @@
       "id": 22,
       "title": "HomePod mini",
       "description": "A compact smart speaker with surprising sound, Siri, and smart home capabilities.",
-      "colors": ["White", "Space Gray", "Yellow", "Orange", "Blue"],
-      "price": "$99.00",
-      "monthly": "Contact retailer for financing options",
+      "colors": [
+        "White",
+        "Space Gray",
+        "Yellow",
+        "Orange",
+        "Blue"
+      ],
+      "price": "99.00",
+"     "monthly": "Contact retailer for financing options",
       "releaseDate": "November 2020",
       "audioTechnology": [
         "Full-range driver and dual passive radiators",
@@ -1368,9 +1390,15 @@
       "id": 23,
       "title": "iPhone 16e Silicone Case – Fuchsia",
       "description": "A sleek silicone case designed for iPhone 16e, offering protection with a soft-touch finish.",
-      "colors": ["Fuchsia", "Ultramarine", "Teal", "Pink", "Black"],
-      "price": "$39.00",
-      "status": "New",
+      "colors": [
+        "Fuchsia",
+        "Ultramarine",
+        "Teal",
+        "Pink",
+        "Black"
+      ],
+      "price": "39.00",
+"     "status": "New",
       "features": [
         "Soft microfiber lining",
         "Precise cutouts for buttons and ports",
@@ -1384,8 +1412,7 @@
       "id": 24,
       "title": "AirPods 4 with Active Noise Cancellation",
       "description": "The latest AirPods with Active Noise Cancellation, delivering immersive sound and personalized Spatial Audio.",
-      "price": "$179.00",
-      "status": "Free Engraving",
+      "price": "179.00","      "status": "Free Engraving",
       "features": [
         "Active Noise Cancellation",
         "Personalized Spatial Audio with dynamic head tracking",
@@ -1406,9 +1433,15 @@
       "id": 25,
       "title": "46mm Tangerine Braided Solo Loop - Size 4",
       "description": "A stretchable, comfortable watch band for Apple Watch, made from recycled materials.",
-      "colors": ["Tangerine", "Berry", "Canary Yellow", "Starlight", "Midnight"],
-      "price": "$99.00",
-      "status": "New",
+      "colors": [
+        "Tangerine",
+        "Berry",
+        "Canary Yellow",
+        "Starlight",
+        "Midnight"
+      ],
+      "price": "99.00",
+"     "status": "New",
       "features": [
         "Made from recycled polyester yarn",
         "Stretchable design with no clasps or buckles",
@@ -1423,9 +1456,15 @@
       "id": 26,
       "title": "iPhone 16 Pro Max Silicone Case with MagSafe – Peony",
       "description": "A protective silicone case with MagSafe compatibility, designed for iPhone 16 Pro Max.",
-      "colors": ["Peony", "Ultramarine", "Pink", "Black", "Starlight"],
-      "price": "$49.00",
-      "status": "New",
+      "colors": [
+        "Peony",
+        "Ultramarine",
+        "Pink",
+        "Black",
+        "Starlight"
+      ],
+      "price": "49.00",
+"     "status": "New",
       "features": [
         "MagSafe compatible for easy accessory attachment",
         "Soft microfiber lining",
@@ -1440,8 +1479,8 @@
       "id": 27,
       "title": "Apple Pencil (USB-C)",
       "description": "A precise and versatile tool for drawing, note-taking, and annotating on iPad.",
-      "price": "$79.00",
-      "features": [
+      "price": "79.00",
+"     "features": [
         "Pixel-perfect precision",
         "Low latency",
         "Tilt sensitivity",
@@ -1456,9 +1495,16 @@
       "id": 28,
       "title": "Smart Folio for iPad (A16) - Lemonade",
       "description": "A slim, protective cover for iPad with auto wake/sleep functionality.",
-      "colors": ["Lemonade", "Berry", "Black", "White", "Marine Blue", "Lavender"],
-      "price": "$79.00",
-      "status": "New",
+      "colors": [
+        "Lemonade",
+        "Berry",
+        "Black",
+        "White",
+        "Marine Blue",
+        "Lavender"
+      ],
+      "price": "79.00",
+"     "status": "New",
       "features": [
         "Auto wake/sleep",
         "Adjustable stand for viewing and typing",
@@ -1473,9 +1519,14 @@
       "id": 29,
       "title": "Powerbeats Pro 2 – High-Performance Earbuds – Electric Orange",
       "description": "High-performance earbuds designed for workouts, with secure fit and powerful sound.",
-      "colors": ["Electric Orange", "Black", "Ivory", "Navy", "Lava Red"],
-      "price": "$249.99",
-      "status": "New",
+      "colors": [
+        "Electric Orange",
+        "Black",
+        "Ivory",
+        "Navy",
+        "Lava Red"
+      ],
+      "price": "249.99","      "status": "New",
       "features": [
         "Adjustable, secure-fit ear hooks",
         "Powerful bass-driven sound",
@@ -1492,8 +1543,8 @@
       "id": 30,
       "title": "Satechi Magnetic Wallet Stand (MagSafe compatible)",
       "description": "A sleek wallet and stand for iPhone, with MagSafe compatibility for secure attachment.",
-      "price": "$39.95",
-      "status": "Only at Apple",
+      "price": "39.95",
+"     "status": "Only at Apple",
       "features": [
         "MagSafe compatible",
         "Holds up to 4 cards",
@@ -1508,9 +1559,14 @@
       "id": 31,
       "title": "Tech21 FlexPro Case for iPhone 16 (MagSafe Compatible)",
       "description": "A durable case for iPhone 16 with MagSafe, offering enhanced drop protection.",
-      "colors": ["Smoke Black", "Blue", "Purple", "Pink"],
-      "price": "$54.95",
-      "features": [
+      "colors": [
+        "Smoke Black",
+        "Blue",
+        "Purple",
+        "Pink"
+      ],
+      "price": "54.95",
+"     "features": [
         "MagSafe compatible",
         "Up to 16ft drop protection",
         "Antimicrobial protection",
@@ -1524,9 +1580,12 @@
       "id": 32,
       "title": "HidrateSpark PRO STEEL - 32 oz. Smart Water Bottle + Bonus Straw Lid",
       "description": "A smart water bottle that tracks hydration and syncs with Apple Health.",
-      "colors": ["Brushed Steel", "Black"],
-      "price": "$79.95",
-      "status": "Only at Apple",
+      "colors": [
+        "Brushed Steel",
+        "Black"
+      ],
+      "price": "79.95",
+"     "status": "Only at Apple",
       "features": [
         "32 oz capacity",
         "Tracks water intake via HidrateSpark app",
@@ -1543,9 +1602,18 @@
       "id": 33,
       "title": "iPhone 16 Plus Silicone Case with MagSafe – Peony",
       "description": "A protective silicone case with MagSafe compatibility, designed for iPhone 16 Plus.",
-      "colors": ["Peony", "Ultramarine", "Pink", "Black", "Starlight", "Berry", "Lemonade", "Deep Blue"],
-      "price": "$49.00",
-      "status": "New",
+      "colors": [
+        "Peony",
+        "Ultramarine",
+        "Pink",
+        "Black",
+        "Starlight",
+        "Berry",
+        "Lemonade",
+        "Deep Blue"
+      ],
+      "price": "49.00",
+"     "status": "New",
       "features": [
         "MagSafe compatible for easy accessory attachment",
         "Soft microfiber lining",
@@ -1560,8 +1628,8 @@
       "id": 34,
       "title": "iPhone 16 Pro Clear Case with MagSafe",
       "description": "A transparent case with MagSafe compatibility, designed to show off your iPhone 16 Pro.",
-      "price": "$49.00",
-      "features": [
+      "price": "49.00",
+"     "features": [
         "MagSafe compatible for easy accessory attachment",
         "Scratch-resistant coating",
         "Protects against drops and scratches",
@@ -1575,9 +1643,16 @@
       "id": 35,
       "title": "iPhone 16e Silicone Case – Winter Blue",
       "description": "A sleek silicone case designed for iPhone 16e, offering protection with a soft-touch finish.",
-      "colors": ["Winter Blue", "Fuchsia", "Ultramarine", "Teal", "Pink", "Black"],
-      "price": "$39.00",
-      "status": "New",
+      "colors": [
+        "Winter Blue",
+        "Fuchsia",
+        "Ultramarine",
+        "Teal",
+        "Pink",
+        "Black"
+      ],
+      "price": "39.00",
+"     "status": "New",
       "features": [
         "Soft microfiber lining",
         "Protects against drops and scratches",
@@ -1591,8 +1666,8 @@
       "id": 36,
       "title": "20W USB-C Power Adapter",
       "description": "A compact charger for fast and efficient charging of Apple devices.",
-      "price": "$19.00",
-      "features": [
+      "price": "19.00",
+"     "features": [
         "20W USB-C power delivery",
         "Fast charging for iPhone, iPad, and other USB-C devices",
         "Compact design"
@@ -1605,8 +1680,8 @@
       "id": 37,
       "title": "MagSafe Charger (1 m)",
       "description": "A wireless charger with MagSafe technology for perfect alignment and fast charging.",
-      "price": "$39.00",
-      "features": [
+      "price": "39.00",
+"     "features": [
         "MagSafe compatible for iPhone and AirPods",
         "Up to 15W wireless charging",
         "1-meter cable",
@@ -1620,8 +1695,8 @@
       "id": 38,
       "title": "30W USB-C Power Adapter",
       "description": "A powerful charger for fast charging of iPhone, iPad, MacBook Air, and other USB-C devices.",
-      "price": "$39.00",
-      "features": [
+      "price": "39.00",
+"     "features": [
         "30W USB-C power delivery",
         "Fast charging for iPhone, iPad, and MacBook Air",
         "Compact and portable design"
@@ -1634,9 +1709,18 @@
       "id": 39,
       "title": "240W USB-C Charge Cable (2 m)",
       "description": "A high-power USB-C cable for charging MacBook, iPad, and other USB-C devices.",
-      "colors": ["White", "Black Multi-Touch", "Ultramarine", "Pink", "Peony", "Berry", "Lemonade", "Deep Blue"],
-      "price": "$29.00",
-      "status": "New",
+      "colors": [
+        "White",
+        "Black Multi-Touch",
+        "Ultramarine",
+        "Pink",
+        "Peony",
+        "Berry",
+        "Lemonade",
+        "Deep Blue"
+      ],
+      "price": "29.00",
+"     "status": "New",
       "features": [
         "Supports up to 240W power delivery",
         "2-meter length for flexibility",
@@ -1651,8 +1735,8 @@
       "id": 40,
       "title": "iPhone FineWoven Wallet with MagSafe – Deep Blue",
       "description": "A stylish wallet with MagSafe compatibility, designed to hold cards and attach to your iPhone.",
-      "price": "$59.00",
-      "features": [
+      "price": "59.00",
+"     "features": [
         "MagSafe compatible for secure attachment",
         "Holds up to 3 cards",
         "Made from sustainable FineWoven material",
@@ -1666,9 +1750,14 @@
       "id": 41,
       "title": "Beats USB-C to USB-C Woven Cable (1.5 m / 5 ft) – Rapid Red",
       "description": "A durable USB-C cable for charging and syncing Beats devices and other USB-C products.",
-      "colors": ["Rapid Red", "Berry", "Lemonade", "Deep Blue"],
-      "price": "$18.99",
-      "features": [
+      "colors": [
+        "Rapid Red",
+        "Berry",
+        "Lemonade",
+        "Deep Blue"
+      ],
+      "price": "18.99",
+"     "features": [
         "1.5-meter (5 ft) length",
         "Durable woven design",
         "Supports charging and data transfer",
@@ -1682,9 +1771,14 @@
       "id": 42,
       "title": "OtterBox Lumen Series Case with MagSafe for iPhone 16 Pro – Blue",
       "description": "A protective case with MagSafe compatibility, designed for iPhone 16 Pro with a stylish design.",
-      "colors": ["Blue", "Pink", "Black", "Clear"],
-      "price": "$49.95",
-      "features": [
+      "colors": [
+        "Blue",
+        "Pink",
+        "Black",
+        "Clear"
+      ],
+      "price": "49.95",
+"     "features": [
         "MagSafe compatible for easy accessory attachment",
         "Drop protection up to 10ft",
         "Slim design with textured grip",
@@ -1698,9 +1792,15 @@
       "id": 43,
       "title": "46mm Periwinkle Sport Loop",
       "description": "A lightweight, breathable sport loop for Apple Watch, made from a soft nylon weave.",
-      "colors": ["Periwinkle", "Pink", "Teal", "Black", "Starlight"],
-      "price": "$49.00",
-      "features": [
+      "colors": [
+        "Periwinkle",
+        "Pink",
+        "Teal",
+        "Black",
+        "Starlight"
+      ],
+      "price": "49.00",
+"     "features": [
         "Soft, breathable nylon weave",
         "Hook-and-loop fastener for quick adjustment",
         "Durable and sweat-resistant"
@@ -1713,9 +1813,17 @@
       "id": 44,
       "title": "46mm Tangerine Sport Band - M/L",
       "description": "A durable fluoroelastomer sport band for Apple Watch, offering comfort and style.",
-      "colors": ["Tangerine", "Berry", "Lemonade", "Deep Blue", "Black", "Starlight", "Pink"],
-      "price": "$49.00",
-      "status": "New",
+      "colors": [
+        "Tangerine",
+        "Berry",
+        "Lemonade",
+        "Deep Blue",
+        "Black",
+        "Starlight",
+        "Pink"
+      ],
+      "price": "49.00",
+"     "status": "New",
       "features": [
         "Made from high-performance fluoroelastomer",
         "Pin-and-tuck closure",
@@ -1731,9 +1839,12 @@
       "id": 45,
       "title": "46mm Gold Link Bracelet",
       "description": "A premium stainless steel link bracelet for Apple Watch, offering a sophisticated look.",
-      "colors": ["Gold", "Silver", "Black"],
-      "price": "$349.00",
-      "features": [
+      "colors": [
+        "Gold",
+        "Silver",
+        "Black"
+      ],
+      "price": "349.00","      "features": [
         "Crafted from 316L stainless steel alloy",
         "Custom butterfly closure",
         "Adjustable links for a perfect fit",
@@ -1747,9 +1858,14 @@
       "id": 46,
       "title": "49mm Black Titanium Milanese Loop - Medium",
       "description": "A sleek titanium Milanese loop for Apple Watch, offering a modern, adjustable fit.",
-      "colors": ["Black Titanium", "Silver Titanium", "Natural Titanium", "Gold", "Black"],
-      "price": "$199.00",
-      "features": [
+      "colors": [
+        "Black Titanium",
+        "Silver Titanium",
+        "Natural Titanium",
+        "Gold",
+        "Black"
+      ],
+      "price": "199.00","      "features": [
         "Made from lightweight titanium",
         "Magnetic closure for infinite adjustability",
         "Breathable mesh design",
@@ -1764,9 +1880,17 @@
       "id": 47,
       "title": "46mm Green/Grey Nike Sport Loop",
       "description": "A breathable Nike sport loop for Apple Watch, designed for active lifestyles.",
-      "colors": ["Green/Grey", "Pink", "Black", "Starlight", "Midnight", "Berry", "Canary Yellow"],
-      "price": "$49.00",
-      "features": [
+      "colors": [
+        "Green/Grey",
+        "Pink",
+        "Black",
+        "Starlight",
+        "Midnight",
+        "Berry",
+        "Canary Yellow"
+      ],
+      "price": "49.00",
+"     "features": [
         "Soft, breathable nylon weave",
         "Hook-and-loop fastener for quick adjustment",
         "Reflective thread for visibility",
@@ -1780,8 +1904,8 @@
       "id": 48,
       "title": "46mm Peony Braided Solo Loop - Size 6",
       "description": "A stretchable, comfortable braided solo loop for Apple Watch, made from recycled materials.",
-      "price": "$99.00",
-      "features": [
+      "price": "99.00",
+"     "features": [
         "Made from recycled polyester yarn",
         "Stretchable design with no clasps or buckles",
         "Breathable and lightweight"
@@ -1795,9 +1919,15 @@
       "id": 49,
       "title": "46mm Blackberry Magnetic Link - M/L",
       "description": "A modern magnetic link band for Apple Watch, offering a secure and adjustable fit.",
-      "colors": ["Blackberry", "Silver", "Gold", "Natural Titanium", "Black Titanium"],
-      "price": "$99.00",
-      "features": [
+      "colors": [
+        "Blackberry",
+        "Silver",
+        "Gold",
+        "Natural Titanium",
+        "Black Titanium"
+      ],
+      "price": "99.00",
+"     "features": [
         "Magnetic closure for easy adjustment",
         "Made from durable materials",
         "Sleek, minimalist design"
@@ -1811,9 +1941,12 @@
       "id": 50,
       "title": "46mm Natural Milanese Loop - M/L",
       "description": "A classic Milanese loop for Apple Watch, offering a timeless look with an adjustable fit.",
-      "colors": ["Natural", "Black"],
-      "price": "$99.00",
-      "features": [
+      "colors": [
+        "Natural",
+        "Black"
+      ],
+      "price": "99.00",
+"     "features": [
         "Made from stainless steel mesh",
         "Magnetic closure for infinite adjustability",
         "Breathable and lightweight",
@@ -1828,8 +1961,7 @@
       "id": 51,
       "title": "Apple Watch Hermès - 42mm Beige de Weimar/Blanc Bridon Attelage Double Tour",
       "description": "A luxurious Hermès leather band for Apple Watch, featuring a double-tour design.",
-      "price": "$449.00",
-      "features": [
+      "price": "449.00","      "features": [
         "Handcrafted Hermès leather",
         "Double-tour design wraps twice around the wrist",
         "Elegant and timeless style"
@@ -1842,9 +1974,11 @@
       "id": 52,
       "title": "Apple Watch Hermès - 49mm Bleu Hydra En Mer",
       "description": "A premium Hermès leather band for Apple Watch, featuring a nautical-inspired design.",
-      "colors": ["Bleu Hydra", "Natural"],
-      "price": "$449.00",
-      "features": [
+      "colors": [
+        "Bleu Hydra",
+        "Natural"
+      ],
+      "price": "449.00","      "features": [
         "Handcrafted Hermès leather",
         "Nautical-inspired design",
         "Luxurious and durable"

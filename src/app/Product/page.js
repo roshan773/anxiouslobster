@@ -1,121 +1,162 @@
 "use client";
 
-// import { useEffect, useState } from 'react';
-// import axios from 'axios';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+const ProductPage = () => {
+  const [products, setProducts] = useState([]);
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [sortOption, setSortOption] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
-// const ProductPage = () => {
-//   const [products, setProducts] = useState([]);
-//   const [loading, setLoading] = useState(true);
-//   const [error, setError] = useState(null);
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await axios.get('http://localhost:3001/Product');
+        let fetchedProducts = [];
 
-//   useEffect(() => {
-//     const fetchProducts = async () => {
-//       try {
-//         const response = await axios.get('http://localhost:3001/Product');
-//         console.log('Raw API Response:', response); // Log the full response
-//         console.log('Response Data:', response.data); // Log the data specifically
+        if (Array.isArray(response.data)) {
+          fetchedProducts = response.data;
+        } else if (response.data.Product && Array.isArray(response.data.Product)) {
+          fetchedProducts = response.data.Product;
+        } else if (response.data.products && Array.isArray(response.data.products)) {
+          fetchedProducts = response.data.products;
+        } else {
+          throw new Error('Invalid data structure');
+        }
 
-//         // Try to extract the products array from the response
-//         let fetchedProducts = [];
+        setProducts(fetchedProducts);
+        setFilteredProducts(fetchedProducts);
+        setLoading(false);
+      } catch (err) {
+        console.error('Fetch Error:', err);
+        setError('Failed to load products.');
+        setLoading(false);
+      }
+    };
 
-//         // Check common response structures
-//         if (Array.isArray(response.data)) {
-//           // If response.data is an array directly
-//           fetchedProducts = response.data;
-//         } else if (response.data.Product && Array.isArray(response.data.Product)) {
-//           // If response.data has a 'Product' key with an array
-//           fetchedProducts = response.data.Product;
-//         } else if (response.data.products && Array.isArray(response.data.products)) {
-//           // If response.data has a lowercase 'products' key with an array
-//           fetchedProducts = response.data.products;
-//         } else {
-//           throw new Error(
-//             'Invalid data structure: Expected an array, or an object with "Product" or "products" key containing an array'
-//           );
-//         }
+    fetchProducts();
+  }, []);
 
-//         setProducts(fetchedProducts);
-//         setLoading(false);
-//       } catch (err) {
-//         console.error('Fetch Error:', err);
-//         setError('Failed to load products. Check the console for API response details.');
-//         setLoading(false);
-//       }
-//     };
+  useEffect(() => {
+    let updatedProducts = [...products];
 
-//     fetchProducts();
-//   }, []);
+    // Search
+    if (searchTerm.trim() !== '') {
+      updatedProducts = updatedProducts.filter((product) =>
+        product.title.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    }
 
-//   if (loading) {
-//     return (
-//       <div className="container mt-5">
-//         <div className="text-center">
-//           <div className="spinner-border" role="status">
-//             <span className="visually-hidden">Loading...</span>
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
+    // Helper: Sanitize price string (remove commas)
+    const cleanPrice = (price) =>
+      parseFloat(String(price).replace(/,/g, '').trim()) || 0;
 
-//   if (error) {
-//     return (
-//       <div className="container mt-5">
-//         <div className="alert alert-danger" role="alert">
-//           {error}
-//         </div>
-//       </div>
-//     );
-//   }
+    // Sort
+    if (sortOption === 'price-low-high') {
+      updatedProducts.sort((a, b) => cleanPrice(a.price) - cleanPrice(b.price));
+    } else if (sortOption === 'price-high-low') {
+      updatedProducts.sort((a, b) => cleanPrice(b.price) - cleanPrice(a.price));
+    } else if (sortOption === 'title-asc') {
+      updatedProducts.sort((a, b) => a.title.localeCompare(b.title));
+    } else if (sortOption === 'title-desc') {
+      updatedProducts.sort((a, b) => b.title.localeCompare(a.title));
+    }
 
-//   return (
-//     <div className="container mt-5">
-//       <h1 className="mb-4 text-center">Our Products</h1>
-//       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
-//         {products.length === 0 ? (
-//           <div className="col">
-//             <p className="text-center">No products available.</p>
-//           </div>
-//         ) : (
-//           products.map((product) => (
-//             <div key={product.id} className="col">
-//               <div className={`card h-100 ${styles.productCard}`}>
-//                 <img
-//                   src={product.productImage}
-//                   className="card-img-top"
-//                   alt={product.title}
-//                   style={{ height: '200px', objectFit: 'contain' }}
-//                 />
-//                 <div className="card-body text-center">
-//                   <h5 className="card-title">{product.title}</h5>
-//                   <p className="card-text">
-//                     {product.description || 'No description available'}
-//                   </p>
-//                   <p className="card-text fw-bold">{product.price}</p>
-//                   {product.learnMoreLink ? (
-//                     <a
-//                       href={product.learnMoreLink}
-//                       className="btn btn-primary"
-//                       target="_blank"
-//                       rel="noopener noreferrer"
-//                     >
-//                       Learn More
-//                     </a>
-//                   ) : (
-//                     <button className="btn btn-primary" disabled>
-//                       Learn More
-//                     </button>
-//                   )}
-//                 </div>
-//               </div>
-//             </div>
-//           ))
-//         )}
-//       </div>
-//     </div>
-//   );
-// };
+    setFilteredProducts(updatedProducts);
+  }, [searchTerm, sortOption, products]);
 
-// export default ProductPage;
+  if (loading) {
+    return (
+      <div className="container mt-5 text-center">
+        <div className="spinner-border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="container mt-5">
+        <div className="alert alert-danger" role="alert">
+          {error}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="container py-5">
+      <h1 className="mb-4 text-center">Our Products</h1>
+
+      {/* Search and Sort Controls */}
+      <div className="row mb-4">
+        <div className="col-md-6 mb-2">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Search by product title..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
+        <div className="col-md-6 mb-2">
+          <select
+            className="form-select"
+            value={sortOption}
+            onChange={(e) => setSortOption(e.target.value)}
+          >
+            <option value="">Sort Products</option>
+            <option value="price-low-high">Price: Low to High</option>
+            <option value="price-high-low">Price: High to Low</option>
+            <option value="title-asc">Title: A to Z</option>
+            <option value="title-desc">Title: Z to A</option>
+          </select>
+        </div>
+      </div>
+
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        {filteredProducts.length === 0 ? (
+          <div className="col text-center">
+            <p className="text-muted">No products found.</p>
+          </div>
+        ) : (
+          filteredProducts.map((product) => (
+            <div key={product.id} className="col">
+              <div className="card h-100 shadow-sm">
+                <img
+                  src={product.productImage}
+                  className="card-img-top"
+                  alt={product.title}
+                  style={{ height: '200px', objectFit: 'contain' }}
+                />
+                <div className="card-body d-flex flex-column text-center">
+                  <h5 className="card-title">{product.title}</h5>
+                  <p className="card-text text-muted flex-grow-1">
+                    {product.description || 'No description available.'}
+                  </p>
+                  <p className="card-text fw-bold mb-3">{product.price}</p>
+                  <div className="d-grid gap-2 mt-auto">
+                    <button className="btn btn-primary">
+                      Add to Cart
+                    </button>
+                    <button className="btn btn-dark text-white">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))
+        )}
+      </div>
+
+    </div>
+  );
+};
+
+export default ProductPage;

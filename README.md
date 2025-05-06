@@ -17,6 +17,5 @@ This project replicates key features of Apple's website, such as a visually appe
 ### Tech Stack
 
 - **Next.js**: Framework for server-side rendering, static site generation, and file-based routing.
-- **React**: Component-based UI development.
-- **CSS/Tailwind CSS**: Styling to achieve Apple's minimalist aesthetic (Tailwind used if configured).
-- **JavaScript**: Core logic for interactivity and dynamic routing.
+- **Bootstrap**: Styling to achieve Apple's minimalist aesthetic
+- **FirebBase**: Handling the data of user through login and registration
