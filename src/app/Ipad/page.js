@@ -35,7 +35,7 @@ const iPad = () => {
             },
           }}
         >
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/ipad_pro_b05b29e18.svg"
@@ -45,7 +45,7 @@ const iPad = () => {
               <p className='text-center text-dark'>iPad pro</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/ipad_air_b05b29e18.svg"
@@ -55,7 +55,7 @@ const iPad = () => {
               <p className='text-center text-dark'>iPad Air</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/ipad_ec6ec9ee7.svg"
@@ -65,7 +65,7 @@ const iPad = () => {
               <p className='text-center text-dark'>iPad</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/ipad_mini_ca78d03ea.svg"
@@ -75,7 +75,7 @@ const iPad = () => {
               <p className='text-center text-dark'>iPad Mini</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/compare_ipad_93f95f0a1.svg"
@@ -85,7 +85,7 @@ const iPad = () => {
               <p className='text-center text-dark'>compare</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/apple_pencil_607b17f9f.svg"
@@ -95,7 +95,7 @@ const iPad = () => {
               <p className='text-center text-dark'>Apple Pencil</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/keyboard_ipad_0113a1a87.svg"
@@ -105,7 +105,7 @@ const iPad = () => {
               <p className='text-center text-dark'>Keyboards</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/accessories_ipad_1d680a4ad.svg"
@@ -115,7 +115,7 @@ const iPad = () => {
               <p className='text-center text-dark'>Accessories</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/ipados_1e9806c02.svg"
@@ -125,7 +125,7 @@ const iPad = () => {
               <p className='text-center text-dark'>iPadOs 16</p>
             </Link>
           </SwiperSlide>
-          <SwiperSlide className='col-1' style={{ width: "100%", height: "65px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+          <SwiperSlide className='col-1' style={{ width: "100%", height: "auto", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <Link href="/Product" className='text-decoration-none'>
               <img
                 src="https://www.apple.com/assets-www/en_WW/ipad/chapternav/shop_ipad_a90662b1a.svg"

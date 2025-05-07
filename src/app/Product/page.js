@@ -16,21 +16,8 @@ const ProductPage = () => {
   useEffect(() => {
     axios.get('http://localhost:3001/Product')
       .then((res) => {
-        let fetchedProducts = [];
-
-
-        if (Array.isArray(res.data)) {
-          fetchedProducts = res.data;
-        } else if (res.data.Product && Array.isArray(res.data.Product)) {
-          fetchedProducts = res.data.Product;
-        } else if (res.data.products && Array.isArray(res.data.products)) {
-          fetchedProducts = res.data.products;
-        } else {
-          throw new Error('Invalid data structure');
-        }
-
-        setProducts(fetchedProducts);
-        setFilteredProducts(fetchedProducts);
+        setProducts(res.data);
+        setFilteredProducts(filteredProducts);
         setLoading(false);
       })
       .catch((err) => {

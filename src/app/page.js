@@ -13,7 +13,7 @@ export default function Home() {
         <div
           className="d-flex w-100 justify-content-center mb-3"
           style={{
-            backgroundImage: "url('https://www.apple.com/v/home/cd/images/heroes/apple-watch-series-10/hero_apple_watch_series_10_avail_lte__esu66gaw6dci_largetall_2x.jpg')",
+            backgroundImage: "url('/public/Images/Watch-page -image/hero-watch.jpg')",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
@@ -62,7 +62,7 @@ export default function Home() {
       <Link href="/Iphone" className='text-decoration-none'>
         <div className="d-flex w-100 justify-content-center mb-3"
           style={{
-            backgroundImage: "url('https://www.apple.com/v/home/cd/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_mediumtall_2x.jpg')",
+            backgroundImage: "url('/Images/iPhone-page-content/hero-iphone.jpg')",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
