@@ -14,17 +14,17 @@ const ProductPage = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const response = await axios.get('http://localhost:3001/Product');
+    axios.get('http://localhost:3001/Product')
+      .then((res) => {
         let fetchedProducts = [];
 
-        if (Array.isArray(response.data)) {
-          fetchedProducts = response.data;
-        } else if (response.data.Product && Array.isArray(response.data.Product)) {
-          fetchedProducts = response.data.Product;
-        } else if (response.data.products && Array.isArray(response.data.products)) {
-          fetchedProducts = response.data.products;
+
+        if (Array.isArray(res.data)) {
+          fetchedProducts = res.data;
+        } else if (res.data.Product && Array.isArray(res.data.Product)) {
+          fetchedProducts = res.data.Product;
+        } else if (res.data.products && Array.isArray(res.data.products)) {
+          fetchedProducts = res.data.products;
         } else {
           throw new Error('Invalid data structure');
         }
@@ -32,14 +32,12 @@ const ProductPage = () => {
         setProducts(fetchedProducts);
         setFilteredProducts(fetchedProducts);
         setLoading(false);
-      } catch (err) {
+      })
+      .catch((err) => {
         console.error('Fetch Error:', err);
         setError('Failed to load products.');
         setLoading(false);
-      }
-    };
-
-    fetchProducts();
+      });
   }, []);
 
   useEffect(() => {
@@ -92,9 +90,28 @@ const ProductPage = () => {
 
   return (
     <div className="container py-5">
-      <h1 className="mb-5 text-center fw-semibold" style={{ fontSize: '2.5rem' }}>
-        Our Products
+      <h1
+        className="text-center mb-4"
+        style={{
+          fontSize: '3rem',
+          fontWeight: 300,
+          color: '#1d1d1f',
+          fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
+        }}
+      >
+        Discover Our Products
       </h1>
+      <p
+        className="text-center mb-5"
+        style={{
+          fontSize: '1.25rem',
+          color: '#6e6e73',
+          fontWeight: 400,
+          fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif'
+        }}
+      >
+        Thoughtfully designed. Built to impress.
+      </p>
 
       {/* Search & Sort */}
       <div className="row justify-content-center mb-5">
@@ -149,7 +166,7 @@ const ProductPage = () => {
                 <div className="d-flex justify-content-between align-items-center px-2 mt-auto">
                   <h5 className="fw-bold text-dark mb-0">$ {product.price}</h5>
                   <button className="btn btn-primary btn-sm">
-                    <AiOutlineShoppingCart size={20}/>
+                    <AiOutlineShoppingCart size={20} />
                   </button>
                 </div>
               </div>

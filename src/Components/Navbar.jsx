@@ -1,6 +1,5 @@
 'use client';
 
-// import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 import { TbMenu } from 'react-icons/tb';
@@ -8,10 +7,29 @@ import { IoBagOutline } from 'react-icons/io5';
 import { IoIosSearch } from 'react-icons/io';
 import { BsApple } from "react-icons/bs";
 
-export const Navbar = () => {
+// Import global CSS (you'll need to create this file in your project)
+// import '../styles/Navbar.css';
 
+export const Navbar = () => {
   useEffect(() => {
     import('bootstrap/dist/js/bootstrap.bundle.min.js');
+    import('jquery').then(($) => {
+      $('.dropdown-toggle').on('click', function (e) {
+        const $el = $(this).next('.dropdown-menu');
+        const isVisible = $el.is(':visible');
+        $('.dropdown-menu').hide();
+        if (!isVisible) {
+          $el.show();
+        }
+        e.preventDefault();
+      });
+
+      $(document).on('click', function (e) {
+        if (!$(e.target).closest('.dropdown').length) {
+          $('.dropdown-menu').hide();
+        }
+      });
+    });
   }, []);
 
   return (
@@ -47,38 +65,214 @@ export const Navbar = () => {
           {/* Nav Links */}
           <div className="collapse navbar-collapse" id="navbarlink">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link href="/Store" className="nav-link text-muted px-5 px-lg-3">Store</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Store" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="storeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Store
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="storeDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Store/new">New Store</Link>
+                        <Link className="dropdown-item" href="/Store/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Store/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Store/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/Mac" className="nav-link text-muted px-5 px-lg-3">Mac</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Mac" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="macDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mac
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="macDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Mac/new">New Mac</Link>
+                        <Link className="dropdown-item" href="/Mac/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Mac/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Mac/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/Ipad" className="nav-link text-muted px-5 px-lg-3">iPad</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Ipad" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="ipadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  iPad
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="ipadDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Ipad/new">New iPad</Link>
+                        <Link className="dropdown-item" href="/Ipad/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Ipad/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Ipad/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/Iphone" className="nav-link text-muted px-5 px-lg-3">iPhone</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Iphone" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="iphoneDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  iPhone
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="iphoneDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Iphone/new">New iPhone</Link>
+                        <Link className="dropdown-item" href="/Iphone/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Iphone/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Iphone/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/Watch" className="nav-link text-muted px-5 px-lg-3">Watch</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Watch" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="watchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Watch
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="watchDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Watch/new">New Watch</Link>
+                        <Link className="dropdown-item" href="/Watch/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Watch/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Watch/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/vision" className="nav-link text-muted px-5 px-lg-3">Vision</Link>
+              <li className="nav-item dropdown">
+                <Link href="/vision" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="visionDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Vision
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="visionDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/vision/new">New Vision</Link>
+                        <Link className="dropdown-item" href="/vision/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/vision/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/vision/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/AirPods" className="nav-link text-muted px-5 px-lg-3">AirPods</Link>
+              <li className="nav-item dropdown">
+                <Link href="/AirPods" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="airpodsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  AirPods
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="airpodsDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/AirPods/new">New AirPods</Link>
+                        <Link className="dropdown-item" href="/AirPods/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/AirPods/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/AirPods/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/Tv_Home" className="nav-link text-muted px-5 px-lg-3">TV & Home</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Tv_Home" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="tvhomeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TV & Home
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="tvhomeDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Tv_Home/new">New TV & Home</Link>
+                        <Link className="dropdown-item" href="/Tv_Home/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Tv_Home/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Tv_Home/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/Entertainment" className="nav-link text-muted px-5 px-lg-3">Entertainment</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Entertainment" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="entertainmentDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Entertainment
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="entertainmentDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Entertainment/new">New Entertainment</Link>
+                        <Link className="dropdown-item" href="/Entertainment/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Entertainment/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Entertainment/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/Accessories" className="nav-link text-muted px-5 px-lg-3">Accessories</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Accessories" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="accessoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accessories
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="accessoriesDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Accessories/new">New Accessories</Link>
+                        <Link className="dropdown-item" href="/Accessories/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Accessories/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Accessories/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <li className="nav-item">
-                <Link href="/Support" className="nav-link text-muted px-5 px-lg-3">Support</Link>
+              <li className="nav-item dropdown">
+                <Link href="/Support" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="supportDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Support
+                </Link>
+                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="supportDropdown">
+                  <div className="container-fluid">
+                    <div className="row">
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Support/new">New Support</Link>
+                        <Link className="dropdown-item" href="/Support/featured">Featured</Link>
+                      </div>
+                      <div className="col-6 col-md-3">
+                        <Link className="dropdown-item" href="/Support/offers">Offers</Link>
+                        <Link className="dropdown-item" href="/Support/info">More Info</Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
             </ul>
 
@@ -92,56 +286,6 @@ export const Navbar = () => {
           </div>
         </nav>
       </div>
-
-      {/* Simple Styling */}
-      <style jsx global>{`
-        .navbar {
-          background-color: rgba(255, 255, 255, 0.95);
-          backdrop-filter: blur(10px);
-          -webkit-backdrop-filter: blur(10px);
-          position: fixed;
-          top: 0;
-          left: 0;
-          right: 0;
-          z-index: 1055;
-          width: 100%;
-        }
-
-        body {
-          padding-top: 70px;
-        }
-
-        .navbar-nav .nav-link {
-          font-size: 14px;
-          color: #333333 !important;
-        }
-
-        @media (max-width: 991px) {
-          .navbar-collapse {
-            background-color:rgba(255, 255, 255, 0);
-            padding: 1rem;
-            border-radius: 0.5rem;
-          }
-          .navbar-nav .nav-link {
-            font-size: 1.5rem;
-            font-weight: 500;
-            padding: 0.5rem 1rem !important;
-          }
-          .navbar-nav .nav-item {
-            text-align: center;
-          }
-        }
-
-        .modal-content {
-          border-radius: 0.5rem;
-        }
-        .modal-body .input-group {
-          border-bottom: 1px solid #dee2e6;
-        }
-        .modal-body .form-control {
-          box-shadow: none;
-        }
-      `}</style>
     </>
   );
 };

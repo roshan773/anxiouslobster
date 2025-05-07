@@ -74,7 +74,6 @@ const Store = () => {
           <Swiper
             modules={[Pagination, FreeMode]}
             spaceBetween={15} // Adjusted for better spacing
-            pagination={{ clickable: true }}
             freeMode={true} // Enables momentum scrolling
             grabCursor={true} // Shows a hand cursor for better UX
             className="mySwiper"
@@ -197,7 +196,6 @@ const Store = () => {
           <Swiper
             modules={[Pagination, FreeMode]}
             spaceBetween={15} // Adjusted for better spacing
-            pagination={{ clickable: true }}
             freeMode={true} // Enables momentum scrolling
             grabCursor={true} // Shows a hand cursor for better UX
             className="mySwiper"
@@ -272,7 +270,6 @@ const Store = () => {
           <Swiper
             modules={[Pagination, FreeMode]}
             spaceBetween={15} // Adjusted for better spacing
-            pagination={{ clickable: true }}
             freeMode={true} // Enables momentum scrolling
             grabCursor={true} // Shows a hand cursor for better UX
             className="mySwiper"

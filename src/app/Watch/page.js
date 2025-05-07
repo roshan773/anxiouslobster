@@ -14,7 +14,6 @@ const Watch = () => {
         <Swiper
           modules={[Pagination, FreeMode]}
           spaceBetween={15} // Adjusted for better spacing
-          pagination={{ clickable: true }}
           freeMode={true} // Enables momentum scrolling
           grabCursor={true} // Shows a hand cursor for better UX
           className="mySwiper"
@@ -211,7 +210,6 @@ const Watch = () => {
         <Swiper
           modules={[Pagination, FreeMode]}
           spaceBetween={15} // Adjusted for better spacing
-          pagination={{ clickable: true }}
           freeMode={true} // Enables momentum scrolling
           grabCursor={true} // Shows a hand cursor for better UX
           className="mySwiper"
@@ -235,42 +233,42 @@ const Watch = () => {
         >
           <SwiperSlide style={{ width: "100%", height: "auto" }}>
             <Link href="/Product">
-              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_health__b2yo83wkzoaa_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "cover" }}></img>
+              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_health__b2yo83wkzoaa_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "contain" }}></img>
             </Link>
           </SwiperSlide>
           <SwiperSlide style={{ width: "100%", height: "auto" }}>
             <Link href="/Product">
-              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_fitness__b5owsglf0ieu_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "cover" }}></img>
+              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_fitness__b5owsglf0ieu_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "contain" }}></img>
             </Link>
           </SwiperSlide>
           <SwiperSlide style={{ width: "100%", height: "auto" }}>
             <Link href="/Product">
-              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_connectivity__cwtqydvy2laq_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "cover" }}></img>
+              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_connectivity__cwtqydvy2laq_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "contain" }}></img>
             </Link>
           </SwiperSlide>
           <SwiperSlide style={{ width: "100%", height: "auto" }}>
             <Link href="/Product">
-              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_safety__gln97xcew2em_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "cover" }}></img>
+              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_safety__gln97xcew2em_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "contain" }}></img>
             </Link>
           </SwiperSlide>
           <SwiperSlide style={{ width: "100%", height: "auto" }}>
             <Link href="/Product">
-              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_watch_and_iphone__fiq5g9njy5qy_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "cover" }}></img>
+              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_watch_and_iphone__fiq5g9njy5qy_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "contain" }}></img>
             </Link>
           </SwiperSlide>
           <SwiperSlide style={{ width: "100%", height: "auto" }}>
             <Link href="/Product">
-              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_personalization__f8bl9mx85j22_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "cover" }}></img>
+              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_personalization__f8bl9mx85j22_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "contain" }}></img>
             </Link>
           </SwiperSlide>
           <SwiperSlide style={{ width: "100%", height: "auto" }}>
             <Link href="/Product">
-              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_adventure__d4xvmn7guk02_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "cover" }}></img>
+              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_adventure__d4xvmn7guk02_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "contain" }}></img>
             </Link>
           </SwiperSlide>
           <SwiperSlide style={{ width: "100%", height: "auto" }}>
             <Link href="/Product">
-              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_family_setup__dclbe9jpbiie_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "cover" }}></img>
+              <img src="https://www.apple.com/v/watch/bq/images/overview/consider/feature_family_setup__dclbe9jpbiie_large_2x.jpg" className='img-fluid' style={{ borderRadius: "20px", width: "500px", height: "800px", objectFit: "contain" }}></img>
             </Link>
           </SwiperSlide>
         </Swiper>
@@ -284,7 +282,7 @@ const Watch = () => {
         <div className='row py-5'>
           <div className='col-12'>
             <Link href="/Product">
-              <img src="/Images/Watch-page -image/Watch studio.png" className='px-0 w-100 img-fluid' style={{ width: "100%", height: "700px", borderRadius: "30px" }}></img>
+              <img src="/Images/Watch-page -image/Watch studio.png" className='px-0  img-fluid' style={{ width: "100%", height: "auto", borderRadius: "30px" }}></img>
             </Link>
           </div>
         </div>
@@ -299,12 +297,12 @@ const Watch = () => {
         <div className='row py-5'>
           <div className='col-12 col-sm-12 col-md-6 col-lg-6'>
             <Link href="/Product">
-              <img src="/Images/Watch-page -image/ss1.png" className='px-0 w-100 img-fluid' style={{ width: "100%", height: "700px", borderRadius: "30px" }}></img>
+              <img src="/Images/Watch-page -image/ss1.png" className='px-0 w-100 img-fluid' style={{ width: "100%",  borderRadius: "30px" }}></img>
             </Link>
           </div>
           <div className='col-12 col-sm-12 col-md-6 col-lg-6'>
             <Link href="/Product">
-              <img src="/Images//Watch-page -image/ss2.png" className='px-0 w-100 img-fluid' style={{ width: "100%", height: "700px", borderRadius: "30px" }}></img>
+              <img src="/Images//Watch-page -image/ss2.png" className='px-0 w-100 img-fluid' style={{ width: "100%",  borderRadius: "30px" }}></img>
             </Link>
           </div>
         </div>

@@ -13,8 +13,7 @@ const Iphone = () => {
       <div className='container pb-5'>
         <Swiper
           modules={[Pagination, FreeMode]}
-          spaceBetween={15} // Adjusted for better spacing
-          pagination={{ clickable: true }}
+          spaceBetween={15} // Adjusted for better spacin
           freeMode={true} // Enables momentum scrolling
           grabCursor={true} // Shows a hand cursor for better UX
           className="mySwiper"
@@ -199,8 +198,7 @@ const Iphone = () => {
       <div className='px-5 w-100 h-100 mb-5'>
         <Swiper
           modules={[Pagination, FreeMode]}
-          spaceBetween={15} // Adjusted for better spacing
-          pagination={{ clickable: true }}
+          spaceBetween={15} // Adjusted for better spacin
           freeMode={true} // Enables momentum scrolling
           grabCursor={true} // Shows a hand cursor for better UX
           className="mySwiper"

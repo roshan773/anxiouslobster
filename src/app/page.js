@@ -2,7 +2,6 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
@@ -73,8 +72,8 @@ export default function Home() {
           }}
         >
           <div className="text-center pt-4">
-            <p className="text-dark fw-bold display-2">iPad Pro</p>
-            <p className="text-dark display-5">Meet the iPhone 16 family</p>
+            <p className="text-dark fw-bold display-3">iPhone</p>
+            <p className="text-dark display-6">Meet the iPhone 16 family</p>
             <button className="btn btn-primary rounded-pill me-3 fw-bold" style={{ padding: "10px 20px" }}>Learn More</button>
             <button className="btn btn-outline-primary rounded-pill fw-bold" style={{ padding: "10px 20px" }}>Shop iPhone</button>
           </div>
@@ -83,7 +82,7 @@ export default function Home() {
 
       {/* Mothers day and macbook */}
       <div className="container-fluid row align-items-center px-0 mb-2">
-        <Link href="/Store" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+        <Link href="/Store" className="col-12 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
           <div>
             <div className="d-flex w-100 justify-content-center mb-2"
               style={{
@@ -108,7 +107,7 @@ export default function Home() {
             </div>
           </div>
         </Link>
-        <Link href="/Mac" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+        <Link href="/Mac" className="col-12 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
           <div>
             <div className="d-flex w-100 justify-content-center mb-2"
               style={{
@@ -134,7 +133,7 @@ export default function Home() {
 
       {/* mac does that  &  Trade in*/}
       <div className="container-fluid row align-items-center px-0 mb-2">
-        <Link href="/Mac/Mac-does-that" className="col-6 col-sm-12 col-md-6 col-lg-6 px-1 text-decoration-none">
+        <Link href="/Mac/Mac-does-that" className="col-12 col-sm-12 col-md-6 col-lg-6 px-1 text-decoration-none">
           <div>
             <div className="d-flex w-100 justify-content-center mb-2"
               style={{
@@ -163,7 +162,7 @@ export default function Home() {
             </div>
           </div>
         </Link>
-        <Link href="/Trade-in" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+        <Link href="#" className="col-12 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
           <div>
             <div className="d-flex w-100 justify-content-center mb-2"
               style={{
@@ -188,7 +187,7 @@ export default function Home() {
 
       {/* deals and cards */}
       <div className="container-fluid row align-items-center px-0 mb-2">
-        <Link href="/Iphone/Carrier-offer" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+        <Link href="/Iphone/Carrier-offer" className="col-12 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
           <div>
             <div className="d-flex w-100 justify-content-center mb-2"
               style={{
@@ -213,7 +212,7 @@ export default function Home() {
             </div>
           </div>
         </Link>
-        <Link href="/Apple-card" className="col-6 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
+        <Link href="#" className="col-12 col-sm-12 col-md-6 col-lg-6 pe-0 text-decoration-none">
           <div>
             <div className="d-flex w-100 justify-content-center mb-2"
               style={{
