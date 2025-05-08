@@ -56,6 +56,41 @@ const ProductPage = () => {
     setFilteredProducts(updatedProducts);
   }, [searchTerm, sortOption, products]);
 
+  // Add to cart functionality
+  const addToCart = (product) => {
+    const cartItem = {
+      id: product.id || product.slug || "unknown-" + Date.now(),
+      slug: product.slug || "",
+      title: product.title || "Unknown Product",
+      price: product.price || 0,
+      image: product.productImage || "",
+      color: product.colors?.[0] || "Default", // Use first color if available, otherwise "Default"
+      quantity: 1 // Initial quantity
+    };
+
+    const existingCart = JSON.parse(localStorage.getItem("cart") || "[]");
+    const productExists = existingCart.some(
+      item => (item.id || item.slug) === (cartItem.id || cartItem.slug)
+    );
+
+    if (productExists) {
+      const itemExistsWithSameColor = existingCart.some(
+        item =>
+          (item.id || item.slug) === (cartItem.id || cartItem.slug) &&
+          (item.color || "Default") === (cartItem.color || "Default")
+      );
+      if (itemExistsWithSameColor) {
+        alert("Product already in cart with this color! You can adjust the quantity in the cart.");
+        return;
+      }
+      // Different color, proceed to add
+    }
+
+    const updatedCart = [...existingCart, cartItem];
+    localStorage.setItem("cart", JSON.stringify(updatedCart));
+    alert("Product added to cart!");
+  };
+
   if (loading) {
     return (
       <div className="container mt-5 text-center">
@@ -137,7 +172,6 @@ const ProductPage = () => {
           filteredProducts.map((product) => (
             <div key={product.id} className="col">
               <div className="card border-0 shadow-sm rounded-4 bg-white h-100 text-center p-4">
-
                 {/* Product Image */}
                 <Link href={`/Product/${product.id}`}>
                   <img
@@ -149,13 +183,15 @@ const ProductPage = () => {
                 </Link>
 
                 {/* Product Title */}
-                <h6 className="text-start
-                 fw-semibold mb-2">{product.title}</h6>
+                <h6 className="text-start fw-semibold mb-2">{product.title}</h6>
 
                 {/* Price & Button */}
                 <div className="d-flex justify-content-between align-items-center px-2 mt-auto">
                   <h5 className="fw-bold text-dark mb-0">$ {product.price}</h5>
-                  <button className="btn btn-primary btn-sm">
+                  <button
+                    onClick={() => addToCart(product)}
+                    className="btn btn-primary btn-sm"
+                  >
                     <AiOutlineShoppingCart size={20} />
                   </button>
                 </div>
@@ -165,7 +201,6 @@ const ProductPage = () => {
         )}
       </div>
     </div>
-
   );
 };
 

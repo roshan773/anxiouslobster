@@ -186,22 +186,10 @@
       "title": "iPad",
       "description": "The colorful, all-screen iPad for the things you do every day.",
       "colors": [
-        {
-          "name": "Blue",
-          "code": "#2E60BF"
-        },
-        {
-          "name": "Pink",
-          "code": "#F7A1C4"
-        },
-        {
-          "name": "Yellow",
-          "code": "#FFD94D"
-        },
-        {
-          "name": "Silver",
-          "code": "#C0C0C0"
-        }
+        "Blue",
+        "Pink",
+        "Yellow",
+        "Silver"
       ],
       "price": "349.00",
       "monthly": "$29.08",
