@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import Link from 'next/link';
 
 const ProductPage = () => {
   const [products, setProducts] = useState([]);
@@ -17,7 +18,7 @@ const ProductPage = () => {
     axios.get('http://localhost:3001/Product')
       .then((res) => {
         setProducts(res.data);
-        setFilteredProducts(filteredProducts);
+        setFilteredProducts(res.data);
         setLoading(false);
       })
       .catch((err) => {
@@ -138,12 +139,14 @@ const ProductPage = () => {
               <div className="card border-0 shadow-sm rounded-4 bg-white h-100 text-center p-4">
 
                 {/* Product Image */}
-                <img
-                  src={product.productImage}
-                  alt={product.title}
-                  className="mx-auto mb-3 img-fluid"
-                  style={{ height: '200px', objectFit: 'contain' }}
-                />
+                <Link href={`/Product/${product.id}`}>
+                  <img
+                    src={product.productImage}
+                    alt={product.title}
+                    className="mx-auto mb-3 img-fluid"
+                    style={{ height: '200px', objectFit: 'contain' }}
+                  />
+                </Link>
 
                 {/* Product Title */}
                 <h6 className="text-start

@@ -10,6 +10,7 @@ const Description = () => {
     const params = useParams();
     const slug = params?.slug;
     const [data, setData] = useState(null);
+    const [suggestions, setSuggestions] = useState([]);
     const [error, setError] = useState(null);
 
     const getSingleProduct = async () => {
@@ -23,9 +24,24 @@ const Description = () => {
         }
     };
 
+    const getSuggestedProducts = async () => {
+        try {
+            // Fetch all products from the general products endpoint
+            const res = await axios.get(`http://localhost:3001/Product`);
+            // Filter out the current product and select up to 3 random products
+            const otherProducts = res.data.filter(product => product.slug !== slug);
+            const shuffled = otherProducts.sort(() => 0.5 - Math.random());
+            setSuggestions(shuffled.slice(0, 3));
+        } catch (error) {
+            console.error("Error fetching suggestions:", error);
+            setSuggestions([]);
+        }
+    };
+
     useEffect(() => {
         if (slug) {
             getSingleProduct();
+            getSuggestedProducts();
         }
     }, [slug]);
 
@@ -65,7 +81,7 @@ const Description = () => {
                                 <img
                                     src={data.productImage}
                                     alt={data.title || "Product"}
-                                    className='img-fluid'
+                                    className='img-fluid d-flex justify-content-center align-items-center'
                                 />
                             ) : (
                                 <div className="bg-secondary h-100 d-flex align-items-center justify-content-center">
@@ -133,6 +149,47 @@ const Description = () => {
                         </a>
                     </div>
                 </div>
+
+                {/* Suggestions Section */}
+                {suggestions.length > 0 && (
+                    <div className="mt-5">
+                        <h2 className="fw-bold mb-4">You Might Also Like</h2>
+                        <div className="row">
+                            {suggestions.map((product, index) => (
+                                <div key={product.slug || `suggestion-${index}`} className="col-12 col-md-4 mb-4">
+                                    <div className="card h-100 shadow-sm">
+                                        <div style={{ height: '200px', position: 'relative' }}>
+                                            {product.productImage ? (
+                                                <img
+                                                    src={product.productImage}
+                                                    alt={product.title}
+                                                    className="img-fluid w-100 h-100"
+                                                    style={{ objectFit: 'contain' }}
+                                                />
+                                            ) : (
+                                                <div className="bg-secondary h-100 d-flex align-items-center justify-content-center">
+                                                    <span className="text-white">Image Not Available</span>
+                                                </div>
+                                            )}
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title fw-semibold">{product.title}</h5>
+                                            <p className="card-text text-muted mb-2">
+                                                From ${product.price || "N/A"}
+                                            </p>
+                                            <a
+                                                href={`/products/${product.slug}`}
+                                                className="btn btn-outline-primary btn-sm rounded-pill"
+                                            >
+                                                View product
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
             </div>
         </div>
     );

@@ -13,7 +13,7 @@ export default function Home() {
         <div
           className="d-flex w-100 justify-content-center mb-3"
           style={{
-            backgroundImage: "url('/public/Images/Watch-page -image/hero-watch.jpg')",
+            backgroundImage: "url('/Images/Watch-page -image/hero-watch.jpg')",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
