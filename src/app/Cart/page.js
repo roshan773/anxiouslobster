@@ -81,7 +81,7 @@ const Cart = () => {
                 <div className="container py-5">
                     <h1 className="display-5 fw-bold mb-4 text-center">Your Cart</h1>
                     <div className="alert alert-info text-center" role="alert">
-                        Your cart is empty. <Link href="/" className="alert-link">Continue shopping</Link>.
+                        Your cart is empty. <Link href="/Product" className="alert-link">Continue shopping</Link>.
                     </div>
                 </div>
             </div>
