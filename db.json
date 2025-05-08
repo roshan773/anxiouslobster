@@ -89,8 +89,14 @@
       "title": "iPad Pro",
       "description": "The ultimate iPad experience with the most advanced technology.",
       "colors": [
-        "space black",
-        "silver"
+        {
+          "name": "Space Black",
+          "code": "#1D1D1F"
+        },
+        {
+          "name": "Silver",
+          "code": "#C0C0C0"
+        }
       ],
       "price": "999.00",
       "monthly": "$83.25",
@@ -116,17 +122,33 @@
       "keyboardSupport": "Magic Keyboard for iPad Pro",
       "keyboardImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/magickeyboard.m4.ipad_elevated_c74c0cc60.svg",
       "shopLink": "https://www.apple.com/us/shop/goto/ipad_pro/select",
-      "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_pro_f1345e8ae.png"
+      "productImage": "https://www.apple.com/v/ipad-air/aa/images/overview/contrast/product-tile/ipad_pro__cmbcdyciu8pe_small_2x.png",
+      "colorImages": {
+        "space Black": "https://www.apple.com/v/ipad-air/aa/images/overview/contrast/product-tile/ipad_pro__cmbcdyciu8pe_small_2x.png",
+        "silver": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-pro-finish-select-202405-13inch-silver-glossy-wificell_AV1_GEO_EMEA_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=YXpaUEtKWGhlNnNrVGZkTEo4T0xsNDByMHhIZkdBbFEwRFROUE9ubkFjTnBIK1RHU1d3MGRmSnYwdi9jcFlpOERqN2ppWXdreURzYmQzZHJleG1QL0kwditrZ0FDVE1xajRmM2QzT20rdTA5SWJ3U2JHUWxtdUpYVVRueFFXL25Ka2N3K1FkbDdXalY0ZzB0eUtYVW5JV1doWHl1RFpqRmNwUlZxVEh3RDdmRkZjdmdJN3JLcGUwbU93QTBrNFFv&traceId=1"
+      }
     },
     {
       "id": 8,
       "title": "iPad Air",
       "description": "Serious performance in a thin and light design.",
       "colors": [
-        "space gray",
-        "blue",
-        "purple",
-        "starlight"
+        {
+          "name": "Space Gray",
+          "code": "#4B4B4F"
+        },
+        {
+          "name": "Blue",
+          "code": "#2E60BF"
+        },
+        {
+          "name": "Purple",
+          "code": "#A593E0"
+        },
+        {
+          "name": "Starlight",
+          "code": "#F4F1EB"
+        }
       ],
       "price": "599.00",
       "monthly": "$49.91",
@@ -151,6 +173,12 @@
       "keyboardImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/magickeyboard.m4.ipad_elevated_c74c0cc60.svg",
       "shopLink": "https://www.apple.com/us/shop/goto/buy_ipad/ipad_air",
       "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_air_103528cc7.png",
+      "colorImages": {
+        "space Grey": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-air-select-13in-cell-spacegray-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=MHJ3M044Wm5ySDVTUVJHY090MTFQWktKdE93Uk8zMEkyMExSRFZ0S21ZVWowT2NrckZsTWdDRUM0OUhBNnNMK1gyaWxBVG1PRTU2YzhCN2c2emhzWGt0RmgycTRGTHI3SUVxVFVFNFI5QytlV3ZxcnpJbjJtcUVOSlJKRFVhL0E",
+        "blue": "https://d57avc95tvxyg.cloudfront.net/images/thumbnails/906/906/detailed/6399/full_body_housing_for_apple_ipad_air_5th_gen_2022_blue_maxbhi_com_4055.jpg?t=1731800034",
+        "purple": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-air-select-11in-wifi-purple-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=MHJ3M044Wm5ySDVTUVJHY090MTFQWE5FL0E2Tm1WYVRteWtXVjllTmQrMWFaMFBZMkZoYzhVTVpkZy9HOEpPLzdyTk5qSUFqOTJRNDRNazdIYVVHNksvWkJ5TW5IdW9XMHpwcXViQ1ArRkFZcm9JV2JsNE00L2VEL1djZXhjZVQ",
+        "starlight": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-air-select-13in-cell-starlight-202405?wid=940&hei=1112&fmt=p-jpg&qlt=95&.v=MHJ3M044Wm5ySDVTUVJHY090MTFQU1JUeVBoTGFscGwzTUkxNnpOZkV4YXlaN3dpYVdvMVRYZk1RYUx5d0NialgyaWxBVG1PRTU2YzhCN2c2emhzWGt0RmgycTRGTHI3SUVxVFVFNFI5Qyt3ZGVHY3RNekR0RmpTQW5Ic3FnUlI"
+      },
       "badge": "New"
     },
     {
@@ -158,10 +186,22 @@
       "title": "iPad",
       "description": "The colorful, all-screen iPad for the things you do every day.",
       "colors": [
-        "blue",
-        "pink",
-        "yellow",
-        "silver"
+        {
+          "name": "Blue",
+          "code": "#2E60BF"
+        },
+        {
+          "name": "Pink",
+          "code": "#F7A1C4"
+        },
+        {
+          "name": "Yellow",
+          "code": "#FFD94D"
+        },
+        {
+          "name": "Silver",
+          "code": "#C0C0C0"
+        }
       ],
       "price": "349.00",
       "monthly": "$29.08",
@@ -185,6 +225,12 @@
       "keyboardImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/magickeyboardfolio.ipad_elevated_e5d869bc1.svg",
       "shopLink": "https://www.apple.com/us/shop/goto/buy_ipad/ipad",
       "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_11th_gen_3e2bffc1d.png",
+      "colorImages": {
+        "blue": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-blue-wifi-witb-202210_GEO_EMEA_FMT_WHH?wid=558&hei=744&fmt=jpeg&qlt=90&.v=T2NtQmwyMnZFLzdKSjVjaHJYS2p3aXVSaytGY2ZGYzJJYTdCSE8xS283UlZnclZDSW9aa21YbEJ5RndrdVdnNDc3bWZyQXFWdWQ1MlNFMC9TOEoxS2dYUldRZVYxMHFkRFZrQVZuaWMwSkJKK3NjUnhzbDEyVCtZd1crWmEzc0Q",
+        "pink": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-pink-wifi-witb-202210_FMT_WHH?wid=562&hei=744&fmt=jpeg&qlt=90&.v=1664399015670",
+        "yellow": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-10th-gen-engraving-select-202212-yellow-wifi_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=QWZqTzFta1I3WWpFYXN5bHdmSGd2aEVzd1FydmhrZkhxQWNJQVV1eXZGZlhRdE1GcG84OG42OElrNWJkQnAvMVZwT1FGTU1ZNXpqbVgxMkFYMDRBZUxVaWNUd29RdG8vSlIySW9adFNvamYxcjBVRyswWG14bEI4WVZBcUIybEZrM2p3WGpWSU1zTHBpWTFNbTVGN21R&traceId=1",
+        "silver": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-silver-cell-witb-202210_FMT_WHH?wid=562&hei=744&fmt=jpeg&qlt=90&.v=1664399015085"
+      },
       "badge": "New"
     },
     {
@@ -192,10 +238,22 @@
       "title": "iPad mini",
       "description": "The full iPad experience in an ultraportable design.",
       "colors": [
-        "space gray",
-        "blue",
-        "purple",
-        "starlight"
+        {
+          "name": "Space Grey",
+          "code": "#4B4B4B"
+        },
+        {
+          "name": "Blue",
+          "code": "#2E60BF"
+        },
+        {
+          "name": "Purple",
+          "code": "#A593E0"
+        },
+        {
+          "name": "Starlight",
+          "code": "#F3E8D2"
+        }
       ],
       "price": "499.00",
       "monthly": "$41.58",
@@ -219,17 +277,35 @@
       "keyboardSupport": "Bluetooth keyboards",
       "keyboardImage": "https://www.apple.com/assets-www/en_WW/ipad/tout_table/small/magickeyboard_elevated_01bd52b5c.svg",
       "shopLink": "https://www.apple.com/us/shop/goto/buy_ipad/ipad_mini",
-      "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_mini_f19d08515.png"
+      "productImage": "https://www.apple.com/assets-www/en_WW/ipad/product_tile/xlarge/ipad_mini_f19d08515.png",
+      "colorImages": {
+        "space Grey": "https://shop.switch.com.my/cdn/shop/files/iPad_mini_Cellular_Space_Gray_PDP_Image_Position-1b__MY_59be5b34-355d-4d0a-a5be-48c1320c5131.jpg?v=1717705439&width=823",
+        "blue": "https://www.slickwraps.com/cdn/shop/files/Color_Blue_72b10515-c1f9-47f0-8474-addef4ae701d.jpg?v=1730544844&width=720",
+        "purple": "https://dakauf.eu/wp-content/uploads/2024/06/Tablet-Apple-iPad-Air-6-2024-11-M2-128GB-WiFi-Purple.png",
+        "starlight": "https://m.media-amazon.com/images/I/71qV9xzdxzL.jpg"
+      }
     },
     {
       "id": 11,
       "title": "iPhone 16 Pro Max",
       "description": "The ultimate iPhone experience with advanced technology and pro-level features.",
       "colors": [
-        "Black Titanium",
-        "White Titanium",
-        "Natural Titanium",
-        "Desert Titanium"
+        {
+          "name": "Black Titanium",
+          "code": "#1C1C1E"
+        },
+        {
+          "name": "White Titanium",
+          "code": "#F4F4F4"
+        },
+        {
+          "name": "Natural Titanium",
+          "code": "#C0BEB8"
+        },
+        {
+          "name": "Desert Titanium",
+          "code": "#D6C1AC"
+        }
       ],
       "price": "119.00",
       "monthly": "Contact retailer for financing options",
@@ -393,17 +469,35 @@
       "splashWaterDustResistant": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
       "techSpecsLink": "https://www.apple.com/iphone-16-pro/specs/",
       "learnMoreLink": "https://www.apple.com/iphone-16-pro/",
-      "productImage": "https://www.designinfo.in/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-128GB-Natural-Titanium-6-485x485-optimized.webp"
+      "productImage": "https://www.designinfo.in/wp-content/uploads/2024/09/Apple-iPhone-16-Pro-128GB-Natural-Titanium-6-485x485-optimized.webp",
+      "colorImages": {
+        "Black Titanium": "https://darlingretail.com/cdn/shop/files/3_7d0a2752-440e-4050-b4da-19bd0f7a5be4_1024x.png?v=1726120337",
+        "White Titanium": "https://m.media-amazon.com/images/I/61iSZ61xAgL.jpg",
+        "Natural Titanium": "https://iplanet.one/cdn/shop/files/iPhone_16_Pro_Max_Natural_Titanium_PDP_Image_Position_1__en-IN.jpg?v=1727251233",
+        "Desert Titanium": "https://iplanet.one/cdn/shop/files/iPhone_16_Pro_Max_Desert_Titanium_PDP_Image_Position_1__en-IN_bd12d9b7-b81f-4671-a04e-e27d77c026ad.jpg?v=1727250983&width=1920"
+      }
     },
     {
       "id": 12,
       "title": "iPhone 16",
       "description": "Advanced iPhone with powerful performance and sleek design.",
       "colors": [
-        "Ultramarine",
-        "Teal",
-        "Pink",
-        "Black"
+        {
+          "name": "Ultramarine",
+          "code": "#3F00FF"
+        },
+        {
+          "name": "Teal",
+          "code": "#008080"
+        },
+        {
+          "name": "Pink",
+          "code": "#FFC0CB"
+        },
+        {
+          "name": "Black",
+          "code": "#000000"
+        }
       ],
       "price": "799.00",
       "monthly": "Contact retailer for financing options",
@@ -554,18 +648,18 @@
       "splashWaterDustResistant": "Rated IP68 (maximum depth of 6 meters up to 30 minutes) under IEC standard 60529",
       "techSpecsLink": "https://www.apple.com/iphone-16-pro/specs/",
       "learnMoreLink": "https://www.apple.com/iphone-16-pro/",
-      "productImage": "https://inspireonline.in/cdn/shop/files/iPhone_16_Teal_PDP_Image_Position_1__en-IN_6aed3712-113a-4579-8a71-41c02aa0003c.jpg?v=1727247732"
+      "productImage": "https://inspireonline.in/cdn/shop/files/iPhone_16_Teal_PDP_Image_Position_1__en-IN_6aed3712-113a-4579-8a71-41c02aa0003c.jpg?v=1727247732",
+      "colorImages": {
+        "Ultramarine": "https://inspireonline.in/cdn/shop/files/iPhone_16_Plus_Ultramarine_PDP_Image_Position_1__en-IN_2bbd3f38-52cd-4666-b40e-ad1fb8ad9c3f.jpg?v=1727248677",
+        "Teal": "https://www.imagineonline.store/cdn/shop/files/iPhone_16_Teal_PDP_Image_Position_1__en-IN_a1fc96e6-04cc-4c8a-8f9b-f22f27088bc6.jpg?v=1727247742",
+        "Pink": "https://www.imagineonline.store/cdn/shop/files/iPhone_16_Pink_PDP_Image_Position_1__en-IN_4dccfc5a-39a9-4652-9c28-825d511fb1ee.jpg?v=1727247691&width=1445",
+        "Black": "https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/8/w/5/-original-imah4jyfwr3bfjbg.jpeg?q=90&crop=false"
+      }
     },
     {
       "id": 13,
-      "title": "iPhone 16",
+      "title": "iPhone 16e",
       "description": "Powerful iPhone with a vibrant design and essential features.",
-      "colors": [
-        "Ultramarine",
-        "Teal",
-        "Pink",
-        "Black"
-      ],
       "price": "699.00",
       "monthly": "Contact retailer for financing options",
       "display": "6.1-inch Super Retina XDR OLED display",
@@ -716,9 +810,18 @@
       "title": "Apple Watch SE (2nd generation)",
       "description": "The most affordable Apple Watch, offering essential features for fitness, safety, and connectivity.",
       "colors": [
-        "Midnight",
-        "Starlight",
-        "Silver"
+        {
+          "name": "Midnight",
+          "code": "#1D1D1F"
+        },
+        {
+          "name": "Starlight",
+          "code": "#F3F1E7"
+        },
+        {
+          "name": "Silver",
+          "code": "#D8D8D8"
+        }
       ],
       "price": "249.00",
       "monthly": "Contact retailer for financing options",
@@ -801,19 +904,42 @@
       ],
       "learnMoreLink": "https://www.apple.com/apple-watch-se/",
       "techSpecsLink": "https://www.apple.com/apple-watch-se/specs/",
-      "productImage": "https://m.media-amazon.com/images/I/71lG7br7k1L._AC_UF1000,1000_QL80_.jpg"
+      "productImage": "https://m.media-amazon.com/images/I/71lG7br7k1L._AC_UF1000,1000_QL80_.jpg",
+      "colorImages": {
+        "Midnight": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MYJ53ref_VW_34FR+watch-case-40-aluminum-midnight-nc-se_VW_34FR+watch-face-40-aluminum-midnight-se_VW_34FR?wid=656&hei=720&bgc=fafafa&fmt=p-jpg&qlt=80&.v=d0ExZHIvWW8vSDlQRklSZ3RQQTBOMCtGZUJWLzNFUFVydllxZFp0d1M4NTlEbzMrd1Z5SUpEd0hiT0ZLRlZGNGRCU0luK254NGZZeFNSZCtCaXAxdGg4OFMza08xNVcyVm9vUnNISFZ1UEdiaytyMkV2UXJqeE9wOUlGWnU0cExtc2lrQTVMNk1oSVJlNWZPWjRSS2FqUGhOUkQ5OXRUYnJGOGo3MGJ4MFZ1cWJUd2FaOWg0VEluVVFXSEtBSnBUb0xUcDliZGU0dThzdHBDT2wzaXdDOUpIZExSemJmYnNKc0Vmb1AwOGZuYw",
+        "Starlight": "https://idestiny.in/wp-content/uploads/2024/10/Apple_Watch_SE_LTE_40mm_Starlight_Aluminum_Starlight_Sport_Band_PDP_Images_Position-1__en-IN.jpg",
+        "Silver": "https://m.media-amazon.com/images/I/8112ll3wwbL._AC_UF1000,1000_QL80_.jpg"
+      }
     },
     {
       "id": 15,
       "title": "Apple Watch Series 10",
       "description": "The latest flagship Apple Watch with a larger display, thinner design, and advanced health features.",
       "colors": [
-        "Jet Black",
-        "Rose Gold",
-        "Silver",
-        "Slate",
-        "Gold",
-        "Natural"
+        {
+          "name": "Jet Black",
+          "code": "#0A0A0A"
+        },
+        {
+          "name": "Rose Gold",
+          "code": "#B76E79"
+        },
+        {
+          "name": "Silver",
+          "code": "#D1D1D6"
+        },
+        {
+          "name": "Slate",
+          "code": "#4A4A4A"
+        },
+        {
+          "name": "Gold",
+          "code": "#FFD700"
+        },
+        {
+          "name": "Natural",
+          "code": "#6e6c6a"
+        }
       ],
       "price": "399.00",
       "monthly": "Contact retailer for financing options",
@@ -920,15 +1046,29 @@
       ],
       "learnMoreLink": "https://www.apple.com/apple-watch-series-10/",
       "techSpecsLink": "https://www.apple.com/apple-watch-series-10/specs734/",
-      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXMN3_VW_34FR+watch-case-42-titanium-gold-cell-s10_VW_34FR+watch-face-42-titanium-gold-s10_VW_34FR?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=eTJINXdmS1dsNFJzUUMzK2Q0LzUxRkxhUDRYNzNWdjhRQnRqUXg3SUorWHpPUXBXenBpQlJtWTk2UDd2RUxvdTk2dVpqb1NYUlI2c2xkRFVxMlVQc1hSVEtNcVBDWElWeDY5d0dxbVBKWmQ0OXlrbVVxTkhpTDliM0tPY3ArN2tVUmtYY1JKc0FOcUw1UWwrK2NiUXIrRHRmOVorV3Ztc3o4b1lKOXQwd0thckpmNWN0WVRsNmlxbjU0T3JCYkhaMkJ4eG5yNWNEQXhoeGlLSUdrUkNsa2xRa2xUUkhCemxBRTBOaWoyaU9xYw"
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXMN3_VW_34FR+watch-case-42-titanium-gold-cell-s10_VW_34FR+watch-face-42-titanium-gold-s10_VW_34FR?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=eTJINXdmS1dsNFJzUUMzK2Q0LzUxRkxhUDRYNzNWdjhRQnRqUXg3SUorWHpPUXBXenBpQlJtWTk2UDd2RUxvdTk2dVpqb1NYUlI2c2xkRFVxMlVQc1hSVEtNcVBDWElWeDY5d0dxbVBKWmQ0OXlrbVVxTkhpTDliM0tPY3ArN2tVUmtYY1JKc0FOcUw1UWwrK2NiUXIrRHRmOVorV3Ztc3o4b1lKOXQwd0thckpmNWN0WVRsNmlxbjU0T3JCYkhaMkJ4eG5yNWNEQXhoeGlLSUdrUkNsa2xRa2xUUkhCemxBRTBOaWoyaU9xYw",
+      "colorImages": {
+        "Jet Black": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXLJ3ref_VW_34FR+watch-case-42-aluminum-jetblack-nc-s10_VW_34FR+watch-face-42-aluminum-jetblack-s10_VW_34FR?wid=5120&hei=3280&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=SmNOTU80TDhXckVBUGdaWWZTZVBXcDNqbENGcEFFTlJVaXJwL2VzdGxEMU9NU1VZS1dIdzdkNjZzejNRdFdUZzBnRnJNVU50TjZtbUN3ZjYvVksrL1FtTHNhRmRKQkE2OXJHRVEvRTFWdXVoSHlqYUY2YWdsek45M29HTWxyVHhWNEM0ZHZzMzMzajJiOGZuamRiTE9rUVN3R3VxZWhYYXgwOHljYmZFMXBocmMyRTN3NCt6QkoxaUdRb0FBay9VYktGTHdENW9lYUFnak5pcy9ReEdDVGFYRW5lZTlQWUFSemFVTERGOFVXQ0pMTGI4QWxGbG1DY25rS1FILzcyQg",
+        "Rose Gold": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXLN3ref_VW_34FR+watch-case-42-aluminum-rosegold-nc-s10_VW_34FR+watch-face-42-aluminum-rosegold-s10_VW_34FR?wid=5120&hei=3280&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=UVJuZDErT1V3TUlNcnk2Rnd0N1k2cDNqbENGcEFFTlJVaXJwL2VzdGxEM3hoaFEySTlrZSsrbEhqczIxajV3MzBnRnJNVU50TjZtbUN3ZjYvVksrL1FtTHNhRmRKQkE2OXJHRVEvRTFWdXRGd1ZOdUM2RkNJOUpIeklzU1JHbVNWNEM0ZHZzMzMzajJiOGZuamRiTE9rUVN3R3VxZWhYYXgwOHljYmZFMXBocmMyRTN3NCt6QkoxaUdRb0FBay9VYktGTHdENW9lYUFnak5pcy9ReEdDVGFYRW5lZTlQWUFSemFVTERGOFVXQ0pMTGI4QWxGbG1DY25rS1FILzcyQg",
+        "Silver": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXL53_FV99_VW_34FR+watch-case-46-aluminum-silver-cell-s10_VW_34FR+watch-face-46-aluminum-silver-s10_VW_34FR?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=K1hWR2hVQTExWGNIMWp0T0xubW1PS3VKZERJSWhWU0lrcE8vZ3ZQem9JdHRmNmQwdmp6cVNETDNwdW9DdlEvWENGRWliSXdTT0lYR2dSK0VIRTZZWHRZQ0x6YjhsYlVrMmpvdFN5NHRSMzA3WkIzU21ldmpoTXdTbEpnc2NxcE9WNEM0ZHZzMzMzajJiOGZuamRiTE9uZmdHMUt6VFlqa3BpV2VBOUNycGdrcDIxSk5peW5HTWQ0c004MmJwMkNtdGl6SHg4ZE5NYmlWSVQ5akRTdGpCUVk4Z2FmTUZCajRLSEh6SkNkZFZHaw",
+        "Slate": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MC7L4ref_FV99_VW_34FR+watch-case-46-titanium-slate-cell-s10_VW_34FR+watch-face-46-titanium-slate-s10_VW_34FR?wid=2000&hei=2000&fmt=png-alpha&.v=UHZIekNRQkg1TjQ5YUwrNjJiQTBBRW5TeWJ6QW43NUFnQ2V4cmRFc1VnWTc4blplVGNpSEZpNjZUNjVaN2NmQ0hYdElIVEV6MlVLNjZQdWRicTV0RXZmQXlUU2xCQ2pTN3lrcDE0UU1hK0VYZWthQXJCL2NtQ1RrVVMvZXZWQVlBdzhRZzJqU0xkSEpFODEzRDVva3cvVjU3bDZidEM5RTc3NjFXM2NoMzlyVGYxQWFpeTNZUjhveGlsZTNCWHdhQ0E1S2J6VVFYRGdTRXZzTGN3eU1rdw",
+        "Gold": "https://m.media-amazon.com/images/I/91CtbnJRrIL._SL1500_.jpg",
+        "Natural": "https://www.imagineonline.store/cdn/shop/files/Apple_Watch_Series_10_46mm_GPS_Natural_Titanium_Sport_Band_Stone_Grey_PDP_Image_Position_1__en-IN_5ff60beb-1dec-4822-a872-3d14dedbf0d8.jpg?v=1727255942"
+      }
     },
     {
       "id": 16,
       "title": "Apple Watch Ultra 2",
       "description": "The most rugged and capable Apple Watch, designed for endurance, exploration, and adventure.",
       "colors": [
-        "Black",
-        "Natural"
+        {
+          "name": "Black",
+          "code": "#1C1C1E"
+        },
+        {
+          "name": "Natural",
+          "code": "#D6CEC3"
+        }
       ],
       "price": "799.00",
       "monthly": "Contact retailer for financing options",
@@ -1024,7 +1164,11 @@
       ],
       "learnMoreLink": "https://www.apple.com/apple-watch-ultra-2/",
       "techSpecsLink": "https://www.apple.com/apple-watch-ultra-2/specs/",
-      "productImage": "https://m.media-amazon.com/images/I/81CUXO9xeHL.jpg"
+      "productImage": "https://m.media-amazon.com/images/I/81CUXO9xeHL.jpg",
+      "colorImages": {
+        "black": "https://m.media-amazon.com/images/I/81CUXO9xeHL.jpg",
+        "Natural": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXN13ref_VW_34FR+watch-case-49-titanium-natural-ultra2_VW_34FR+watch-face-49-alpine-ultra2_VW_34FR_GEO_IN?wid=5120&hei=3280&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=MVk3KzJXanByNFpLUk44NDNqU0VTM2pDV2hhem5qNnpDenFtKzI1OXdzYkpncG05NXptdno5VmVNOFY1RGFaTE96dTRSSXdkWit3NnU2Q1orZWxLbVNCYWZ0M2xobjlJWjF6VEVYcVFORGQxMElNdmlqOUo3NFdlSG12b28wYWJ1a2gzUUplbzlQZFY1dHUxcGoxNCtKR3ZiM1VVanlXUmVvN3dXbUd0SjFNcDIxSk5peW5HTWQ0c004MmJwMkNtdGl6SHg4ZE5NYmlWSVQ5akRTdGpCYUloZVVXQi85TUVrTXU1QmRUZEN6dw"
+      }
     },
     {
       "id": 17,
@@ -1130,10 +1274,6 @@
       "id": 18,
       "title": "Apple TV 4K",
       "description": "The ultimate way to watch TV, with 4K HDR, Dolby Atmos sound, and the best of Apple TV app and Apple TV+.",
-      "colors": [
-        "Black Multi-Touch",
-        "Silver Multi-Touch"
-      ],
       "price": "129.00",
       "monthly": "Contact retailer for financing options",
       "releaseDate": "November 2022 (3rd generation)",
@@ -1328,7 +1468,11 @@
       ],
       "learnMoreLink": "https://www.apple.com/homepod/",
       "techSpecsLink": "https://www.apple.com/homepod/specs/",
-      "productImage": "https://rukminim2.flixcart.com/image/850/1000/xif0q/speaker/a/n/z/-original-imagm87dh2yhk585.jpeg?q=90&crop=false"
+      "productImage": "https://rukminim2.flixcart.com/image/850/1000/xif0q/speaker/a/n/z/-original-imagm87dh2yhk585.jpeg?q=90&crop=false",
+      "colorImages": {
+        "White": "https://iplanet.one/cdn/shop/files/HomePod_2nd_Gen_White_PDP_Image_Position-0__en-US.jpg?v=1691163891&width=823",
+        "Midnight": "https://rukminim2.flixcart.com/image/850/1000/xif0q/speaker/a/n/z/-original-imagm87dh2yhk585.jpeg?q=90&crop=false"
+      }
     },
     {
       "id": 22,
@@ -1389,11 +1533,18 @@
       ],
       "learnMoreLink": "https://www.apple.com/homepod-mini/",
       "techSpecsLink": "https://www.apple.com/homepod-mini/specs/",
-      "productImage": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1733733723/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/308669_ybvdob.png"
+      "productImage": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1733733723/Croma%20Assets/Entertainment/Speakers%20and%20Media%20Players/Images/308669_ybvdob.png",
+      "colorImages": {
+        "White": "https://dakauf.eu/wp-content/uploads/2024/07/Apple-Homepod-mini-White.png",
+        "Space Gray": "https://www.aptronixindia.com/media/catalog/product/cache/31f0162e6f7d821d2237f39577122a8a/u/n/untitled-1.png",
+        "Yellow": "https://www.imagineonline.store/cdn/shop/files/HomePod_mini_Yellow_PDP_Image_Position-1__GBEN_83b349a6-cb12-4078-98dc-f2e99e23886f.jpg?v=1692403546",
+        "Orange": "https://iplanet.one/cdn/shop/files/HomePod_mini_Orange_PDP_Image_Position-1__GBEN.jpg?v=1691163806",
+        "Blue": "https://www.imagineonline.store/cdn/shop/files/HomePod_mini_Blue_PDP_Image_Position-1__GBEN_15280783-13c6-49d0-af75-2b5d2786baf7.jpg?v=1692403436&width=1445"
+      }
     },
     {
       "id": 23,
-      "title": "iPhone 16e Silicone Case – Fuchsia",
+      "title": "iPhone 16e Silicone Case ",
       "description": "A sleek silicone case designed for iPhone 16e, offering protection with a soft-touch finish.",
       "colors": [
         "Fuchsia",
@@ -1411,7 +1562,14 @@
       ],
       "compatibility": "iPhone 16e",
       "learnMoreLink": "https://www.apple.com/shop/product/MD3W4ZM/A/iphone-16e-silicone-case-fuchsia",
-      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3W4?wid=532&hei=582&fmt=png-alpha&.v=RTFWTkh5c2tPUEMwMU5GcTZLRzBvZ0hqc0NvK2RZTVd5TWVhUDFuQlo0MUpGT0J3WDRydHdiVWx6eGtJQmdHUFZCeEJOYVFGSkRDYzUrK0ViV1hEWUE"
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3W4?wid=532&hei=582&fmt=png-alpha&.v=RTFWTkh5c2tPUEMwMU5GcTZLRzBvZ0hqc0NvK2RZTVd5TWVhUDFuQlo0MUpGT0J3WDRydHdiVWx6eGtJQmdHUFZCeEJOYVFGSkRDYzUrK0ViV1hEWUE",
+      "colorImages": {
+        "Fuchsia": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3W4?wid=532&hei=582&fmt=png-alpha&.v=RTFWTkh5c2tPUEMwMU5GcTZLRzBvZ0hqc0NvK2RZTVd5TWVhUDFuQlo0MUpGT0J3WDRydHdiVWx6eGtJQmdHUFZCeEJOYVFGSkRDYzUrK0ViV1hEWUE",
+        "Ultramarine": "https://www.imagineonline.store/cdn/shop/files/ab4fe081-bb55-50b2-9122-0fe489a5dc65_m_jpg_1_533x.jpg?v=1739994170",
+        "Teal": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3X4?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=eHp0aDU2eXdTbUgrSEZDRmJLRVBzZ2tuVHYzMERCZURia3c5SzJFOTlPaVhOVzF1R3QwTDFGVHBpQ1RhamsrRkx6UmFsVWpkcjMzSVVaaUgrTkYyT0Ehttps://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3X4?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=eHp0aDU2eXdTbUgrSEZDRmJLRVBzZ2tuVHYzMERCZURia3c5SzJFOTlPaVhOVzF1R3QwTDFGVHBpQ1RhamsrRkx6UmFsVWpkcjMzSVVaaUgrTkYyT0E",
+        "Pink": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3W4?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=YVo2RXlDUkJCcFBlbHJ6dDdkQTE0UWtuVHYzMERCZURia3c5SzJFOTlPaVhOVzF1R3QwTDFGVHBpQ1RhamsrRmxSRmpKejUxcFkxa2trZkRtSFYwa1E",
+        "Black": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MD3N4?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=aTlMN2UxMG4wNjJzOXBnV3RteEhxUWtuVHYzMERCZURia3c5SzJFOTlPaVhOVzF1R3QwTDFGVHBpQ1RhamsrRjFTYlVwTm9CNlNHZDQ1L1VRKzhCQ1E"
+      }
     },
     {
       "id": 24,
@@ -1440,11 +1598,14 @@
       "title": "46mm Tangerine Braided Solo Loop - Size 4",
       "description": "A stretchable, comfortable watch band for Apple Watch, made from recycled materials.",
       "colors": [
-        "Tangerine",
-        "Berry",
-        "Canary Yellow",
-        "Starlight",
-        "Midnight"
+        {
+          "name": "Tangerine",
+          "code": "#f79682"
+        },
+        {
+          "name": "Berry",
+          "code": "#990F4B"
+        }
       ],
       "price": "99.00",
       "status": "New",
@@ -1456,18 +1617,29 @@
       "compatibility": "Apple Watch (46mm case)",
       "size": "Size 4",
       "learnMoreLink": "https://www.apple.com/shop/product/MDLJ4AM/A/46mm-tangerine-braided-solo-loop-size-4",
-      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDLE4ref?wid=532&hei=582&fmt=png-alpha&.v=VFU3NDB5ckZnNmJTbkNFelNnSWZaRkxrd3NRTzUwSGh2QVAzV3JWV0JLZmh6QUZBNlVUR2RYcjYyR2hPZE5xc2FXbGQ4Nlo0K0ZacUZSZk0zNGtRcXc"
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDLE4ref?wid=532&hei=582&fmt=png-alpha&.v=VFU3NDB5ckZnNmJTbkNFelNnSWZaRkxrd3NRTzUwSGh2QVAzV3JWV0JLZmh6QUZBNlVUR2RYcjYyR2hPZE5xc2FXbGQ4Nlo0K0ZacUZSZk0zNGtRcXc",
+      "colorImages": {
+        "Tangerine": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDLE4ref?wid=532&hei=582&fmt=png-alpha&.v=VFU3NDB5ckZnNmJTbkNFelNnSWZaRkxrd3NRTzUwSGh2QVAzV3JWV0JLZmh6QUZBNlVUR2RYcjYyR2hPZE5xc2FXbGQ4Nlo0K0ZacUZSZk0zNGtRcXc",
+        "Berry": "https://images.dailyobjects.com/marche/product-images/1801/berry-braided-solo-loop-apple-watchband-42-44-45-49mm-images/Berry-Braided-Solo-Loop-Apple-WatchBand-2.png?tr=cm-pad_resize,v-3,w-412,h-490,dpr-2"
+      }
     },
     {
       "id": 26,
-      "title": "iPhone 16 Pro Max Silicone Case with MagSafe – Peony",
+      "title": "iPhone 16 Pro Max Silicone Case with MagSafe",
       "description": "A protective silicone case with MagSafe compatibility, designed for iPhone 16 Pro Max.",
       "colors": [
-        "Peony",
-        "Ultramarine",
-        "Pink",
-        "Black",
-        "Starlight"
+        {
+          "name": "Peony",
+          "code": "#ED7A9E"
+        },
+        {
+          "name": "Ultramarine",
+          "code": "#3F00FF"
+        },
+        {
+          "name": "Pink",
+          "code": "#FFC0CB"
+        }
       ],
       "price": "49.00",
       "status": "New",
@@ -1479,7 +1651,12 @@
       ],
       "compatibility": "iPhone 16 Pro Max",
       "learnMoreLink": "",
-      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDGW4?wid=532&hei=582&fmt=png-alpha&.v=dUxSSUhScXo5YlZoMk5rY1JKMmZFQUhqc0NvK2RZTVd5TWVhUDFuQlo0M0tQL093NHRGbHQwdTEwNGNqRldHSEJSc1NMVE9JVVFaR3h1NU84d3lseXc"
+      "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDGW4?wid=532&hei=582&fmt=png-alpha&.v=dUxSSUhScXo5YlZoMk5rY1JKMmZFQUhqc0NvK2RZTVd5TWVhUDFuQlo0M0tQL093NHRGbHQwdTEwNGNqRldHSEJSc1NMVE9JVVFaR3h1NU84d3lseXc",
+      "colorImages": {
+        "Peony": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MYYN3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=S3FqMWxxN2ZrMmNCVGdFbEo2TjFud2tuVHYzMERCZURia3c5SzJFOTlPZ3oveDdpQVpwS0ltY2w2UW05aU90T292Q2RWSzZydERENWRLODdHb0I4U2c",
+        "Ultramarine": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MYYP3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=a1FEalJTd3VqNFFSS2E3Tk9aelA1d2tuVHYzMERCZURia3c5SzJFOTlPZ3oveDdpQVpwS0ltY2w2UW05aU90T1NqUnR1aCtCbUJ2NEoxdDU2SHpUd1E",
+        "Pink": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MDGW4?wid=532&hei=582&fmt=png-alpha&.v=dUxSSUhScXo5YlZoMk5rY1JKMmZFQUhqc0NvK2RZTVd5TWVhUDFuQlo0M0tQL093NHRGbHQwdTEwNGNqRldHSEJSc1NMVE9JVVFaR3h1NU84d3lseXc"
+      }
     },
     {
       "id": 27,
