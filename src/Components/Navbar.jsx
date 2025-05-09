@@ -43,10 +43,9 @@ export const Navbar = () => {
 
           {/* Icons for small screens */}
           <div className="d-lg-none ms-auto mt-2 mt-lg-0">
-            <button className="btn p-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Open search">
-              <IoIosSearch size={20} />
-            </button>
-            <IoBagOutline size={20} className="me-3" />
+            <Link href="/Cart" className='text-decoration-none text-dark'>
+              <IoBagOutline size={20} className="me-3" />
+            </Link>
           </div>
 
           {/* Toggler */}
@@ -69,95 +68,215 @@ export const Navbar = () => {
                 <Link href="/Store" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="storeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Store
                 </Link>
-                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="storeDropdown">
-                  <div className="container-fluid">
+                <div className="dropdown-menu container-fluid border-0 mt-0 p-3" aria-labelledby="storeDropdown">
+                  <div className="container">
                     <div className="row">
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Store/new">New Store</Link>
-                        <Link className="dropdown-item" href="/Store/featured">Featured</Link>
+                      {/* Column 1: Shop */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop</h6>
+                        <Link className="dropdown-item fw-bold" href="/Product">Shop the Latest</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Mac</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPad</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPhone</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Watch</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Vision Pro</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Accessories</Link>
                       </div>
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Store/offers">Offers</Link>
-                        <Link className="dropdown-item" href="/Store/info">More Info</Link>
+
+                      {/* Column 2: Quick Links */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Quick Links</h6>
+                        <Link className="dropdown-item" href="/Product">Find a Store</Link>
+                        <Link className="dropdown-item" href="/Product">Order Status</Link>
+                        <Link className="dropdown-item" href="/Product">Apple Trade In</Link>
+                        <Link className="dropdown-item" href="/Product">Financing</Link>
+                        <Link className="dropdown-item" href="/Product">Personal Setup</Link>
+                      </div>
+
+                      {/* Column 3: Shop Special Stores */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop Special Stores</h6>
+                        <Link className="dropdown-item" href="/Product">Certified Refurbished</Link>
+                        <Link className="dropdown-item" href="/Product">Education</Link>
+                        <Link className="dropdown-item" href="/Product">Business</Link>
+                        <Link className="dropdown-item" href="/Product">Veterans and Military</Link>
+                        <Link className="dropdown-item" href="/Product">Government</Link>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </li>
               <li className="nav-item dropdown">
                 <Link href="/Mac" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="macDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Mac
                 </Link>
-                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="macDropdown">
-                  <div className="container-fluid">
+                <div className="dropdown-menu container-fluid border-0 mt-0 p-3" aria-labelledby="storeDropdown">
+                  <div className="container">
                     <div className="row">
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Mac/new">New Mac</Link>
-                        <Link className="dropdown-item" href="/Mac/featured">Featured</Link>
+                      {/* Column 1: Shop */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop</h6>
+                        <Link className="dropdown-item fw-bold" href="/Product">Shop the Latest</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Mac</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPad</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPhone</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Watch</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Vision Pro</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Accessories</Link>
                       </div>
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Mac/offers">Offers</Link>
-                        <Link className="dropdown-item" href="/Mac/info">More Info</Link>
+
+                      {/* Column 2: Quick Links */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Quick Links</h6>
+                        <Link className="dropdown-item" href="/Product">Find a Store</Link>
+                        <Link className="dropdown-item" href="/Product">Order Status</Link>
+                        <Link className="dropdown-item" href="/Product">Apple Trade In</Link>
+                        <Link className="dropdown-item" href="/Product">Financing</Link>
+                        <Link className="dropdown-item" href="/Product">Personal Setup</Link>
+                      </div>
+
+                      {/* Column 3: Shop Special Stores */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop Special Stores</h6>
+                        <Link className="dropdown-item" href="/Product">Certified Refurbished</Link>
+                        <Link className="dropdown-item" href="/Product">Education</Link>
+                        <Link className="dropdown-item" href="/Product">Business</Link>
+                        <Link className="dropdown-item" href="/Product">Veterans and Military</Link>
+                        <Link className="dropdown-item" href="/Product">Government</Link>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </li>
               <li className="nav-item dropdown">
                 <Link href="/Ipad" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="ipadDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   iPad
                 </Link>
-                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="ipadDropdown">
-                  <div className="container-fluid">
+                <div className="dropdown-menu container-fluid border-0 mt-0 p-3" aria-labelledby="storeDropdown">
+                  <div className="container">
                     <div className="row">
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Ipad/new">New iPad</Link>
-                        <Link className="dropdown-item" href="/Ipad/featured">Featured</Link>
+                      {/* Column 1: Shop */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop</h6>
+                        <Link className="dropdown-item fw-bold" href="/Product">Shop the Latest</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Mac</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPad</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPhone</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Watch</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Vision Pro</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Accessories</Link>
                       </div>
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Ipad/offers">Offers</Link>
-                        <Link className="dropdown-item" href="/Ipad/info">More Info</Link>
+
+                      {/* Column 2: Quick Links */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Quick Links</h6>
+                        <Link className="dropdown-item" href="/Product">Find a Store</Link>
+                        <Link className="dropdown-item" href="/Product">Order Status</Link>
+                        <Link className="dropdown-item" href="/Product">Apple Trade In</Link>
+                        <Link className="dropdown-item" href="/Product">Financing</Link>
+                        <Link className="dropdown-item" href="/Product">Personal Setup</Link>
+                      </div>
+
+                      {/* Column 3: Shop Special Stores */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop Special Stores</h6>
+                        <Link className="dropdown-item" href="/Product">Certified Refurbished</Link>
+                        <Link className="dropdown-item" href="/Product">Education</Link>
+                        <Link className="dropdown-item" href="/Product">Business</Link>
+                        <Link className="dropdown-item" href="/Product">Veterans and Military</Link>
+                        <Link className="dropdown-item" href="/Product">Government</Link>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </li>
               <li className="nav-item dropdown">
                 <Link href="/Iphone" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="iphoneDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   iPhone
                 </Link>
-                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="iphoneDropdown">
-                  <div className="container-fluid">
+                <div className="dropdown-menu container-fluid border-0 mt-0 p-3" aria-labelledby="storeDropdown">
+                  <div className="container">
                     <div className="row">
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Iphone/new">New iPhone</Link>
-                        <Link className="dropdown-item" href="/Iphone/featured">Featured</Link>
+                      {/* Column 1: Shop */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop</h6>
+                        <Link className="dropdown-item fw-bold" href="/Product">Shop the Latest</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Mac</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPad</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPhone</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Watch</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Vision Pro</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Accessories</Link>
                       </div>
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Iphone/offers">Offers</Link>
-                        <Link className="dropdown-item" href="/Iphone/info">More Info</Link>
+
+                      {/* Column 2: Quick Links */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Quick Links</h6>
+                        <Link className="dropdown-item" href="/Product">Find a Store</Link>
+                        <Link className="dropdown-item" href="/Product">Order Status</Link>
+                        <Link className="dropdown-item" href="/Product">Apple Trade In</Link>
+                        <Link className="dropdown-item" href="/Product">Financing</Link>
+                        <Link className="dropdown-item" href="/Product">Personal Setup</Link>
+                      </div>
+
+                      {/* Column 3: Shop Special Stores */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop Special Stores</h6>
+                        <Link className="dropdown-item" href="/Product">Certified Refurbished</Link>
+                        <Link className="dropdown-item" href="/Product">Education</Link>
+                        <Link className="dropdown-item" href="/Product">Business</Link>
+                        <Link className="dropdown-item" href="/Product">Veterans and Military</Link>
+                        <Link className="dropdown-item" href="/Product">Government</Link>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </li>
               <li className="nav-item dropdown">
                 <Link href="/Watch" className="nav-link dropdown-toggle text-muted px-5 px-lg-3" id="watchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Watch
                 </Link>
-                <div className="dropdown-menu border-0 mt-0 p-3" aria-labelledby="watchDropdown">
-                  <div className="container-fluid">
+                <div className="dropdown-menu container-fluid border-0 mt-0 p-3" aria-labelledby="storeDropdown">
+                  <div className="container">
                     <div className="row">
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Watch/new">New Watch</Link>
-                        <Link className="dropdown-item" href="/Watch/featured">Featured</Link>
+                      {/* Column 1: Shop */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop</h6>
+                        <Link className="dropdown-item fw-bold" href="/Product">Shop the Latest</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Mac</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPad</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">iPhone</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Watch</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Apple Vision Pro</Link>
+                        <Link className="dropdown-item fw-bold" href="/Product">Accessories</Link>
                       </div>
-                      <div className="col-6 col-md-3">
-                        <Link className="dropdown-item" href="/Watch/offers">Offers</Link>
-                        <Link className="dropdown-item" href="/Watch/info">More Info</Link>
+
+                      {/* Column 2: Quick Links */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Quick Links</h6>
+                        <Link className="dropdown-item" href="/Product">Find a Store</Link>
+                        <Link className="dropdown-item" href="/Product">Order Status</Link>
+                        <Link className="dropdown-item" href="/Product">Apple Trade In</Link>
+                        <Link className="dropdown-item" href="/Product">Financing</Link>
+                        <Link className="dropdown-item" href="/Product">Personal Setup</Link>
+                      </div>
+
+                      {/* Column 3: Shop Special Stores */}
+                      <div className="col-12 col-md-4 mb-3">
+                        <h6 className="text-uppercase text-muted">Shop Special Stores</h6>
+                        <Link className="dropdown-item" href="/Product">Certified Refurbished</Link>
+                        <Link className="dropdown-item" href="/Product">Education</Link>
+                        <Link className="dropdown-item" href="/Product">Business</Link>
+                        <Link className="dropdown-item" href="/Product">Veterans and Military</Link>
+                        <Link className="dropdown-item" href="/Product">Government</Link>
                       </div>
                     </div>
                   </div>
+
                 </div>
               </li>
               <li className="nav-item dropdown">
@@ -278,10 +397,9 @@ export const Navbar = () => {
 
             {/* Icons for large screens */}
             <div className="d-none d-lg-flex me-2">
-              <button className="btn p-0 me-3" data-bs-toggle="modal" data-bs-target="#searchModal" aria-label="Open search">
-                <IoIosSearch size={20} />
-              </button>
-              <IoBagOutline size={20} className="me-3" />
+              <Link href="/Cart" className='text-decoration-none text-dark'>
+                <IoBagOutline size={20} className="me-3" />
+              </Link>
             </div>
           </div>
         </nav>

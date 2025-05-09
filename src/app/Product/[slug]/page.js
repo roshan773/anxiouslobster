@@ -5,6 +5,7 @@ import Head from "next/head";
 import { useParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import { toast, ToastContainer } from "react-toastify";
 
 const Description = () => {
     const params = useParams();
@@ -87,7 +88,7 @@ const Description = () => {
                 );
                 if (itemExistsWithSameColor) {
                     console.log("Product with this color already in cart:", cartItem.id || cartItem.slug, cartItem.color); // Debug log
-                    alert("Product with this color already in cart!");
+                    toast.warning("Product with this color already in cart!");
                     return;
                 }
                 // Different color, proceed to add
@@ -100,7 +101,7 @@ const Description = () => {
                 );
                 if (itemExistsWithNoColor) {
                     console.log("Product already in cart (no color):", cartItem.id || cartItem.slug); // Debug log
-                    alert("Product already in cart!");
+                    toast.warning('Product already in cart!');
                     return;
                 }
                 // No matching no-color item, proceed to add
@@ -111,7 +112,8 @@ const Description = () => {
         // Save updated cart to local storage
         localStorage.setItem("cart", JSON.stringify(updatedCart));
         console.log("Added to cart:", cartItem); // Debug log
-        alert("Product added to cart!");
+        toast.success("Product added to cart!");
+        getSingleProduct()
     };
 
 
@@ -166,12 +168,16 @@ const Description = () => {
         <div className="bg-light min-vh-100">
             <Head>
                 <title>{data.title || "Product"} - Apple</title>
-                <meta name="description" content={data.description || "Discover the latest Apple products."} />
+                <meta
+                    name="description"
+                    content={data.description || "Discover the latest Apple products."}
+                />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <div className="container py-5">
+            <main className="container py-5 px-3 px-md-5">
                 <div className="row align-items-center mb-5">
+                    {/* Image Section */}
                     <div className="col-12 col-md-6 mb-4 mb-md-0">
                         <div
                             className="d-flex justify-content-center align-items-center bg-white rounded shadow-sm"
@@ -180,9 +186,17 @@ const Description = () => {
                             {currentImage ? (
                                 <img
                                     src={currentImage}
-                                    alt={`${data.title || "Product"} in ${typeof selectedColor === "string" ? selectedColor : selectedColor?.name || "default color"}`}
+                                    alt={`${data.title || "Product"} in ${typeof selectedColor === "string"
+                                            ? selectedColor
+                                            : selectedColor?.name || "default color"
+                                        }`}
                                     className="img-fluid"
-                                    style={{ maxHeight: "100%", maxWidth: "100%", objectFit: "cover" }}
+                                    style={{
+                                        width: "100%",
+                                        height: "auto",
+                                        objectFit: "contain",
+                                        maxHeight: "400px",
+                                    }}
                                     onError={() => setCurrentImage(data.productImage || "")}
                                 />
                             ) : (
@@ -193,23 +207,34 @@ const Description = () => {
                         </div>
                     </div>
 
+                    {/* Product Info */}
                     <div className="col-12 col-md-6 ps-md-4">
-                        <h1 className="display-5 fw-bold mb-3">{data.title || "Product Title"}</h1>
-                        <p className="lead text-muted mb-4">{data.description || "No description available."}</p>
-                        <p className="fs-4 fw-semibold mb-4">
-                            From ${data.price || "N/A"} {data.monthly && `or ${data.monthly}`}
+                        <h1 className="fs-3 fs-md-2 fw-bold mb-3">
+                            {data.title || "Product Title"}
+                        </h1>
+                        <p className="lead text-muted mb-3">
+                            {data.description || "No description available."}
+                        </p>
+                        <p className="fs-5 fw-semibold mb-4">
+                            From ${data.price || "N/A"}{" "}
+                            {data.monthly && <span>or {data.monthly}</span>}
                         </p>
 
+                        {/* Color Selection */}
                         {data.colors && Array.isArray(data.colors) && (
                             <div className="mb-4">
                                 <p className="fw-semibold mb-2">
                                     Selected Color:{" "}
-                                    {typeof selectedColor === "string" ? selectedColor : selectedColor?.name || "None selected"}
+                                    {typeof selectedColor === "string"
+                                        ? selectedColor
+                                        : selectedColor?.name || "None selected"}
                                 </p>
                                 <div className="d-flex gap-2 flex-wrap">
                                     {data.colors.map((color, index) => {
-                                        const colorName = typeof color === "string" ? color : color?.name || "";
-                                        const colorCode = typeof color === "string" ? color : color?.code || "";
+                                        const colorName =
+                                            typeof color === "string" ? color : color?.name || "";
+                                        const colorCode =
+                                            typeof color === "string" ? color : color?.code || "";
                                         const isSelected =
                                             typeof selectedColor === "string"
                                                 ? selectedColor === color
@@ -217,14 +242,17 @@ const Description = () => {
                                         return (
                                             <button
                                                 key={index}
-                                                className={`d-inline-block rounded-circle border p-0 ${isSelected ? "border-primary border-2" : "border-secondary"}`}
+                                                className={`d-inline-block rounded-circle border p-0 ${isSelected
+                                                        ? "border-primary border-2"
+                                                        : "border-secondary"
+                                                    }`}
                                                 style={{
                                                     width: "24px",
                                                     height: "24px",
                                                     backgroundColor: colorCode || colorName,
                                                     cursor: "pointer",
                                                 }}
-                                                title={colorCode ? `${colorName}` : colorName}
+                                                title={colorName}
                                                 onClick={() => handleColorSelect(color)}
                                                 aria-label={`Select ${colorName} color`}
                                             ></button>
@@ -234,6 +262,7 @@ const Description = () => {
                             </div>
                         )}
 
+                        {/* Specs */}
                         {data.specs && (
                             <div className="mb-4">
                                 <p className="fw-semibold mb-2">Specifications:</p>
@@ -261,21 +290,34 @@ const Description = () => {
                             </div>
                         )}
 
-                        <a href={data.learnMoreLink || "#"} className="btn btn-primary btn-lg rounded-pill px-4">
-                            Learn More
-                        </a>
-                        <button onClick={addToCart} className="btn btn-dark btn-lg rounded-pill px-4">
-                            Add to Cart
-                        </button>
+                        {/* Action Buttons */}
+                        <div className="d-flex flex-wrap gap-2 mt-4">
+                            <a
+                                href={data.learnMoreLink || "#"}
+                                className="btn btn-primary btn-lg rounded-pill px-4"
+                            >
+                                Learn More
+                            </a>
+                            <button
+                                onClick={addToCart}
+                                className="btn btn-dark btn-lg rounded-pill px-4"
+                            >
+                                Add to Cart
+                            </button>
+                        </div>
                     </div>
                 </div>
 
+                {/* Suggestions */}
                 {suggestions.length > 0 && (
                     <div className="pt-5">
                         <h2 className="fw-bold mb-4 text-center">You Might Also Like</h2>
                         <div className="row">
                             {suggestions.map((product, index) => (
-                                <div key={product.slug || `suggestion-${index}`} className="col-12 col-md-4 mb-4">
+                                <div
+                                    key={product.slug || `suggestion-${index}`}
+                                    className="col-12 col-md-4 mb-4"
+                                >
                                     <div className="card h-100 shadow-sm border-0">
                                         <div
                                             className="d-flex justify-content-center align-items-center bg-white"
@@ -286,7 +328,11 @@ const Description = () => {
                                                     src={product.productImage}
                                                     alt={product.title || "Product"}
                                                     className="img-fluid"
-                                                    style={{ maxHeight: "100%", maxWidth: "100%", objectFit: "contain" }}
+                                                    style={{
+                                                        maxHeight: "100%",
+                                                        maxWidth: "100%",
+                                                        objectFit: "contain",
+                                                    }}
                                                 />
                                             ) : (
                                                 <div className="bg-secondary h-100 w-100 d-flex align-items-center justify-content-center">
@@ -295,7 +341,9 @@ const Description = () => {
                                             )}
                                         </div>
                                         <div className="card-body text-center">
-                                            <h5 className="card-title fw-semibold mb-2">{product.title || "Product"}</h5>
+                                            <h5 className="card-title fw-semibold mb-2">
+                                                {product.title || "Product"}
+                                            </h5>
                                             <p className="card-text text-muted mb-3">
                                                 From ${product.price || "N/A"}
                                             </p>
@@ -312,8 +360,10 @@ const Description = () => {
                         </div>
                     </div>
                 )}
-            </div>
+            </main>
+            <ToastContainer />
         </div>
+
     );
 };
 
