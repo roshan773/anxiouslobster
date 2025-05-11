@@ -1,52 +1,66 @@
 "use client";
 
-import { getAuth, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
-import { useRouter } from 'next/navigation'; // For App Router
-import React, { useContext, useState } from 'react';
-import GoogleButton from 'react-google-button';
-import { AuthContext } from '@/Context/Auth';
-// import { auth } from '../firebase'; 
+import {
+  signInWithEmailAndPassword,
+  signInWithPopup,
+  GoogleAuthProvider,
+  setPersistence,
+  browserLocalPersistence,
+} from "firebase/auth";
+import { useRouter } from "next/navigation";
+import React, { useContext, useEffect, useState } from "react";
+import GoogleButton from "react-google-button";
+import { AuthContext } from "@/Context/Auth";
+import { auth } from "@/service/firebase";
+import { toast } from "react-toastify";
 
 const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setemail] = useState("");
+  const [password, setpassword] = useState("");
   const { login } = useContext(AuthContext);
   const router = useRouter();
-  const provider = new GoogleAuthProvider();
-  const auth = getAuth()
+
+  // ✅ Add persistence logic here
+  useEffect(() => {
+    setPersistence(auth, browserLocalPersistence)
+      .then(() => {
+        console.log("Auth persistence set to localStorage");
+      })
+      .catch((error) => {
+        console.error("Persistence error", error);
+      });
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const res = await signInWithEmailAndPassword(auth, email, password);
-      const token = await res.user.getIdToken(); // Get Firebase ID token
-      console.log(res);
-      alert('Welcome Back');
-      setEmail('');
-      setPassword('');
-      login(token); // Pass token to AuthContext login function
-      router.push('/Cart'); // Redirect to Cart page
+      const user = res.user;
+      const idToken = await user.getIdToken();
+      login(idToken); // or pass user depending on your AuthContext
+      toast.success(`Welcome Back`);
+      setemail("");
+      setpassword("");
+      router.push("/Cart");
     } catch (error) {
       console.error(error);
-      alert(error.message); // User-friendly error message
-      setEmail('');
-      setPassword('');
+      toast.error(error.message);
+      setemail("");
+      setpassword("");
     }
   };
 
   const handleGoogle = async () => {
     try {
-      const res = await signInWithPopup(auth, provider);
-      const token = await res.user.getIdToken(); // Get Firebase ID token
-      console.log(res);
-      alert('Signed in with Google');
-      setEmail('');
-      setPassword('');
-      login(token); // Pass token to AuthContext login function
-      router.push('/Cart'); // Redirect to Cart page
+      const res = await signInWithPopup(auth, new GoogleAuthProvider());
+      const user = res.user;
+      const idToken = await user.getIdToken();
+      login(idToken);
+      toast.success(`Welcome Back`);
+      router.push("/Cart");
     } catch (error) {
       console.error(error);
-      alert(error.message); // User-friendly error message
+      toast.error(error.message);
     }
   };
 
@@ -89,7 +103,7 @@ const Login = () => {
                       fontSize: '1rem',
                     }}
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => setemail(e.target.value)}
                   />
                 </div>
                 <div className="mb-4">
@@ -113,7 +127,7 @@ const Login = () => {
                       fontSize: '1rem',
                     }}
                     value={password}
-                    onChange={(e) => setPassword(e.target.value)}
+                    onChange={(e) => setpassword(e.target.value)}
                   />
                 </div>
                 <button
@@ -133,7 +147,7 @@ const Login = () => {
               </form>
               <p className="text-center text-muted mt-4" style={{ fontSize: '0.9rem' }}>
                 Don’t have an account?{' '}
-                <a href="/signup" style={{ color: '#0071e3', textDecoration: 'none' }}>
+                <a href="/Register" style={{ color: '#0071e3', textDecoration: 'none' }}>
                   Sign up
                 </a>
               </p>

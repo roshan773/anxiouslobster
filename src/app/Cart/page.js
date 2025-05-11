@@ -1,36 +1,61 @@
+// pages/Cart.jsx
 'use client';
 
 import Head from 'next/head';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import Link from 'next/link';
 import { toast, ToastContainer } from 'react-toastify';
 import Privatepage from '@/Components/Privatepage';
-
-
+import { AuthContext } from '@/Context/Auth';
+import { db } from '@/service/firebase';
+import { doc, setDoc, getDoc } from 'firebase/firestore';
+import { auth } from '@/service/firebase';
+import { useRouter } from 'next/navigation';
 
 const Cart = () => {
     const [cart, setCart] = useState([]);
     const [total, setTotal] = useState(0);
-    
+    const { authData } = useContext(AuthContext); // Fix: Use authData (capital D)
+    const router = useRouter();
 
-    // Get cart from browser storage when page opens
+    // Sync cart with Firestore
     useEffect(() => {
-        const getCart = () => {
+        const getCart = async () => {
             try {
-                const savedCart = JSON.parse(localStorage.getItem('cart') || '[]');
-                // Warn if any item has a bad price
-                savedCart.forEach((item, i) => {
-                    if (!item.price || isNaN(Number(item.price))) {
-                        console.warn(`Bad price for item ${i}:`, item);
+                if (authData.isAuth && authData.token) {
+                    const userId = auth.currentUser.uid;
+                    const cartRef = doc(db, 'carts', userId);
+                    const cartSnap = await getDoc(cartRef);
+
+                    let savedCart = [];
+                    if (cartSnap.exists()) {
+                        savedCart = cartSnap.data().items || [];
+                    } else {
+                        savedCart = JSON.parse(localStorage.getItem('cart') || '[]');
+                        await setDoc(cartRef, { items: savedCart });
                     }
-                });
-                setCart(savedCart);
-                // Add up total cost (price * quantity for each item)
-                const totalCost = savedCart.reduce(
-                    (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
-                    0
-                );
-                setTotal(totalCost);
+
+                    savedCart.forEach((item, i) => {
+                        if (!item.price || isNaN(Number(item.price))) {
+                            console.warn(`Bad price for item ${i}:`, item);
+                        }
+                    });
+
+                    setCart(savedCart);
+                    const totalCost = savedCart.reduce(
+                        (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
+                        0
+                    );
+                    setTotal(totalCost);
+                } else {
+                    const savedCart = JSON.parse(localStorage.getItem('cart') || '[]');
+                    setCart(savedCart);
+                    const totalCost = savedCart.reduce(
+                        (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
+                        0
+                    );
+                    setTotal(totalCost);
+                }
             } catch (error) {
                 console.error('Error getting cart:', error);
                 setCart([]);
@@ -38,7 +63,29 @@ const Cart = () => {
             }
         };
         getCart();
-    }, []);
+    }, [authData]); // Update dependency to authData
+
+    // Update cart in Firestore and localStorage
+    const updateCart = async (newCart) => {
+        try {
+            setCart(newCart);
+            localStorage.setItem('cart', JSON.stringify(newCart));
+            const totalCost = newCart.reduce(
+                (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
+                0
+            );
+            setTotal(totalCost);
+
+            if (authData.isAuth && auth.currentUser) {
+                const userId = auth.currentUser.uid;
+                const cartRef = doc(db, 'carts', userId);
+                await setDoc(cartRef, { items: newCart }, { merge: true });
+            }
+        } catch (error) {
+            console.error('Error updating cart:', error);
+            toast.error('Failed to update cart');
+        }
+    };
 
     // Add one more of an item
     const addOne = (itemId, itemColor) => {
@@ -51,14 +98,7 @@ const Cart = () => {
             }
             return item;
         });
-        setCart(newCart);
-        localStorage.setItem('cart', JSON.stringify(newCart));
-        // Update total cost
-        const totalCost = newCart.reduce(
-            (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
-            0
-        );
-        setTotal(totalCost);
+        updateCart(newCart);
     };
 
     // Remove one of an item
@@ -73,14 +113,7 @@ const Cart = () => {
             return item;
         });
         newCart = newCart.filter((item) => (item.quantity || 1) > 0);
-        setCart(newCart);
-        localStorage.setItem('cart', JSON.stringify(newCart));
-        // Update total cost
-        const totalCost = newCart.reduce(
-            (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
-            0
-        );
-        setTotal(totalCost);
+        updateCart(newCart);
     };
 
     // Delete one specific item by ID and color
@@ -90,42 +123,83 @@ const Cart = () => {
                 (item.id || item.slug) !== itemId ||
                 (item.color || 'Default') !== (itemColor || 'Default')
         );
-        toast.success("Product Deleted successfully")
-        setCart(newCart);
-        localStorage.setItem('cart', JSON.stringify(newCart));
-        // Update total cost
-        const totalCost = newCart.reduce(
-            (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
-            0
-        );
-        setTotal(totalCost);
+        toast.success('Product Deleted successfully');
+        updateCart(newCart);
     };
+
+    useEffect(() => {
+        const getCart = async () => {
+            try {
+                if (authData.isAuth && authData.token) {
+                    const userId = auth.currentUser.uid;
+                    const cartRef = doc(db, 'carts', userId);
+                    const cartSnap = await getDoc(cartRef);
+
+                    let savedCart = [];
+                    if (cartSnap.exists()) {
+                        savedCart = cartSnap.data().items || [];
+                    } else {
+                        savedCart = JSON.parse(localStorage.getItem('cart') || '[]');
+                        await setDoc(cartRef, { items: savedCart });
+                    }
+
+                    savedCart.forEach((item, i) => {
+                        if (!item.price || isNaN(Number(item.price))) {
+                            console.warn(`Bad price for item ${i}:`, item);
+                        }
+                    });
+
+                    setCart(savedCart);
+                    const totalCost = savedCart.reduce(
+                        (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
+                        0
+                    );
+                    setTotal(totalCost);
+                } else {
+                    const savedCart = JSON.parse(localStorage.getItem('cart') || '[]');
+                    setCart(savedCart);
+                    const totalCost = savedCart.reduce(
+                        (sum, item) => sum + (Number(item.price) || 0) * (item.quantity || 1),
+                        0
+                    );
+                    setTotal(totalCost);
+                }
+            } catch (error) {
+                console.error('Error getting cart:', error);
+                setCart([]);
+                setTotal(0);
+            }
+        };
+        getCart();
+    }, [authData]);
 
     // Show empty cart message if no items
     if (cart.length === 0) {
         return (
-            <div className="bg-light min-vh-100">
-                <Head>
-                    <title>Cart - Apple</title>
-                    <meta name="description" content="Your shopping cart" />
-                    <link rel="icon" href="/favicon.ico" />
-                </Head>
-                <div className="container py-5">
-                    <h1 className="display-5 fw-bold mb-4 text-center">Your Cart</h1>
-                    <div className="alert alert-info text-center">
-                        Your cart is empty.{' '}
-                        <Link href="/Product" className="alert-link">
-                            Shop now
-                        </Link>
-                        .
+            <Privatepage>
+                <div className="bg-light min-vh-100">
+                    <Head>
+                        <title>Cart - Apple</title>
+                        <meta name="description" content="Your shopping cart" />
+                        <link rel="icon" href="/favicon.ico" />
+                    </Head>
+                    <div className="container py-5">
+                        <h1 className="display-5 fw-bold mb-4 text-center">Your Cart</h1>
+                        <div className="alert alert-info text-center">
+                            Your cart is empty.{' '}
+                            <Link href="/Product" className="alert-link">
+                                Shop now
+                            </Link>
+                            .
+                        </div>
                     </div>
                 </div>
-            </div>
+            </Privatepage>
         );
     }
 
     return (
-        // <Privatepage>
+        <Privatepage>
             <div className="bg-light min-vh-100">
                 <Head>
                     <title>Cart - Apple</title>
@@ -168,6 +242,7 @@ const Cart = () => {
                                             <button
                                                 onClick={() => removeOne(item.id || item.slug, item.color)}
                                                 className="btn btn-outline-secondary btn-sm me-2"
+                                                aria-label={`Remove one ${item.title || 'item'}`}
                                             >
                                                 -
                                             </button>
@@ -175,6 +250,7 @@ const Cart = () => {
                                             <button
                                                 onClick={() => addOne(item.id || item.slug, item.color)}
                                                 className="btn btn-outline-primary btn-sm ms-2"
+                                                aria-label={`Add one ${item.title || 'item'}`}
                                             >
                                                 +
                                             </button>
@@ -183,11 +259,14 @@ const Cart = () => {
                                         <button
                                             onClick={() => deleteItem(item.id || item.slug, item.color)}
                                             className="btn btn-danger btn-sm rounded-pill px-3"
+                                            aria-label={`Delete ${item.title || 'item'}`}
                                         >
                                             Remove
                                         </button>
                                         <button
-                                            className="btn btn-dark btn-sm rounded-pill px-3"
+                                            onClick={() => router.push('/Checkout')}
+                                            className="btn btn-dark btn-sm rounded-pill px-3 ms-2"
+                                            aria-label={`Buy ${item.title || 'item'} now`}
                                         >
                                             Buy Now
                                         </button>
@@ -205,7 +284,7 @@ const Cart = () => {
                     <ToastContainer />
                 </div>
             </div>
-        // </Privatepage>
+        </Privatepage>
     );
 };
 
