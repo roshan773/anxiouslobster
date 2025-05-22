@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import {
   signInWithEmailAndPassword,
@@ -6,28 +6,29 @@ import {
   GoogleAuthProvider,
   setPersistence,
   browserLocalPersistence,
-} from "firebase/auth";
-import { useRouter } from "next/navigation";
-import React, { useContext, useEffect, useState } from "react";
-import GoogleButton from "react-google-button";
-import { AuthContext } from "@/Context/Auth";
-import { auth } from "@/service/firebase";
-import { toast } from "react-toastify";
+} from 'firebase/auth';
+import { useRouter } from 'next/navigation';
+import React, { useContext, useEffect, useState } from 'react';
+import GoogleButton from 'react-google-button';
+import { AuthContext } from '@/Context/Auth';
+import { auth } from '@/service/firebase';
+import { toast } from 'react-toastify';
 
 const Login = () => {
-  const [email, setemail] = useState("");
-  const [password, setpassword] = useState("");
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const { login } = useContext(AuthContext);
   const router = useRouter();
 
-  // ✅ Add persistence logic here
+  // Set Firebase persistence
   useEffect(() => {
     setPersistence(auth, browserLocalPersistence)
       .then(() => {
-        console.log("Auth persistence set to localStorage");
+        console.log('Auth persistence set to localStorage');
       })
       .catch((error) => {
-        console.error("Persistence error", error);
+        console.error('Persistence error:', error);
+        toast.error('Failed to set persistence');
       });
   }, []);
 
@@ -36,17 +37,21 @@ const Login = () => {
     try {
       const res = await signInWithEmailAndPassword(auth, email, password);
       const user = res.user;
-      const idToken = await user.getIdToken();
-      login(idToken); // or pass user depending on your AuthContext
-      toast.success(`Welcome Back`);
-      setemail("");
-      setpassword("");
-      router.push("/Cart");
+      const userData = {
+        uid: user.uid,
+        email: user.email,
+        displayName: user.displayName || null,
+      };
+      login(userData); // Pass userData to AuthContext
+      toast.success('Welcome Back');
+      setEmail('');
+      setPassword('');
+      router.push('/Cart');
     } catch (error) {
-      console.error(error);
+      console.error('Login error:', error);
       toast.error(error.message);
-      setemail("");
-      setpassword("");
+      setEmail('');
+      setPassword('');
     }
   };
 
@@ -54,12 +59,16 @@ const Login = () => {
     try {
       const res = await signInWithPopup(auth, new GoogleAuthProvider());
       const user = res.user;
-      const idToken = await user.getIdToken();
-      login(idToken);
-      toast.success(`Welcome Back`);
-      router.push("/Cart");
+      const userData = {
+        uid: user.uid,
+        email: user.email,
+        displayName: user.displayName || null,
+      };
+      login(userData); // Pass userData to AuthContext
+      toast.success('Welcome Back');
+      router.push('/Cart');
     } catch (error) {
-      console.error(error);
+      console.error('Google login error:', error);
       toast.error(error.message);
     }
   };
@@ -103,7 +112,7 @@ const Login = () => {
                       fontSize: '1rem',
                     }}
                     value={email}
-                    onChange={(e) => setemail(e.target.value)}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="mb-4">
@@ -127,7 +136,7 @@ const Login = () => {
                       fontSize: '1rem',
                     }}
                     value={password}
-                    onChange={(e) => setpassword(e.target.value)}
+                    onChange={(e) => setPassword(e.target.value)}
                   />
                 </div>
                 <button

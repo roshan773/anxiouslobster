@@ -1,40 +1,26 @@
-// Context/Auth.jsx
 'use client';
-
-import { useState, useEffect } from 'react';
-import { createContext } from 'react';
-import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from '@/service/firebase';
+import React, { createContext, useState, useEffect } from 'react';
 
 export const AuthContext = createContext();
 
-const initialState = {
-    isAuth: undefined, // Changed from false to undefined
-    token: null,
-};
-
-export function AuthContextProvider({ children }) {
-    const [authData, setAuthData] = useState(initialState);
+export const AuthContextProvider = ({ children }) => {
+    const [authData, setAuthData] = useState({ isAuth: false, user: null });
 
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, async (user) => {
-            if (user) {
-                const idToken = await user.getIdToken();
-                setAuthData({ isAuth: true, token: idToken });
-            } else {
-                setAuthData({ isAuth: false, token: null });
-            }
-        });
-
-        return () => unsubscribe();
+        const storedUser = localStorage.getItem('user');
+        if (storedUser) {
+            setAuthData({ isAuth: true, user: JSON.parse(storedUser) });
+        }
     }, []);
 
-    const login = (token) => {
-        setAuthData({ isAuth: true, token });
+    const login = (userData) => {
+        localStorage.setItem('user', JSON.stringify(userData));
+        setAuthData({ isAuth: true, user: userData });
     };
 
     const logout = () => {
-        setAuthData({ isAuth: false, token: null });
+        localStorage.removeItem('user');
+        setAuthData({ isAuth: false, user: null });
     };
 
     return (
@@ -42,4 +28,4 @@ export function AuthContextProvider({ children }) {
             {children}
         </AuthContext.Provider>
     );
-}
+};
